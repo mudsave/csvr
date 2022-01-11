@@ -1,0 +1,503 @@
+fileFormatVersion: 2
+guid: 168604ebc2eab5940b220e7508b59285
+timeCreated: 1487563778
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: cloth1
+    100004: cloth2
+    100006: GlobalScale
+    100008: GW0643_model
+    100010: hair1
+    100012: hair2
+    100014: hair3
+    100016: hair4
+    100018: head
+    100020: hips
+    100022: hips_CtrCurve
+    100024: left_ArmLocator
+    100026: left_Foot
+    100028: left_Hand
+    100030: left_hand
+    100032: left_LegLocator
+    100034: left_weapon_control
+    100036: leftArm
+    100038: leftArm_CtrCurve
+    100040: leftArm_CtrCurveGroup
+    100042: leftArmHandle
+    100044: leftFoot
+    100046: leftFootIkHandle1
+    100048: leftFootIndex1
+    100050: leftForeArm
+    100052: leftForeArm_CtrCurve
+    100054: leftForeArm_CtrCurveGroup
+    100056: leftForeArmRoll
+    100058: leftHand
+    100060: leftHand_CtrCurve
+    100062: leftHand_CtrCurveGroup
+    100064: leftHandMiddle1
+    100066: leftHandMiddle2
+    100068: LeftHandRotGroup
+    100070: leftHandThumb1
+    100072: leftHandThumb2
+    100074: leftLeg
+    100076: leftLegHandle1
+    100078: leftShoulder
+    100080: leftUpLeg
+    100082: lift_Lgroup
+    100084: lift_Rgroup
+    100086: neck
+    100088: right_ArmLocator
+    100090: right_Foot
+    100092: right_Hand
+    100094: right_hand
+    100096: right_LegLocator
+    100098: right_weapon_control
+    100100: rightArm
+    100102: rightArm_CtrCurve
+    100104: rightArm_CtrCurveGroup
+    100106: rightArmHandle
+    100108: rightFoot
+    100110: rightFootIkHandle1
+    100112: rightFootIndex1
+    100114: rightForeArm
+    100116: rightForeArm_CtrCurve
+    100118: rightForeArm_CtrCurveGroup
+    100120: rightForeArmRoll
+    100122: rightHand
+    100124: rightHand_CtrCurve
+    100126: rightHand_CtrCurveGroup
+    100128: rightHandMiddle1
+    100130: rightHandMiddle2
+    100132: RightHandRotGroup
+    100134: rightHandThumb1
+    100136: rightHandThumb2
+    100138: rightLeg
+    100140: rightLegHandle1
+    100142: rightShoulder
+    100144: rightUpLeg
+    100146: root
+    100148: root_CtrCurve
+    100150: spine
+    100152: spine01_CtrCurve
+    100154: spine02_CtrCurve
+    100156: spine1
+    100158: spine2
+    100160: spine3
+    100162: spine_CtrCurve
+    100164: toe_Lgroup
+    100166: toe_Rgroup
+    100168: gw1170_dao_lod
+    100170: HP_back_shield
+    100172: HP_back_weapon
+    100174: HP_head
+    100176: HP_hitPoint
+    100178: HP_left_foot
+    100180: HP_left_hand
+    100182: HP_left_shield
+    100184: HP_left_shoulder
+    100186: HP_left_waise
+    100188: HP_magic_l
+    100190: HP_magic_r
+    100192: HP_right_foot
+    100194: HP_right_hand
+    100196: HP_right_shoulder
+    100198: HP_right_waise
+    400000: //RootNode
+    400002: cloth1
+    400004: cloth2
+    400006: GlobalScale
+    400008: GW0643_model
+    400010: hair1
+    400012: hair2
+    400014: hair3
+    400016: hair4
+    400018: head
+    400020: hips
+    400022: hips_CtrCurve
+    400024: left_ArmLocator
+    400026: left_Foot
+    400028: left_Hand
+    400030: left_hand
+    400032: left_LegLocator
+    400034: left_weapon_control
+    400036: leftArm
+    400038: leftArm_CtrCurve
+    400040: leftArm_CtrCurveGroup
+    400042: leftArmHandle
+    400044: leftFoot
+    400046: leftFootIkHandle1
+    400048: leftFootIndex1
+    400050: leftForeArm
+    400052: leftForeArm_CtrCurve
+    400054: leftForeArm_CtrCurveGroup
+    400056: leftForeArmRoll
+    400058: leftHand
+    400060: leftHand_CtrCurve
+    400062: leftHand_CtrCurveGroup
+    400064: leftHandMiddle1
+    400066: leftHandMiddle2
+    400068: LeftHandRotGroup
+    400070: leftHandThumb1
+    400072: leftHandThumb2
+    400074: leftLeg
+    400076: leftLegHandle1
+    400078: leftShoulder
+    400080: leftUpLeg
+    400082: lift_Lgroup
+    400084: lift_Rgroup
+    400086: neck
+    400088: right_ArmLocator
+    400090: right_Foot
+    400092: right_Hand
+    400094: right_hand
+    400096: right_LegLocator
+    400098: right_weapon_control
+    400100: rightArm
+    400102: rightArm_CtrCurve
+    400104: rightArm_CtrCurveGroup
+    400106: rightArmHandle
+    400108: rightFoot
+    400110: rightFootIkHandle1
+    400112: rightFootIndex1
+    400114: rightForeArm
+    400116: rightForeArm_CtrCurve
+    400118: rightForeArm_CtrCurveGroup
+    400120: rightForeArmRoll
+    400122: rightHand
+    400124: rightHand_CtrCurve
+    400126: rightHand_CtrCurveGroup
+    400128: rightHandMiddle1
+    400130: rightHandMiddle2
+    400132: RightHandRotGroup
+    400134: rightHandThumb1
+    400136: rightHandThumb2
+    400138: rightLeg
+    400140: rightLegHandle1
+    400142: rightShoulder
+    400144: rightUpLeg
+    400146: root
+    400148: root_CtrCurve
+    400150: spine
+    400152: spine01_CtrCurve
+    400154: spine02_CtrCurve
+    400156: spine1
+    400158: spine2
+    400160: spine3
+    400162: spine_CtrCurve
+    400164: toe_Lgroup
+    400166: toe_Rgroup
+    400168: gw1170_dao_lod
+    400170: HP_back_shield
+    400172: HP_back_weapon
+    400174: HP_head
+    400176: HP_hitPoint
+    400178: HP_left_foot
+    400180: HP_left_hand
+    400182: HP_left_shield
+    400184: HP_left_shoulder
+    400186: HP_left_waise
+    400188: HP_magic_l
+    400190: HP_magic_r
+    400192: HP_right_foot
+    400194: HP_right_hand
+    400196: HP_right_shoulder
+    400198: HP_right_waise
+    2300000: gw1170_dao_lod
+    2300002: HP_back_shield
+    2300004: HP_back_weapon
+    2300006: HP_head
+    2300008: HP_hitPoint
+    2300010: HP_left_foot
+    2300012: HP_left_hand
+    2300014: HP_left_shield
+    2300016: HP_left_shoulder
+    2300018: HP_left_waise
+    2300020: HP_magic_l
+    2300022: HP_magic_r
+    2300024: HP_right_foot
+    2300026: HP_right_hand
+    2300028: HP_right_shoulder
+    2300030: HP_right_waise
+    3300000: gw1170_dao_lod
+    3300002: HP_back_shield
+    3300004: HP_back_weapon
+    3300006: HP_head
+    3300008: HP_hitPoint
+    3300010: HP_left_foot
+    3300012: HP_left_hand
+    3300014: HP_left_shield
+    3300016: HP_left_shoulder
+    3300018: HP_left_waise
+    3300020: HP_magic_l
+    3300022: HP_magic_r
+    3300024: HP_right_foot
+    3300026: HP_right_hand
+    3300028: HP_right_shoulder
+    3300030: HP_right_waise
+    4300000: GW0643_model
+    4300002: HP_head
+    4300004: HP_magic_l
+    4300006: HP_left_hand
+    4300008: HP_left_shield
+    4300010: HP_left_shoulder
+    4300012: HP_magic_r
+    4300014: HP_right_hand
+    4300016: gw1170_dao_lod
+    4300018: HP_right_shoulder
+    4300020: HP_hitPoint
+    4300022: HP_back_shield
+    4300024: HP_back_weapon
+    4300026: HP_left_foot
+    4300028: HP_right_foot
+    4300030: HP_right_waise
+    4300032: HP_left_waise
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: GW0643_model
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: GlobalScale
+        weight: 1
+      - path: GlobalScale/left_weapon_control
+        weight: 1
+      - path: root
+        weight: 1
+      - path: root/hips
+        weight: 1
+      - path: root/hips/HP_left_waise
+        weight: 1
+      - path: root/hips/HP_right_waise
+        weight: 1
+      - path: root/hips/leftUpLeg
+        weight: 1
+      - path: root/hips/leftUpLeg/cloth1
+        weight: 1
+      - path: root/hips/leftUpLeg/leftLeg
+        weight: 1
+      - path: root/hips/leftUpLeg/leftLeg/leftFoot
+        weight: 1
+      - path: root/hips/leftUpLeg/leftLeg/leftFoot/HP_left_foot
+        weight: 1
+      - path: root/hips/leftUpLeg/leftLeg/leftFoot/leftFootIndex1
+        weight: 1
+      - path: root/hips/rightUpLeg
+        weight: 1
+      - path: root/hips/rightUpLeg/cloth2
+        weight: 1
+      - path: root/hips/rightUpLeg/rightLeg
+        weight: 1
+      - path: root/hips/rightUpLeg/rightLeg/rightFoot
+        weight: 1
+      - path: root/hips/rightUpLeg/rightLeg/rightFoot/HP_right_foot
+        weight: 1
+      - path: root/hips/rightUpLeg/rightLeg/rightFoot/rightFootIndex1
+        weight: 1
+      - path: root/hips/spine
+        weight: 1
+      - path: root/hips/spine/spine1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/HP_back_shield
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/HP_back_weapon
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/HP_hitPoint
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/HP_left_shoulder
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/HP_left_shield
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/HP_magic_l
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/left_hand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/left_hand/HP_left_hand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/leftHandMiddle1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/leftHandMiddle1/leftHandMiddle2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/leftHandThumb1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm/leftForeArm/leftForeArmRoll/leftHand/leftHandThumb1/leftHandThumb2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup/leftArm_CtrCurve
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup/leftArm_CtrCurve/leftForeArm_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup/leftArm_CtrCurve/leftForeArm_CtrCurveGroup/leftForeArm_CtrCurve
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup/leftArm_CtrCurve/leftForeArm_CtrCurveGroup/leftForeArm_CtrCurve/leftHand_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/leftShoulder/leftArm_CtrCurveGroup/leftArm_CtrCurve/leftForeArm_CtrCurveGroup/leftForeArm_CtrCurve/leftHand_CtrCurveGroup/leftHand_CtrCurve
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head/hair1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head/hair1/hair2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head/hair1/hair2/hair3
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head/hair1/hair2/hair3/hair4
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/neck/head/HP_head
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/HP_right_shoulder
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/HP_magic_r
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/right_hand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/right_hand/gw1170_dao_lod
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/right_hand/HP_right_hand
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/rightHandMiddle1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/rightHandMiddle1/rightHandMiddle2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/rightHandThumb1
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm/rightForeArm/rightForeArmRoll/rightHand/rightHandThumb1/rightHandThumb2
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup/rightArm_CtrCurve
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup/rightArm_CtrCurve/rightForeArm_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup/rightArm_CtrCurve/rightForeArm_CtrCurveGroup/rightForeArm_CtrCurve
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup/rightArm_CtrCurve/rightForeArm_CtrCurveGroup/rightForeArm_CtrCurve/rightHand_CtrCurveGroup
+        weight: 1
+      - path: root/hips/spine/spine1/spine2/spine3/rightShoulder/rightArm_CtrCurveGroup/rightArm_CtrCurve/rightForeArm_CtrCurveGroup/rightForeArm_CtrCurve/rightHand_CtrCurveGroup/rightHand_CtrCurve
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

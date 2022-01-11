@@ -1,0 +1,36 @@
+<root>
+	<id>3002001</id>
+	<className>BuffAbsorb</className>
+	<generalPerformance>
+		<name>次元门吸收buff</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>5</stayTime>
+		<tickTime>0</tickTime>
+		<interruptCode></interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<castFailEffect></castFailEffect>
+		<battlecryEffect></battlecryEffect>
+		<attachEffect>
+			<item>1000004</item>
+		</attachEffect>
+		<tickEffect></tickEffect>
+		<interruptEffect></interruptEffect>
+		<detachEffect></detachEffect>
+	</combatFunction>
+</root>

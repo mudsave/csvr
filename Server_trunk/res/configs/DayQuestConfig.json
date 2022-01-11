@@ -1,0 +1,109 @@
+{
+    "300005": {
+        "reward": [[
+            "exp",
+            10
+        ]],
+        "condition": {},
+        "subtype": "副本",
+        "name": "活动2",
+        "action": [],
+        "id": 300005,
+        "describe": "除掉竹林{0}",
+        "givenEvent": [],
+        "type": 3,
+        "quality": 2,
+        "target": [[
+            "killnpc",
+            [
+                1003401,
+                1
+            ]
+        ]]
+    },
+    "300003": {
+        "reward": [[
+            "exp",
+            10
+        ]],
+        "condition": {},
+        "subtype": "寻人",
+        "name": "问候1",
+        "action": [],
+        "id": 300003,
+        "describe": "问候{0}",
+        "givenEvent": [],
+        "type": 3,
+        "quality": 3,
+        "target": [[
+            "talk",
+            2001001
+        ]]
+    },
+    "300004": {
+        "reward": [[
+            "exp",
+            10
+        ]],
+        "condition": {},
+        "subtype": "杀怪",
+        "name": "除恶2",
+        "action": [],
+        "id": 300004,
+        "describe": "除掉竹林{0}",
+        "givenEvent": [],
+        "type": 3,
+        "quality": 1,
+        "target": [[
+            "killnpc",
+            [
+                1003101,
+                1
+            ]
+        ]]
+    },
+    "300001": {
+        "reward": [[
+            "exp",
+            10
+        ]],
+        "condition": {},
+        "subtype": "杀怪",
+        "name": "除恶1",
+        "action": [],
+        "id": 300001,
+        "describe": "除掉竹林{0}",
+        "givenEvent": [],
+        "type": 3,
+        "quality": 1,
+        "target": [[
+            "killnpc",
+            [
+                1003101,
+                1
+            ]
+        ]]
+    },
+    "300002": {
+        "reward": [[
+            "exp",
+            10
+        ]],
+        "condition": {},
+        "subtype": "副本",
+        "name": "活动1",
+        "action": [],
+        "id": 300002,
+        "describe": "除掉竹林{0}",
+        "givenEvent": [],
+        "type": 3,
+        "quality": 2,
+        "target": [[
+            "killnpc",
+            [
+                1003401,
+                1
+            ]
+        ]]
+    }
+}

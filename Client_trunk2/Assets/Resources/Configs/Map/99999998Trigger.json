@@ -1,0 +1,57 @@
+
+{
+    "99999998" : [
+        {
+            "type" : "CEntityGroupTrigger",
+            "id"   : 100,
+            "isAutoStart" : true,
+            "list"        : [
+                {
+                    "type" : "CElemGroupTrigger",
+                    "delay" : 0.0,
+                    "event" : [
+                    ],
+                    "birthPoint" : [
+                        {
+                            "entityID" : 3000013,
+                            "position" : [
+                                0.0,
+                                0.699999988079071,
+                                4.19999980926514
+                            ],
+                            "rotation" : [
+                                0.0,
+                                0.0,
+                                3.14159265358979
+                            ],
+                            "scene"    : "99999998"
+                        }
+                    ],
+                    "groupID"    : 100
+                },
+                {
+                    "type" : "CCreateEntityWithTime",
+                    "interval" : 3.0,
+                    "times"    : -1,
+                    "birthPoint" : [
+                        {
+                            "entityID" : 1130001,
+                            "position" : [
+                                0.0,
+                                0.740000009536743,
+                                -2.26999998092651
+                            ],
+                            "rotation" : [
+                                0.0,
+                                0.0,
+                                0.0
+                            ],
+                            "scene"    : "99999998"
+                        }
+                    ],
+                    "groupID"    : 101
+                }
+            ]
+        }
+    ]
+}

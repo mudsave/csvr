@@ -1,0 +1,73 @@
+{
+    "100000001": {
+        "totalTime": 5.0,
+        "enterEvent": {
+            "play": "born_fall",
+            "setActive": 0,
+            "addEffect": [
+                "",
+                "fire",
+                "fire"
+            ]
+        },
+        "leaveEvent": {"removeEffect": "fire"},
+        "id": "100000001",
+        "timeEvent": {"1": {"setActive": 1}}
+    },
+    "100000002": {
+        "totalTime": 2.0,
+        "enterEvent": {"addEffect": [
+            "Model",
+            "zaohuanzhen",
+            "zaohuanzhen"
+        ]},
+        "leaveEvent": {"removeEffect": "zaohuanzhen"},
+        "id": "100000002",
+        "timeEvent": {}
+    },
+    "100000003": {
+        "totalTime": 2.0,
+        "enterEvent": {
+            "setActive": 0,
+            "addEffect": [
+                "",
+                "zaohuanzhen",
+                "zaohuanzhen"
+            ]
+        },
+        "leaveEvent": {"removeEffect": "zaohuanzhen"},
+        "id": "100000003",
+        "timeEvent": {"1": {"setActive": 1}}
+    },
+    "100000004": {
+        "totalTime": 4.0,
+        "enterEvent": {
+            "setActive": 0,
+            "addEffect": [
+                "",
+                "zaohuanzhen",
+                "zaohuanzhen"
+            ]
+        },
+        "leaveEvent": {"removeEffect": "zaohuanzhen"},
+        "id": "100000004",
+        "timeEvent": {
+            "1": {"setActive": 1},
+            "2": {"play": "skill01"}
+        }
+    },
+    "100000005": {
+        "totalTime": 2.0,
+        "enterEvent": {
+            "setActive": 0,
+            "addEffect": [
+                "",
+                "zaohuanzhen",
+                "zaohuanzhen"
+            ]
+        },
+        "leaveEvent": {"removeEffect": "zaohuanzhen"},
+        "id": "100000005",
+        "timeEvent": {"1": {"setActive": 1}}
+    }
+}

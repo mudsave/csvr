@@ -1,0 +1,43 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<Implements>
+	</Implements>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+		<broadcastChat>	<!-- 广播聊天消息到所有的client, call by baseApp entity -->
+			<Arg>	INT8		</Arg>	<!-- channelID -->
+			<Arg>	UNICODE		</Arg>	<!-- srcEntityName -->
+			<Arg>	DBID		</Arg> 	<!-- speakerDBID -->
+			<Arg>	UNICODE		</Arg>	<!-- msg -->
+			<Arg>	ARRAY <of> UNICODE </of>	</Arg> <!-- params -->
+		</broadcastChat>
+
+		<addRef>
+			<Arg>	STRING		</Arg>	<!-- globalName -->
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</addRef>
+
+		<removeRef>
+			<Arg>	STRING		</Arg>	<!-- globalName -->
+		</removeRef>
+		
+		<_broadcastLookupPlayerBaseByName>
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+			<Arg>	INT32		</Arg>	<!-- resultID -->
+			<Arg>	UNICODE		</Arg>	<!-- playerName -->
+		</_broadcastLookupPlayerBaseByName>
+		
+		<_broadcastLookupPlayerBaseByNameCB>
+			<Arg>	INT32		</Arg>	<!-- resultID -->
+			<Arg>	MAILBOX		</Arg>	<!-- baseMailbox -->
+		</_broadcastLookupPlayerBaseByNameCB>	
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

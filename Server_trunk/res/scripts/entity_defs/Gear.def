@@ -1,0 +1,38 @@
+<root>
+	
+	<Implements>
+		<Interface> GameObject </Interface>
+		<Interface> ObjectType </Interface>
+	</Implements>
+
+	<Properties>
+		<relevanceID>
+			<Type>			INT32			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+		</relevanceID>
+	</Properties>
+
+	<ClientMethods>	
+		<onSyncMsg> <!-- 收到同步消息 -->
+			<Arg>	UNICODE		</Arg> <!-- 事件列表ID -->
+			<Arg>	UNICODE		</Arg> <!-- 参数 -->			
+		</onSyncMsg>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<doEvent> <!-- 执行机关事件 -->
+			<Exposed/>
+			<Arg>	INT32	</Arg> <!-- 事件列表ID -->
+		</doEvent>	
+	
+		<sendSyncMsg> <!-- 发送同步消息 -->
+			<Exposed/>
+			<Arg>	UNICODE		</Arg> <!-- 协议名称 -->
+			<Arg>	UNICODE		</Arg> <!-- 参数 -->
+		</sendSyncMsg>
+	</CellMethods>
+
+</root>

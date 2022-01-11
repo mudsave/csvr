@@ -1,0 +1,4 @@
+createEntity id	//创建一个实例（怪物）
+goto id	//跳转至@id实例所在位置
+skillGuide id //技能手势指引
+

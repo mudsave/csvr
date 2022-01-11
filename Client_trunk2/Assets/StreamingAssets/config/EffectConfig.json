@@ -1,0 +1,664 @@
+{
+    "duwu": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/attack_shamojuchong_head",
+        "ruleType": 3,
+        "name": "duwu",
+        "alias": "duwu",
+        "type": 0
+    },
+    "fireballTailing": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/fireballTailing",
+        "ruleType": 0,
+        "name": "fireballTailing",
+        "alias": "fireballTailing",
+        "type": 0
+    },
+    "bingweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/bing",
+        "ruleType": 2,
+        "name": "bingweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "dici": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/skill_shachendici_flow",
+        "ruleType": 3,
+        "name": "dici",
+        "alias": "dici",
+        "type": 0
+    },
+    "zaohuanzhen": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/Prefabs/500108001",
+        "ruleType": 1,
+        "name": "zaohuanzhen",
+        "alias": "zaohuanzhen",
+        "type": 0
+    },
+    "frostJet": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/Skill_frost/Perfabs/skill_frost_jet",
+        "ruleType": 0,
+        "name": "frostJet",
+        "alias": "frostJet",
+        "type": 0
+    },
+    "shachen": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/public/public_shamojingchong_shachen_buff",
+        "ruleType": 1,
+        "name": "shachen",
+        "alias": "shachen",
+        "type": 0
+    },
+    "LuminousEffect": {
+        "lastTime": 0.0,
+        "args": [
+            [
+                1,
+                0.934,
+                0.875,
+                1
+            ],
+            [
+                1,
+                0.79,
+                0.103,
+                1
+            ],
+            0.5
+        ],
+        "path": "",
+        "ruleType": 2,
+        "name": "LuminousEffect",
+        "alias": "modelEffect",
+        "type": 2
+    },
+    "bingqiu": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/bingqiu",
+        "ruleType": 0,
+        "name": "bingqiu",
+        "alias": "bingqiu",
+        "type": 0
+    },
+    "iceTarget": {
+        "lastTime": 3.0,
+        "args": [],
+        "path": "Effects/Skill_frost/Perfabs/skill_ice_target",
+        "ruleType": 0,
+        "name": "iceTarget",
+        "alias": "iceTarget",
+        "type": 0
+    },
+    "baozha": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huobao04",
+        "ruleType": 0,
+        "name": "baozha",
+        "alias": "baozha",
+        "type": 0
+    },
+    "penhuo": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/jineng/penhuo/prefab/penhuo",
+        "ruleType": 0,
+        "name": "penhuo",
+        "alias": "penhuo",
+        "type": 0
+    },
+    "lvseweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/li",
+        "ruleType": 2,
+        "name": "lvseweapon",
+        "alias": "lvseweapon",
+        "type": 0
+    },
+    "zaohuanweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/hongse",
+        "ruleType": 2,
+        "name": "zaohuanweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "shieldhit": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/Shield/shield_hit",
+        "ruleType": 0,
+        "name": "shieldhit",
+        "alias": "shieldhit",
+        "type": 0
+    },
+    "shieldxiaoshi": {
+        "lastTime": 0.8,
+        "args": [],
+        "path": "Effects/Shield/shield_fadeout",
+        "ruleType": 0,
+        "name": "shieldxiaoshi",
+        "alias": "shieldxiaoshi",
+        "type": 0
+    },
+    "shield2": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/VR_Shield/VR_Shield",
+        "ruleType": 0,
+        "name": "shield2",
+        "alias": "shield2",
+        "type": 0
+    },
+    "fire03": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu03",
+        "ruleType": 0,
+        "name": "fire03",
+        "alias": "fire03",
+        "type": 0
+    },
+    "fire02": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu02",
+        "ruleType": 0,
+        "name": "fire02",
+        "alias": "fire02",
+        "type": 0
+    },
+    "LightningHitEmpty": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/LightningHitEmpty",
+        "ruleType": 0,
+        "name": "LightningHitEmpty",
+        "alias": "LightningHitEmpty",
+        "type": 0
+    },
+    "xuanyun": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/500201001",
+        "ruleType": 1,
+        "name": "xuanyun",
+        "alias": "xuanyun",
+        "type": 0
+    },
+    "WarpEffect": {
+        "lastTime": 5.0,
+        "args": [
+            [
+                10,
+                0.5,
+                0,
+                0
+            ],
+            0.003,
+            0
+        ],
+        "path": "",
+        "ruleType": 2,
+        "name": "WarpEffect",
+        "alias": "WarpEffect",
+        "type": 3
+    },
+	"InverseDissolveEffect": {
+        "lastTime": 4,
+        "args": [4,-1],
+        "path": "",
+        "ruleType": 2,
+        "name": "DissolveEffect",
+        "alias": "modelEffect",
+        "type": 4
+    },
+	 "DissolveEffect": {
+        "lastTime": 6,
+        "args": [6,1],
+        "path": "",
+        "ruleType": 2,
+        "name": "DissolveEffect",
+        "alias": "modelEffect",
+        "type": 4
+    },
+	"FractureEffect": {
+        "lastTime": 0.0,
+        "args": [1.5],
+        "path": "",
+        "ruleType": 2,
+        "name": "FractureEffect",
+        "alias": "modelEffect",
+        "type": 5
+    },
+    "lightningdimian": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/Skill_lightningball/Perfabs/Hit_lightning_ground",
+        "ruleType": 0,
+        "name": "lightningdimian",
+        "alias": "lightningdimian",
+        "type": 0
+    },
+    "lightning_ground": {
+        "lastTime": 8.0,
+        "args": [],
+        "path": "Effects/Skill_lightningball/Perfabs/lightning_ground",
+        "ruleType": 0,
+        "name": "lightningdimian",
+        "alias": "lightningdimian",
+        "type": 0
+    },
+    "lightningball_ground": {
+        "lastTime": 4.0,
+        "args": [],
+        "path": "Effects/Skill_lightningball/Perfabs/lightningball_ground",
+        "ruleType": 0,
+        "name": "lightningdimian",
+        "alias": "lightningdimian",
+        "type": 0
+    },
+    "fire01": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu01",
+        "ruleType": 0,
+        "name": "fire01",
+        "alias": "fire01",
+        "type": 0
+    },
+    "jingshi": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/jingshi/prefabs/jingshi",
+        "ruleType": 0,
+        "name": "jingshi",
+        "alias": "jingshi",
+        "type": 0
+    },
+    "BloodBead": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/skill_helth/BloodBead",
+        "ruleType": 0,
+        "name": "BloodBead",
+        "alias": "BloodBead",
+        "type": 0
+    },
+    "iceCrystal": {
+        "lastTime": 10.0,
+        "args": [],
+        "path": "Effects/Skill_frost/Perfabs/IceCrystal",
+        "ruleType": 0,
+        "name": "iceCrystal",
+        "alias": "iceCrystal",
+        "type": 0
+    },
+    "dianweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/dian",
+        "ruleType": 2,
+        "name": "dianweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "shield": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/dun03",
+        "ruleType": 0,
+        "name": "shield",
+        "alias": "shield",
+        "type": 0
+    },
+    "shangtiao": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/112001003_sf_p1",
+        "ruleType": 3,
+        "name": "shangtiao",
+        "alias": "shangtiao",
+        "type": 0
+    },
+    "huikan": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/112001002_sf_p1",
+        "ruleType": 3,
+        "name": "huikan",
+        "alias": "huikan",
+        "type": 0
+    },
+    "huoweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/huo 1",
+        "ruleType": 2,
+        "name": "huoweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "LightningHit": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/shandianjizhong02",
+        "ruleType": 0,
+        "name": "LightningHit",
+        "alias": "LightningHit",
+        "type": 0
+    },
+    "blackhole": {
+        "lastTime": 9.0,
+        "args": [],
+        "path": "Effects/Portal/Prefabs/blackhole",
+        "ruleType": 0,
+        "name": "blackhole",
+        "alias": "blackhole",
+        "type": 0
+    },
+    "xuli01": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/xuli01",
+        "ruleType": 0,
+        "name": "xuli01",
+        "alias": "xuli01",
+        "type": 0
+    },
+    "xuli02": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/xuli02",
+        "ruleType": 0,
+        "name": "xuli02",
+        "alias": "xuli02",
+        "type": 0
+    },
+    "feijianHit": {
+        "lastTime": 6.0,
+        "args": [],
+        "path": "Effects/VR_Sword/VR_Sword_Hit",
+        "ruleType": 0,
+        "name": "feijianHit",
+        "alias": "feijianHit",
+        "type": 0
+    },
+    "feijian_Hand_Hit": {
+        "lastTime": 6.0,
+        "args": [],
+        "path": "Effects/VR_Sword/VR_Sword_Hand_Hit",
+        "ruleType": 0,
+        "name": "feijianHit",
+        "alias": "feijianHit",
+        "type": 0
+    },
+    "bingbao": {
+        "lastTime": 1.5,
+        "args": [],
+        "path": "Effects/prefabs/skill/baodian",
+        "ruleType": 0,
+        "name": "bingbao",
+        "alias": "bingbao",
+        "type": 0
+    },
+    "FrozenEffect": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "",
+        "ruleType": 2,
+        "name": "FrozenEffect",
+        "alias": "modelEffect",
+        "type": 1
+    },
+    "fireball": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/fireballLasting",
+        "ruleType": 0,
+        "name": "fireball",
+        "alias": "fireball",
+        "type": 0
+    },
+    "penhuojizhong": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/jineng/penhuo/prefab/penhuojizhong",
+        "ruleType": 0,
+        "name": "penhuojizhong",
+        "alias": "penhuojizhong",
+        "type": 0
+    },
+    "penhuo_hit": {
+        "lastTime": 6.0,
+        "args": [],
+        "path": "Effects/jineng/penhuo/prefab/penhuo_hit",
+        "ruleType": 0,
+        "name": "penhuo_hit",
+        "alias": "penhuo_hit",
+        "type": 0
+    },
+    "LightningHand": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/jineng/shandianjian/shandianjian",
+        "ruleType": 0,
+        "name": "LightningHand",
+        "alias": "LightningHand",
+        "type": 0
+    },
+    "iceGround": {
+        "lastTime": 20.0,
+        "args": [],
+        "path": "Effects/Skill_frost/Perfabs/skill_ice_ground_v2",
+        "ruleType": 0,
+        "name": "iceGround",
+        "alias": "iceGround",
+        "type": 0
+    },
+    "qungong": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/baozha",
+        "ruleType": 0,
+        "name": "qungong",
+        "alias": "qungong",
+        "type": 0
+    },
+    "chusheng": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/Prefabs/chusheng",
+        "ruleType": 1,
+        "name": "chusheng",
+        "alias": "chusheng",
+        "type": 0
+    },
+    "LightningHand02": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/LightningHand",
+        "ruleType": 0,
+        "name": "LightningHand02",
+        "alias": "LightningHand02",
+        "type": 0
+    },
+    "leidian": {
+        "lastTime": 2.5,
+        "args": [],
+        "path": "Effects/prefabs/skill/dianbao",
+        "ruleType": 0,
+        "name": "leidian",
+        "alias": "leidian",
+        "type": 0
+    },
+    "lightningball": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/Skill_lightningball/Perfabs/P_lightningball",
+        "ruleType": 0,
+        "name": "lightningball",
+        "alias": "lightningball",
+        "type": 0
+    },
+    "Lightning": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/prefabs/jineng/Lighting",
+        "ruleType": 0,
+        "name": "Lightning",
+        "alias": "Lightning",
+        "type": 0
+    },
+    "penhuodimian": {
+        "lastTime": 20.0,
+        "args": [],
+        "path": "Effects/jineng/penhuo/prefab/penhuodimian",
+        "ruleType": 0,
+        "name": "penhuodimian",
+        "alias": "penhuodimian",
+        "type": 0
+    },
+	"shield_suilie": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/Shield/shield_suilie",
+        "ruleType": 0,
+        "name": "shield_suilie",
+        "alias": "shield_suilie",
+        "type": 0
+    },
+	"shachong_duwu": {
+        "lastTime": 3.1,
+        "args": [],
+        "path": "Effects/Boss_shachong/duwu/duwu",
+        "ruleType": 0,
+        "name": "shachong_duwu",
+        "alias": "shachong_duwu",
+        "type": 0
+    },
+	"shachong_pentan": {
+        "lastTime": 4.0,
+        "args": [],
+        "path": "Effects/Boss_shachong/dutan/pentan",
+        "ruleType": 0,
+        "name": "shachong_pentan",
+        "alias": "shachong_pentan",
+        "type": 0
+    },
+	"shachong_dutandimian": {
+        "lastTime": 30.0,
+        "args": [],
+        "path": "Effects/Boss_shachong/dutan/dutandimian",
+        "ruleType": 0,
+        "name": "shachong_dutandimian",
+        "alias": "shachong_dutandimian",
+        "type": 0
+    },
+	"VR_Sword_Hit_Ground": {
+        "lastTime": 10.0,
+        "args": [],
+        "path": "Effects/VR_Sword/VR_Sword_Hit_Ground",
+        "ruleType": 0,
+        "name": "VR_Sword_Hit_Ground",
+        "alias": "VR_Sword_Hit_Ground",
+        "type": 0
+    },
+	"gw1236_attack1_juqi": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/gw1236_attack1/juqi",
+        "ruleType": 0,
+        "name": "juqi",
+        "alias": "juqi",
+        "type": 0
+    },
+	"gw1236_attack1_baodian": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/gw1236_attack1/baodian",
+        "ruleType": 0,
+        "name": "baodian",
+        "alias": "baodian",
+        "type": 0
+    },
+	"gw1236_attack1_huoqiu": {
+        "lastTime": 6.0,
+        "args": [],
+        "path": "Effects/gw1236_attack1/huoqiu",
+        "ruleType": 0,
+        "name": "huoqiu",
+        "alias": "huoqiu",
+        "type": 0
+    },
+	"gw1236_attack1_baodian_shield": {
+        "lastTime": 6.0,
+        "args": [],
+        "path": "Effects/gw1236_attack1/baodian_shield",
+        "ruleType": 0,
+        "name": "baodian_shield",
+        "alias": "baodian_shield",
+        "type": 0
+    },
+	"gw1236_attack2_dilie": {
+        "lastTime": 5.0,
+        "args": [],
+        "path": "Effects/gw1236_attack2/dilie",
+        "ruleType": 0,
+        "name": "dilie",
+        "alias": "dilie",
+        "type": 0
+    },
+	"gw1236_attack2_rongyan_ground": {
+        "lastTime": 20.0,
+        "args": [],
+        "path": "Effects/gw1236_attack2/rongyan_ground",
+        "ruleType": 0,
+        "name": "rongyan_ground",
+        "alias": "rongyan_ground",
+        "type": 0
+    },
+	"Helth": {
+        "lastTime": 4.0,
+        "args": [],
+        "path": "Effects/skill_helth/Helth",
+        "ruleType": 0,
+        "name": "skill_helth",
+        "alias": "skill_helth",
+        "type": 0
+    },
+	"Meteor": {
+        "lastTime": 8.0,
+        "args": [],
+        "path": "Effects/Skill_meteor/meteor",
+        "ruleType": 0,
+        "name": "Skill_meteor",
+        "alias": "Skill_meteor",
+        "type": 0
+    },
+	"fireDragon": {
+        "lastTime": 15.0,
+        "args": [],
+        "path": "Effects/fireDragon/dragon",
+        "ruleType": 0,
+        "name": "fireDragon",
+        "alias": "fireDragon",
+        "type": 0
+    }
+}

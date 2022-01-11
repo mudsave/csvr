@@ -1,0 +1,645 @@
+fileFormatVersion: 2
+guid: e2b4c8f6fd31970429768c1d541b3eff
+timeCreated: 1483492834
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: a_e
+    100002: all
+    100004: b_a_e
+    100006: Bip01
+    100008: Bip01 Footsteps
+    100010: Bip01 Head
+    100012: Bip01 HeadNub
+    100014: Bip01 L Calf
+    100016: Bip01 L Clavicle
+    100018: Bip01 L Finger0
+    100020: Bip01 L Finger01
+    100022: Bip01 L Finger02
+    100024: Bip01 L Finger0Nub
+    100026: Bip01 L Finger1
+    100028: Bip01 L Finger11
+    100030: Bip01 L Finger12
+    100032: Bip01 L Finger1Nub
+    100034: Bip01 L Finger2
+    100036: Bip01 L Finger21
+    100038: Bip01 L Finger22
+    100040: Bip01 L Finger2Nub
+    100042: Bip01 L Finger3
+    100044: Bip01 L Finger31
+    100046: Bip01 L Finger32
+    100048: Bip01 L Finger3Nub
+    100050: Bip01 L Finger4
+    100052: Bip01 L Finger41
+    100054: Bip01 L Finger42
+    100056: Bip01 L Finger4Nub
+    100058: Bip01 L Foot
+    100060: Bip01 L Forearm
+    100062: Bip01 L Hand
+    100064: Bip01 L Thigh
+    100066: Bip01 L Toe0
+    100068: Bip01 L Toe0Nub
+    100070: Bip01 L UpperArm
+    100072: Bip01 Neck
+    100074: Bip01 Pelvis
+    100076: Bip01 R Calf
+    100078: Bip01 R Clavicle
+    100080: Bip01 R Finger0
+    100082: Bip01 R Finger01
+    100084: Bip01 R Finger02
+    100086: Bip01 R Finger0Nub
+    100088: Bip01 R Finger1
+    100090: Bip01 R Finger11
+    100092: Bip01 R Finger12
+    100094: Bip01 R Finger1Nub
+    100096: Bip01 R Finger2
+    100098: Bip01 R Finger21
+    100100: Bip01 R Finger22
+    100102: Bip01 R Finger2Nub
+    100104: Bip01 R Finger3
+    100106: Bip01 R Finger31
+    100108: Bip01 R Finger32
+    100110: Bip01 R Finger3Nub
+    100112: Bip01 R Finger4
+    100114: Bip01 R Finger41
+    100116: Bip01 R Finger42
+    100118: Bip01 R Finger4Nub
+    100120: Bip01 R Foot
+    100122: Bip01 R Forearm
+    100124: Bip01 R Hand
+    100126: Bip01 R Thigh
+    100128: Bip01 R Toe0
+    100130: Bip01 R Toe0Nub
+    100132: Bip01 R UpperArm
+    100134: Bip01 Spine
+    100136: Bip01 Spine1
+    100138: Bip01 Spine2
+    100140: Bone01
+    100142: Bone02
+    100144: Bone03
+    100146: Bone04
+    100148: Bone05
+    100150: Bone06
+    100152: Bone06_Spr01_Upnode
+    100154: Bone07
+    100156: Bone07_Spr01_Upnode
+    100158: Bone08
+    100160: Bone08_Spr01_Upnode
+    100162: Bone08_Spr02_Upnode
+    100164: Bone09
+    100166: Bone09_Spr01_Upnode
+    100168: Bone10
+    100170: Bone100
+    100172: Bone101
+    100174: Bone102
+    100176: Bone103
+    100178: Bone104
+    100180: Bone105
+    100182: Bone106
+    100184: Bone107
+    100186: Bone108
+    100188: Bone109
+    100190: Bone10_Spr01_Upnode
+    100192: Bone11
+    100194: Bone110
+    100196: Bone111
+    100198: Bone112
+    100200: Bone113
+    100202: Bone114
+    100204: Bone115
+    100206: Bone116
+    100208: Bone117
+    100210: Bone118
+    100212: Bone119
+    100214: Bone11_Spr01_Upnode
+    100216: Bone12
+    100218: Bone120
+    100220: Bone121
+    100222: Bone122
+    100224: Bone123
+    100226: Bone124
+    100228: Bone125
+    100230: Bone126
+    100232: Bone127
+    100234: Bone128
+    100236: Bone129
+    100238: Bone13
+    100240: Bone130
+    100242: Bone131
+    100244: Bone132
+    100246: Bone133
+    100248: Bone134
+    100250: Bone136
+    100252: Bone137
+    100254: Bone138
+    100256: Bone139
+    100258: Bone14
+    100260: Bone140
+    100262: Bone141
+    100264: Bone142
+    100266: Bone143
+    100268: Bone144
+    100270: Bone145
+    100272: Bone146
+    100274: Bone147
+    100276: Bone148
+    100278: Bone149
+    100280: Bone14_Spr01_Upnode
+    100282: Bone15
+    100284: Bone150
+    100286: Bone151
+    100288: Bone152
+    100290: Bone15_Spr01_Upnode
+    100292: Bone16
+    100294: Bone17
+    100296: Bone17_Spr01_Upnode
+    100298: Bone18
+    100300: Bone18_Spr01_Upnode
+    100302: Bone19
+    100304: Bone19_Spr01_Upnode
+    100306: Bone20
+    100308: Bone21
+    100310: Bone22
+    100312: Bone22_Spr01_Upnode
+    100314: Bone23
+    100316: Bone23_Spr01_Upnode
+    100318: Bone24
+    100320: Bone24_Spr01_Upnode
+    100322: Bone25
+    100324: Bone25_Spr01_Upnode
+    100326: Bone26
+    100328: Bone27
+    100330: Bone28
+    100332: Bone28_Spr01_Upnode
+    100334: Bone29
+    100336: Bone29_Spr01_Upnode
+    100338: Bone30
+    100340: Bone30_Spr01_Upnode
+    100342: Bone31
+    100344: Bone31_Spr01_Upnode
+    100346: Bone32
+    100348: Bone33
+    100350: Bone34
+    100352: Bone34_Spr01_Upnode
+    100354: Bone35
+    100356: Bone35_Spr01_Upnode
+    100358: Bone36
+    100360: Bone36_Spr01_Upnode
+    100362: Bone37
+    100364: Bone37_Spr01_Upnode
+    100366: Bone38
+    100368: Bone39
+    100370: Bone40
+    100372: Bone40_Spr01_Upnode
+    100374: Bone41
+    100376: Bone41_Spr01_Upnode
+    100378: Bone42
+    100380: Bone42_Spr01_Upnode
+    100382: Bone43
+    100384: Bone43_Spr01_Upnode
+    100386: Bone44
+    100388: Bone45
+    100390: Bone46
+    100392: Bone46_Spr01_Upnode
+    100394: Bone47
+    100396: Bone47_Spr01_Upnode
+    100398: Bone48
+    100400: Bone48_Spr01_Upnode
+    100402: Bone49
+    100404: Bone49_Spr01_Upnode
+    100406: Bone50
+    100408: Bone51
+    100410: Bone52
+    100412: Bone53
+    100414: Bone54
+    100416: Bone55
+    100418: Bone56
+    100420: Bone57
+    100422: Bone58
+    100424: Bone59
+    100426: Bone60
+    100428: Bone61
+    100430: Bone62
+    100432: Bone63
+    100434: Bone64
+    100436: Bone65
+    100438: Bone66
+    100440: Bone67
+    100442: Bone68
+    100444: Bone69
+    100446: Bone70
+    100448: Bone71
+    100450: Bone72
+    100452: Bone73
+    100454: Bone74
+    100456: Bone75
+    100458: Bone76
+    100460: Bone77
+    100462: Bone78
+    100464: Bone79
+    100466: Bone80
+    100468: Bone81
+    100470: Bone82
+    100472: Bone83
+    100474: Bone84
+    100476: Bone85
+    100478: Bone86
+    100480: Bone87
+    100482: Bone88
+    100484: Bone89
+    100486: Bone90
+    100488: Bone91
+    100490: Bone92
+    100492: Bone93
+    100494: Bone94
+    100496: Bone95
+    100498: Bone96
+    100500: Bone97
+    100502: Bone98
+    100504: Bone99
+    100506: Camera
+    100508: e_b_p
+    100510: e_b_p 1
+    100512: IK Chain01
+    100514: IK Chain02
+    100516: IK Chain03
+    100518: IK Chain04
+    100520: IK Chain05
+    100522: IK Chain06
+    100524: l_h
+    100526: Offset
+    100528: Particle View01
+    100530: Particle View01 1
+    100532: r_h
+    100534: sp067_lod0
+    100536: sp067_lod0_jiao
+    100538: sp067_lod0_shouzhang
+    100540: sp067_lod0_toufa
+    100542: sp067_lod0_zhuangshi
+    100544: //RootNode
+    100546: u024_lod0
+    100548: u024b_lod0
+    400000: a_e
+    400002: all
+    400004: b_a_e
+    400006: Bip01
+    400008: Bip01 Footsteps
+    400010: Bip01 Head
+    400012: Bip01 HeadNub
+    400014: Bip01 L Calf
+    400016: Bip01 L Clavicle
+    400018: Bip01 L Finger0
+    400020: Bip01 L Finger01
+    400022: Bip01 L Finger02
+    400024: Bip01 L Finger0Nub
+    400026: Bip01 L Finger1
+    400028: Bip01 L Finger11
+    400030: Bip01 L Finger12
+    400032: Bip01 L Finger1Nub
+    400034: Bip01 L Finger2
+    400036: Bip01 L Finger21
+    400038: Bip01 L Finger22
+    400040: Bip01 L Finger2Nub
+    400042: Bip01 L Finger3
+    400044: Bip01 L Finger31
+    400046: Bip01 L Finger32
+    400048: Bip01 L Finger3Nub
+    400050: Bip01 L Finger4
+    400052: Bip01 L Finger41
+    400054: Bip01 L Finger42
+    400056: Bip01 L Finger4Nub
+    400058: Bip01 L Foot
+    400060: Bip01 L Forearm
+    400062: Bip01 L Hand
+    400064: Bip01 L Thigh
+    400066: Bip01 L Toe0
+    400068: Bip01 L Toe0Nub
+    400070: Bip01 L UpperArm
+    400072: Bip01 Neck
+    400074: Bip01 Pelvis
+    400076: Bip01 R Calf
+    400078: Bip01 R Clavicle
+    400080: Bip01 R Finger0
+    400082: Bip01 R Finger01
+    400084: Bip01 R Finger02
+    400086: Bip01 R Finger0Nub
+    400088: Bip01 R Finger1
+    400090: Bip01 R Finger11
+    400092: Bip01 R Finger12
+    400094: Bip01 R Finger1Nub
+    400096: Bip01 R Finger2
+    400098: Bip01 R Finger21
+    400100: Bip01 R Finger22
+    400102: Bip01 R Finger2Nub
+    400104: Bip01 R Finger3
+    400106: Bip01 R Finger31
+    400108: Bip01 R Finger32
+    400110: Bip01 R Finger3Nub
+    400112: Bip01 R Finger4
+    400114: Bip01 R Finger41
+    400116: Bip01 R Finger42
+    400118: Bip01 R Finger4Nub
+    400120: Bip01 R Foot
+    400122: Bip01 R Forearm
+    400124: Bip01 R Hand
+    400126: Bip01 R Thigh
+    400128: Bip01 R Toe0
+    400130: Bip01 R Toe0Nub
+    400132: Bip01 R UpperArm
+    400134: Bip01 Spine
+    400136: Bip01 Spine1
+    400138: Bip01 Spine2
+    400140: Bone01
+    400142: Bone02
+    400144: Bone03
+    400146: Bone04
+    400148: Bone05
+    400150: Bone06
+    400152: Bone06_Spr01_Upnode
+    400154: Bone07
+    400156: Bone07_Spr01_Upnode
+    400158: Bone08
+    400160: Bone08_Spr01_Upnode
+    400162: Bone08_Spr02_Upnode
+    400164: Bone09
+    400166: Bone09_Spr01_Upnode
+    400168: Bone10
+    400170: Bone100
+    400172: Bone101
+    400174: Bone102
+    400176: Bone103
+    400178: Bone104
+    400180: Bone105
+    400182: Bone106
+    400184: Bone107
+    400186: Bone108
+    400188: Bone109
+    400190: Bone10_Spr01_Upnode
+    400192: Bone11
+    400194: Bone110
+    400196: Bone111
+    400198: Bone112
+    400200: Bone113
+    400202: Bone114
+    400204: Bone115
+    400206: Bone116
+    400208: Bone117
+    400210: Bone118
+    400212: Bone119
+    400214: Bone11_Spr01_Upnode
+    400216: Bone12
+    400218: Bone120
+    400220: Bone121
+    400222: Bone122
+    400224: Bone123
+    400226: Bone124
+    400228: Bone125
+    400230: Bone126
+    400232: Bone127
+    400234: Bone128
+    400236: Bone129
+    400238: Bone13
+    400240: Bone130
+    400242: Bone131
+    400244: Bone132
+    400246: Bone133
+    400248: Bone134
+    400250: Bone136
+    400252: Bone137
+    400254: Bone138
+    400256: Bone139
+    400258: Bone14
+    400260: Bone140
+    400262: Bone141
+    400264: Bone142
+    400266: Bone143
+    400268: Bone144
+    400270: Bone145
+    400272: Bone146
+    400274: Bone147
+    400276: Bone148
+    400278: Bone149
+    400280: Bone14_Spr01_Upnode
+    400282: Bone15
+    400284: Bone150
+    400286: Bone151
+    400288: Bone152
+    400290: Bone15_Spr01_Upnode
+    400292: Bone16
+    400294: Bone17
+    400296: Bone17_Spr01_Upnode
+    400298: Bone18
+    400300: Bone18_Spr01_Upnode
+    400302: Bone19
+    400304: Bone19_Spr01_Upnode
+    400306: Bone20
+    400308: Bone21
+    400310: Bone22
+    400312: Bone22_Spr01_Upnode
+    400314: Bone23
+    400316: Bone23_Spr01_Upnode
+    400318: Bone24
+    400320: Bone24_Spr01_Upnode
+    400322: Bone25
+    400324: Bone25_Spr01_Upnode
+    400326: Bone26
+    400328: Bone27
+    400330: Bone28
+    400332: Bone28_Spr01_Upnode
+    400334: Bone29
+    400336: Bone29_Spr01_Upnode
+    400338: Bone30
+    400340: Bone30_Spr01_Upnode
+    400342: Bone31
+    400344: Bone31_Spr01_Upnode
+    400346: Bone32
+    400348: Bone33
+    400350: Bone34
+    400352: Bone34_Spr01_Upnode
+    400354: Bone35
+    400356: Bone35_Spr01_Upnode
+    400358: Bone36
+    400360: Bone36_Spr01_Upnode
+    400362: Bone37
+    400364: Bone37_Spr01_Upnode
+    400366: Bone38
+    400368: Bone39
+    400370: Bone40
+    400372: Bone40_Spr01_Upnode
+    400374: Bone41
+    400376: Bone41_Spr01_Upnode
+    400378: Bone42
+    400380: Bone42_Spr01_Upnode
+    400382: Bone43
+    400384: Bone43_Spr01_Upnode
+    400386: Bone44
+    400388: Bone45
+    400390: Bone46
+    400392: Bone46_Spr01_Upnode
+    400394: Bone47
+    400396: Bone47_Spr01_Upnode
+    400398: Bone48
+    400400: Bone48_Spr01_Upnode
+    400402: Bone49
+    400404: Bone49_Spr01_Upnode
+    400406: Bone50
+    400408: Bone51
+    400410: Bone52
+    400412: Bone53
+    400414: Bone54
+    400416: Bone55
+    400418: Bone56
+    400420: Bone57
+    400422: Bone58
+    400424: Bone59
+    400426: Bone60
+    400428: Bone61
+    400430: Bone62
+    400432: Bone63
+    400434: Bone64
+    400436: Bone65
+    400438: Bone66
+    400440: Bone67
+    400442: Bone68
+    400444: Bone69
+    400446: Bone70
+    400448: Bone71
+    400450: Bone72
+    400452: Bone73
+    400454: Bone74
+    400456: Bone75
+    400458: Bone76
+    400460: Bone77
+    400462: Bone78
+    400464: Bone79
+    400466: Bone80
+    400468: Bone81
+    400470: Bone82
+    400472: Bone83
+    400474: Bone84
+    400476: Bone85
+    400478: Bone86
+    400480: Bone87
+    400482: Bone88
+    400484: Bone89
+    400486: Bone90
+    400488: Bone91
+    400490: Bone92
+    400492: Bone93
+    400494: Bone94
+    400496: Bone95
+    400498: Bone96
+    400500: Bone97
+    400502: Bone98
+    400504: Bone99
+    400506: Camera
+    400508: e_b_p
+    400510: e_b_p 1
+    400512: IK Chain01
+    400514: IK Chain02
+    400516: IK Chain03
+    400518: IK Chain04
+    400520: IK Chain05
+    400522: IK Chain06
+    400524: l_h
+    400526: Offset
+    400528: Particle View01
+    400530: Particle View01 1
+    400532: r_h
+    400534: sp067_lod0
+    400536: sp067_lod0_jiao
+    400538: sp067_lod0_shouzhang
+    400540: sp067_lod0_toufa
+    400542: sp067_lod0_zhuangshi
+    400544: //RootNode
+    400546: u024_lod0
+    400548: u024b_lod0
+    2300000: a_e
+    2300002: b_a_e
+    2300004: u024_lod0
+    2300006: u024b_lod0
+    3300000: a_e
+    3300002: b_a_e
+    3300004: u024_lod0
+    3300006: u024b_lod0
+    4300000: sp067_lod0
+    4300002: sp067_lod0_toufa
+    4300004: sp067_lod0_jiao
+    4300006: sp067_lod0_zhuangshi
+    4300008: sp067_lod0_shouzhang
+    4300010: a_e
+    4300012: b_a_e
+    4300014: u024_lod0
+    4300016: u024b_lod0
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: sp067_lod0
+    13700002: sp067_lod0_jiao
+    13700004: sp067_lod0_shouzhang
+    13700006: sp067_lod0_toufa
+    13700008: sp067_lod0_zhuangshi
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

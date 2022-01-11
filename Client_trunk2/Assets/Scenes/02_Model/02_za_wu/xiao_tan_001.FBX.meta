@@ -1,0 +1,112 @@
+fileFormatVersion: 2
+guid: 2b14d98ac71e13b46bb9bc74a25051bf
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: bu_pi_tan_001_a
+    100002: bu_pi_tan_001_b
+    100004: bu_pi_tan_001_c
+    100006: bu_pi_tan_001_d
+    100008: bu_pi_tan_001_e
+    100010: //RootNode
+    100012: xiao_tan_001_a
+    100014: xiao_tan_001_b
+    100016: xiao_tan_001_c
+    100018: xiao_tan_001_d
+    100020: xiao_tan_001_e
+    400000: bu_pi_tan_001_a
+    400002: bu_pi_tan_001_b
+    400004: bu_pi_tan_001_c
+    400006: bu_pi_tan_001_d
+    400008: bu_pi_tan_001_e
+    400010: //RootNode
+    400012: xiao_tan_001_a
+    400014: xiao_tan_001_b
+    400016: xiao_tan_001_c
+    400018: xiao_tan_001_d
+    400020: xiao_tan_001_e
+    2300000: bu_pi_tan_001_a
+    2300002: bu_pi_tan_001_b
+    2300004: bu_pi_tan_001_c
+    2300006: bu_pi_tan_001_d
+    2300008: bu_pi_tan_001_e
+    2300010: xiao_tan_001_a
+    2300012: xiao_tan_001_b
+    2300014: xiao_tan_001_c
+    2300016: xiao_tan_001_d
+    2300018: xiao_tan_001_e
+    3300000: bu_pi_tan_001_a
+    3300002: bu_pi_tan_001_b
+    3300004: bu_pi_tan_001_c
+    3300006: bu_pi_tan_001_d
+    3300008: bu_pi_tan_001_e
+    3300010: xiao_tan_001_a
+    3300012: xiao_tan_001_b
+    3300014: xiao_tan_001_c
+    3300016: xiao_tan_001_d
+    3300018: xiao_tan_001_e
+    4300000: bu_pi_tan_001_d
+    4300002: bu_pi_tan_001_c
+    4300004: bu_pi_tan_001_a
+    4300006: bu_pi_tan_001_b
+    4300008: bu_pi_tan_001_e
+    4300010: xiao_tan_001_d
+    4300012: xiao_tan_001_c
+    4300014: xiao_tan_001_a
+    4300016: xiao_tan_001_b
+    4300018: xiao_tan_001_e
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

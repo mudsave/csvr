@@ -1,0 +1,152 @@
+fileFormatVersion: 2
+guid: e30b226f0a496384fb454d7089203a8f
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: shi_zhuang_002_a01
+    100004: shi_zhuang_002_a02
+    100006: shi_zhuang_002_a03
+    100008: shi_zhuang_002_a04
+    100010: shi_zhuang_002_a05
+    100012: shi_zhuang_002_a06
+    100014: shi_zhuang_002_b01
+    100016: shi_zhuang_002_b02
+    100018: shi_zhuang_002_b03
+    100020: shi_zhuang_002_b04
+    100022: shi_zhuang_002_b05
+    100024: shi_zhuang_002_c01
+    100026: shi_zhuang_002_c02
+    100028: shi_zhuang_002_c03
+    100030: shi_zhuang_002_c04
+    100032: shi_zhuang_002_c05
+    400000: //RootNode
+    400002: shi_zhuang_002_a01
+    400004: shi_zhuang_002_a02
+    400006: shi_zhuang_002_a03
+    400008: shi_zhuang_002_a04
+    400010: shi_zhuang_002_a05
+    400012: shi_zhuang_002_a06
+    400014: shi_zhuang_002_b01
+    400016: shi_zhuang_002_b02
+    400018: shi_zhuang_002_b03
+    400020: shi_zhuang_002_b04
+    400022: shi_zhuang_002_b05
+    400024: shi_zhuang_002_c01
+    400026: shi_zhuang_002_c02
+    400028: shi_zhuang_002_c03
+    400030: shi_zhuang_002_c04
+    400032: shi_zhuang_002_c05
+    2300000: shi_zhuang_002_a01
+    2300002: shi_zhuang_002_a02
+    2300004: shi_zhuang_002_a03
+    2300006: shi_zhuang_002_a04
+    2300008: shi_zhuang_002_a05
+    2300010: shi_zhuang_002_a06
+    2300012: shi_zhuang_002_b01
+    2300014: shi_zhuang_002_b02
+    2300016: shi_zhuang_002_b03
+    2300018: shi_zhuang_002_b04
+    2300020: shi_zhuang_002_b05
+    2300022: shi_zhuang_002_c01
+    2300024: shi_zhuang_002_c02
+    2300026: shi_zhuang_002_c03
+    2300028: shi_zhuang_002_c04
+    2300030: shi_zhuang_002_c05
+    3300000: shi_zhuang_002_a01
+    3300002: shi_zhuang_002_a02
+    3300004: shi_zhuang_002_a03
+    3300006: shi_zhuang_002_a04
+    3300008: shi_zhuang_002_a05
+    3300010: shi_zhuang_002_a06
+    3300012: shi_zhuang_002_b01
+    3300014: shi_zhuang_002_b02
+    3300016: shi_zhuang_002_b03
+    3300018: shi_zhuang_002_b04
+    3300020: shi_zhuang_002_b05
+    3300022: shi_zhuang_002_c01
+    3300024: shi_zhuang_002_c02
+    3300026: shi_zhuang_002_c03
+    3300028: shi_zhuang_002_c04
+    3300030: shi_zhuang_002_c05
+    4300000: shi_zhuang_002_b04
+    4300002: shi_zhuang_002_b05
+    4300004: shi_zhuang_002_a04
+    4300006: shi_zhuang_002_a05
+    4300008: shi_zhuang_002_a03
+    4300010: shi_zhuang_002_a01
+    4300012: shi_zhuang_002_a02
+    4300014: shi_zhuang_002_a06
+    4300016: shi_zhuang_002_c02
+    4300018: shi_zhuang_002_c01
+    4300020: shi_zhuang_002_c03
+    4300022: shi_zhuang_002_c05
+    4300024: shi_zhuang_002_c04
+    4300026: shi_zhuang_002_b03
+    4300028: shi_zhuang_002_b02
+    4300030: shi_zhuang_002_b01
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

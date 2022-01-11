@@ -1,0 +1,40 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+	
+	<Implements>
+	</Implements>	
+
+	<Properties>
+		<lastClientIpAddr>
+			<Type>			UINT32				</Type>
+			<Flags>			BASE				</Flags>
+			<Default>		0					</Default>
+			<Persistent>		true			</Persistent>
+		</lastClientIpAddr>
+
+		<name> <!-- 玩家账号名字 -->
+			<Type>			UNICODE				</Type>
+			<Flags>			BASE_AND_CLIENT		</Flags>
+			<Default>							</Default>
+			<Persistent>		true			</Persistent>
+		</name>
+
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

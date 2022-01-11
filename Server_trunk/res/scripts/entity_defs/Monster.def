@@ -1,0 +1,39 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+		<Interface> GameObject </Interface>
+		<Interface> Avatar </Interface>
+		<Interface> ObjectType </Interface>
+		<Interface> AI </Interface>
+	</Implements>
+
+	<Properties>
+		<spawnPosition>  <!-- 出生位置 -->
+			<Type>	VECTOR3			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</spawnPosition>
+		
+		<patrolPath>  <!-- NPC巡逻路径 -->
+			<Type>	PY_DICT			</Type>
+			<Flags>	CELL_PRIVATE	</Flags>
+		</patrolPath>
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: cf04b2903beb7774e91344b5986d08c7
+timeCreated: 1493341583
+licenseType: Pro
+ShaderImporter:
+  defaultTextures:
+  - _MainTex: {instanceID: 0}
+  - _BlendTex: {fileID: 8400000, guid: 133f2f3ae9bca974991e854d915600dd, type: 2}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1367822575, guid: af616ed3207e51f40b76a595803efeee, type: 3}
+  m_Name: CAINavEditorSettings
+  m_EditorClassIdentifier: 
+  areaNames:
+  - 4e6f742057616c6b61626c65
+  - <Undefined>
+  - <Undefined>
+  - Area1
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - <Undefined>
+  - 44656661756c74
+  flagNames:
+  - 1
+  - 2
+  - 4
+  - 8
+  - 10
+  - 466c61672030783230
+  - 466c61672030783430
+  - 466c61672030783830
+  - 466c6167203078313030
+  - 466c6167203078323030
+  - 466c6167203078343030
+  - 466c6167203078383030
+  - 466c616720307831303030
+  - 466c616720307832303030
+  - 466c616720307834303030
+  - 466c616720307838303030
+  avoidanceNames:
+  - 4c6f77
+  - 4d656469756d
+  - 476f6f64
+  - 48696768
+  - 5175616c6974792034
+  - 5175616c6974792035
+  - 5175616c6974792036
+  - 5175616c6974792037

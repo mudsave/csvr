@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Shield_active_diss
+  m_Shader: {fileID: 4800000, guid: 76d434d6496a3574cb62c5ddf512ed13, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveSrc:
+        m_Texture: {fileID: 2800000, guid: 0a278e64e54ca27488d0d0539b403ef6, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 5b1c67d617f0fba4e8fd24b5fd358034, type: 3}
+        m_Scale: {x: 0.5, y: 1}
+        m_Offset: {x: 0.78, y: 0}
+    m_Floats:
+    - _Amount: 0
+    - _Illuminate: 1
+    - _InvFade: 3
+    - _StartAmount: 0.1
+    - _Tile: 1
+    m_Colors:
+    - _ColorAnimate: {r: 1, g: 1, b: 1, a: 1}
+    - _DissColor: {r: 1, g: 0.2352941, b: 0.2352941, a: 1}
+    - _TintColor: {r: 1, g: 0.7837387, b: 0.44776094, a: 0.039215688}

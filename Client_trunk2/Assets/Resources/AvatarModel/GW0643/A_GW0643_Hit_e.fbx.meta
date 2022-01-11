@@ -1,0 +1,753 @@
+fileFormatVersion: 2
+guid: f0d1d14f7a53f4141bbd8a20f46be01d
+timeCreated: 1487563782
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: group
+    100004: HP_body
+    100006: HP_root
+    100008: HP_title
+    100010: pasted__group03
+    100012: pasted__pasted__body
+    100014: pasted__pasted__cloth1
+    100016: pasted__pasted__cloth2
+    100018: pasted__pasted__GlobalScale
+    100020: pasted__pasted__GW0643_model
+    100022: pasted__pasted__hair1
+    100024: pasted__pasted__hair2
+    100026: pasted__pasted__hair3
+    100028: pasted__pasted__hair4
+    100030: pasted__pasted__head
+    100032: pasted__pasted__hips
+    100034: pasted__pasted__hips_CtrCurve
+    100036: pasted__pasted__HP_back_shield
+    100038: pasted__pasted__HP_back_weapon
+    100040: pasted__pasted__HP_head
+    100042: pasted__pasted__HP_hitPoint
+    100044: pasted__pasted__HP_left_foot
+    100046: pasted__pasted__HP_left_hand
+    100048: pasted__pasted__HP_left_shield
+    100050: pasted__pasted__HP_left_shoulder
+    100052: pasted__pasted__HP_left_waise
+    100054: pasted__pasted__HP_magic_l
+    100056: pasted__pasted__HP_magic_r
+    100058: pasted__pasted__HP_right_foot
+    100060: pasted__pasted__HP_right_hand
+    100062: pasted__pasted__HP_right_shoulder
+    100064: pasted__pasted__HP_right_waise
+    100066: pasted__pasted__left_ArmLocator
+    100068: pasted__pasted__left_Foot
+    100070: pasted__pasted__left_Hand
+    100072: pasted__pasted__left_hand
+    100074: pasted__pasted__left_LegLocator
+    100076: pasted__pasted__left_weapon_control
+    100078: pasted__pasted__leftArm
+    100080: pasted__pasted__leftArm_CtrCurve
+    100082: pasted__pasted__leftArm_CtrCurveGroup
+    100084: pasted__pasted__leftArmHandle
+    100086: pasted__pasted__leftFoot
+    100088: pasted__pasted__leftFootIkHandle1
+    100090: pasted__pasted__leftFootIndex1
+    100092: pasted__pasted__leftForeArm
+    100094: pasted__pasted__leftForeArm_CtrCurve
+    100096: pasted__pasted__leftForeArm_CtrCurveGroup
+    100098: pasted__pasted__leftForeArmRoll
+    100100: pasted__pasted__leftHand
+    100102: pasted__pasted__leftHand_CtrCurve
+    100104: pasted__pasted__leftHand_CtrCurveGroup
+    100106: pasted__pasted__leftHandMiddle1
+    100108: pasted__pasted__leftHandMiddle2
+    100110: pasted__pasted__leftHandThumb1
+    100112: pasted__pasted__leftHandThumb2
+    100114: pasted__pasted__leftLeg
+    100116: pasted__pasted__leftLegHandle1
+    100118: pasted__pasted__leftShoulder
+    100120: pasted__pasted__leftUpLeg
+    100122: pasted__pasted__lift_Lgroup
+    100124: pasted__pasted__lift_Rgroup
+    100126: pasted__pasted__neck
+    100128: pasted__pasted__right_ArmLocator
+    100130: pasted__pasted__right_Foot
+    100132: pasted__pasted__right_Hand
+    100134: pasted__pasted__right_hand
+    100136: pasted__pasted__right_LegLocator
+    100138: pasted__pasted__rightArm
+    100140: pasted__pasted__rightArm_CtrCurve
+    100142: pasted__pasted__rightArm_CtrCurveGroup
+    100144: pasted__pasted__rightArmHandle
+    100146: pasted__pasted__rightFoot
+    100148: pasted__pasted__rightFootIkHandle1
+    100150: pasted__pasted__rightFootIndex1
+    100152: pasted__pasted__rightForeArm
+    100154: pasted__pasted__rightForeArm_CtrCurve
+    100156: pasted__pasted__rightForeArm_CtrCurveGroup
+    100158: pasted__pasted__rightForeArmRoll
+    100160: pasted__pasted__rightHand
+    100162: pasted__pasted__rightHand_CtrCurve
+    100164: pasted__pasted__rightHand_CtrCurveGroup
+    100166: pasted__pasted__rightHandMiddle1
+    100168: pasted__pasted__rightHandMiddle2
+    100170: pasted__pasted__rightHandThumb1
+    100172: pasted__pasted__rightHandThumb2
+    100174: pasted__pasted__rightLeg
+    100176: pasted__pasted__rightLegHandle1
+    100178: pasted__pasted__rightShoulder
+    100180: pasted__pasted__rightUpLeg
+    100182: pasted__pasted__root_CtrCurve
+    100184: pasted__pasted__spine
+    100186: pasted__pasted__spine01_CtrCurve
+    100188: pasted__pasted__spine02_CtrCurve
+    100190: pasted__pasted__spine1
+    100192: pasted__pasted__spine2
+    100194: pasted__pasted__spine3
+    100196: pasted__pasted__spine_CtrCurve
+    100198: pasted__pasted__toe_Lgroup
+    100200: pasted__pasted__toe_Rgroup
+    100202: root
+    100204: cloth1
+    100206: cloth2
+    100208: hair1
+    100210: hair2
+    100212: hair3
+    100214: hair4
+    100216: head
+    100218: hips
+    100220: HP_back_shield
+    100222: HP_back_weapon
+    100224: HP_head
+    100226: HP_hitPoint
+    100228: HP_left_foot
+    100230: HP_left_hand
+    100232: HP_left_shield
+    100234: HP_left_shoulder
+    100236: HP_left_waise
+    100238: HP_magic_l
+    100240: HP_magic_r
+    100242: HP_right_foot
+    100244: HP_right_hand
+    100246: HP_right_shoulder
+    100248: HP_right_waise
+    100250: left_hand
+    100252: leftArm
+    100254: leftArm_CtrCurve
+    100256: leftArm_CtrCurveGroup
+    100258: leftFoot
+    100260: leftFootIndex1
+    100262: leftForeArm
+    100264: leftForeArm_CtrCurve
+    100266: leftForeArm_CtrCurveGroup
+    100268: leftForeArmRoll
+    100270: leftHand
+    100272: leftHand_CtrCurve
+    100274: leftHand_CtrCurveGroup
+    100276: leftHandMiddle1
+    100278: leftHandMiddle2
+    100280: leftHandThumb1
+    100282: leftHandThumb2
+    100284: leftLeg
+    100286: leftShoulder
+    100288: leftUpLeg
+    100290: neck
+    100292: right_hand
+    100294: rightArm
+    100296: rightArm_CtrCurve
+    100298: rightArm_CtrCurveGroup
+    100300: rightFoot
+    100302: rightFootIndex1
+    100304: rightForeArm
+    100306: rightForeArm_CtrCurve
+    100308: rightForeArm_CtrCurveGroup
+    100310: rightForeArmRoll
+    100312: rightHand
+    100314: rightHand_CtrCurve
+    100316: rightHand_CtrCurveGroup
+    100318: rightHandMiddle1
+    100320: rightHandMiddle2
+    100322: rightHandThumb1
+    100324: rightHandThumb2
+    100326: rightLeg
+    100328: rightShoulder
+    100330: rightUpLeg
+    100332: spine
+    100334: spine1
+    100336: spine2
+    100338: spine3
+    400000: //RootNode
+    400002: group
+    400004: HP_body
+    400006: HP_root
+    400008: HP_title
+    400010: pasted__group03
+    400012: pasted__pasted__body
+    400014: pasted__pasted__cloth1
+    400016: pasted__pasted__cloth2
+    400018: pasted__pasted__GlobalScale
+    400020: pasted__pasted__GW0643_model
+    400022: pasted__pasted__hair1
+    400024: pasted__pasted__hair2
+    400026: pasted__pasted__hair3
+    400028: pasted__pasted__hair4
+    400030: pasted__pasted__head
+    400032: pasted__pasted__hips
+    400034: pasted__pasted__hips_CtrCurve
+    400036: pasted__pasted__HP_back_shield
+    400038: pasted__pasted__HP_back_weapon
+    400040: pasted__pasted__HP_head
+    400042: pasted__pasted__HP_hitPoint
+    400044: pasted__pasted__HP_left_foot
+    400046: pasted__pasted__HP_left_hand
+    400048: pasted__pasted__HP_left_shield
+    400050: pasted__pasted__HP_left_shoulder
+    400052: pasted__pasted__HP_left_waise
+    400054: pasted__pasted__HP_magic_l
+    400056: pasted__pasted__HP_magic_r
+    400058: pasted__pasted__HP_right_foot
+    400060: pasted__pasted__HP_right_hand
+    400062: pasted__pasted__HP_right_shoulder
+    400064: pasted__pasted__HP_right_waise
+    400066: pasted__pasted__left_ArmLocator
+    400068: pasted__pasted__left_Foot
+    400070: pasted__pasted__left_Hand
+    400072: pasted__pasted__left_hand
+    400074: pasted__pasted__left_LegLocator
+    400076: pasted__pasted__left_weapon_control
+    400078: pasted__pasted__leftArm
+    400080: pasted__pasted__leftArm_CtrCurve
+    400082: pasted__pasted__leftArm_CtrCurveGroup
+    400084: pasted__pasted__leftArmHandle
+    400086: pasted__pasted__leftFoot
+    400088: pasted__pasted__leftFootIkHandle1
+    400090: pasted__pasted__leftFootIndex1
+    400092: pasted__pasted__leftForeArm
+    400094: pasted__pasted__leftForeArm_CtrCurve
+    400096: pasted__pasted__leftForeArm_CtrCurveGroup
+    400098: pasted__pasted__leftForeArmRoll
+    400100: pasted__pasted__leftHand
+    400102: pasted__pasted__leftHand_CtrCurve
+    400104: pasted__pasted__leftHand_CtrCurveGroup
+    400106: pasted__pasted__leftHandMiddle1
+    400108: pasted__pasted__leftHandMiddle2
+    400110: pasted__pasted__leftHandThumb1
+    400112: pasted__pasted__leftHandThumb2
+    400114: pasted__pasted__leftLeg
+    400116: pasted__pasted__leftLegHandle1
+    400118: pasted__pasted__leftShoulder
+    400120: pasted__pasted__leftUpLeg
+    400122: pasted__pasted__lift_Lgroup
+    400124: pasted__pasted__lift_Rgroup
+    400126: pasted__pasted__neck
+    400128: pasted__pasted__right_ArmLocator
+    400130: pasted__pasted__right_Foot
+    400132: pasted__pasted__right_Hand
+    400134: pasted__pasted__right_hand
+    400136: pasted__pasted__right_LegLocator
+    400138: pasted__pasted__rightArm
+    400140: pasted__pasted__rightArm_CtrCurve
+    400142: pasted__pasted__rightArm_CtrCurveGroup
+    400144: pasted__pasted__rightArmHandle
+    400146: pasted__pasted__rightFoot
+    400148: pasted__pasted__rightFootIkHandle1
+    400150: pasted__pasted__rightFootIndex1
+    400152: pasted__pasted__rightForeArm
+    400154: pasted__pasted__rightForeArm_CtrCurve
+    400156: pasted__pasted__rightForeArm_CtrCurveGroup
+    400158: pasted__pasted__rightForeArmRoll
+    400160: pasted__pasted__rightHand
+    400162: pasted__pasted__rightHand_CtrCurve
+    400164: pasted__pasted__rightHand_CtrCurveGroup
+    400166: pasted__pasted__rightHandMiddle1
+    400168: pasted__pasted__rightHandMiddle2
+    400170: pasted__pasted__rightHandThumb1
+    400172: pasted__pasted__rightHandThumb2
+    400174: pasted__pasted__rightLeg
+    400176: pasted__pasted__rightLegHandle1
+    400178: pasted__pasted__rightShoulder
+    400180: pasted__pasted__rightUpLeg
+    400182: pasted__pasted__root_CtrCurve
+    400184: pasted__pasted__spine
+    400186: pasted__pasted__spine01_CtrCurve
+    400188: pasted__pasted__spine02_CtrCurve
+    400190: pasted__pasted__spine1
+    400192: pasted__pasted__spine2
+    400194: pasted__pasted__spine3
+    400196: pasted__pasted__spine_CtrCurve
+    400198: pasted__pasted__toe_Lgroup
+    400200: pasted__pasted__toe_Rgroup
+    400202: root
+    400204: cloth1
+    400206: cloth2
+    400208: hair1
+    400210: hair2
+    400212: hair3
+    400214: hair4
+    400216: head
+    400218: hips
+    400220: HP_back_shield
+    400222: HP_back_weapon
+    400224: HP_head
+    400226: HP_hitPoint
+    400228: HP_left_foot
+    400230: HP_left_hand
+    400232: HP_left_shield
+    400234: HP_left_shoulder
+    400236: HP_left_waise
+    400238: HP_magic_l
+    400240: HP_magic_r
+    400242: HP_right_foot
+    400244: HP_right_hand
+    400246: HP_right_shoulder
+    400248: HP_right_waise
+    400250: left_hand
+    400252: leftArm
+    400254: leftArm_CtrCurve
+    400256: leftArm_CtrCurveGroup
+    400258: leftFoot
+    400260: leftFootIndex1
+    400262: leftForeArm
+    400264: leftForeArm_CtrCurve
+    400266: leftForeArm_CtrCurveGroup
+    400268: leftForeArmRoll
+    400270: leftHand
+    400272: leftHand_CtrCurve
+    400274: leftHand_CtrCurveGroup
+    400276: leftHandMiddle1
+    400278: leftHandMiddle2
+    400280: leftHandThumb1
+    400282: leftHandThumb2
+    400284: leftLeg
+    400286: leftShoulder
+    400288: leftUpLeg
+    400290: neck
+    400292: right_hand
+    400294: rightArm
+    400296: rightArm_CtrCurve
+    400298: rightArm_CtrCurveGroup
+    400300: rightFoot
+    400302: rightFootIndex1
+    400304: rightForeArm
+    400306: rightForeArm_CtrCurve
+    400308: rightForeArm_CtrCurveGroup
+    400310: rightForeArmRoll
+    400312: rightHand
+    400314: rightHand_CtrCurve
+    400316: rightHand_CtrCurveGroup
+    400318: rightHandMiddle1
+    400320: rightHandMiddle2
+    400322: rightHandThumb1
+    400324: rightHandThumb2
+    400326: rightLeg
+    400328: rightShoulder
+    400330: rightUpLeg
+    400332: spine
+    400334: spine1
+    400336: spine2
+    400338: spine3
+    2300000: HP_body
+    2300002: HP_root
+    2300004: HP_title
+    2300006: pasted__pasted__HP_back_shield
+    2300008: pasted__pasted__HP_back_weapon
+    2300010: pasted__pasted__HP_head
+    2300012: pasted__pasted__HP_hitPoint
+    2300014: pasted__pasted__HP_left_foot
+    2300016: pasted__pasted__HP_left_hand
+    2300018: pasted__pasted__HP_left_shield
+    2300020: pasted__pasted__HP_left_shoulder
+    2300022: pasted__pasted__HP_left_waise
+    2300024: pasted__pasted__HP_magic_l
+    2300026: pasted__pasted__HP_magic_r
+    2300028: pasted__pasted__HP_right_foot
+    2300030: pasted__pasted__HP_right_hand
+    2300032: pasted__pasted__HP_right_shoulder
+    2300034: pasted__pasted__HP_right_waise
+    2300036: HP_back_shield
+    2300038: HP_back_weapon
+    2300040: HP_head
+    2300042: HP_hitPoint
+    2300044: HP_left_foot
+    2300046: HP_left_hand
+    2300048: HP_left_shield
+    2300050: HP_left_shoulder
+    2300052: HP_left_waise
+    2300054: HP_magic_l
+    2300056: HP_magic_r
+    2300058: HP_right_foot
+    2300060: HP_right_hand
+    2300062: HP_right_shoulder
+    2300064: HP_right_waise
+    3300000: HP_body
+    3300002: HP_root
+    3300004: HP_title
+    3300006: pasted__pasted__HP_back_shield
+    3300008: pasted__pasted__HP_back_weapon
+    3300010: pasted__pasted__HP_head
+    3300012: pasted__pasted__HP_hitPoint
+    3300014: pasted__pasted__HP_left_foot
+    3300016: pasted__pasted__HP_left_hand
+    3300018: pasted__pasted__HP_left_shield
+    3300020: pasted__pasted__HP_left_shoulder
+    3300022: pasted__pasted__HP_left_waise
+    3300024: pasted__pasted__HP_magic_l
+    3300026: pasted__pasted__HP_magic_r
+    3300028: pasted__pasted__HP_right_foot
+    3300030: pasted__pasted__HP_right_hand
+    3300032: pasted__pasted__HP_right_shoulder
+    3300034: pasted__pasted__HP_right_waise
+    3300036: HP_back_shield
+    3300038: HP_back_weapon
+    3300040: HP_head
+    3300042: HP_hitPoint
+    3300044: HP_left_foot
+    3300046: HP_left_hand
+    3300048: HP_left_shield
+    3300050: HP_left_shoulder
+    3300052: HP_left_waise
+    3300054: HP_magic_l
+    3300056: HP_magic_r
+    3300058: HP_right_foot
+    3300060: HP_right_hand
+    3300062: HP_right_shoulder
+    3300064: HP_right_waise
+    4300000: HP_body
+    4300002: HP_root
+    4300004: HP_title
+    4300006: pasted__pasted__body
+    4300008: pasted__pasted__HP_head
+    4300010: pasted__pasted__HP_magic_l
+    4300012: pasted__pasted__HP_left_hand
+    4300014: pasted__pasted__HP_left_shield
+    4300016: pasted__pasted__HP_left_shoulder
+    4300018: pasted__pasted__HP_magic_r
+    4300020: pasted__pasted__HP_right_hand
+    4300022: pasted__pasted__HP_right_shoulder
+    4300024: pasted__pasted__HP_hitPoint
+    4300026: pasted__pasted__HP_back_shield
+    4300028: pasted__pasted__HP_back_weapon
+    4300030: pasted__pasted__HP_left_foot
+    4300032: pasted__pasted__HP_right_foot
+    4300034: pasted__pasted__HP_right_waise
+    4300036: pasted__pasted__HP_left_waise
+    4300038: HP_head
+    4300040: HP_magic_l
+    4300042: HP_left_hand
+    4300044: HP_left_shield
+    4300046: HP_left_shoulder
+    4300048: HP_magic_r
+    4300050: HP_right_hand
+    4300052: HP_right_shoulder
+    4300054: HP_hitPoint
+    4300056: HP_back_shield
+    4300058: HP_back_weapon
+    4300060: HP_left_foot
+    4300062: HP_right_foot
+    4300064: HP_right_waise
+    4300066: HP_left_waise
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pasted__pasted__body
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: "Avatar creation failed:\n\tTransform 'pasted__pasted__hips'
+      for human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group
+        weight: 1
+      - path: group/pasted__group03
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__GlobalScale
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_ArmLocator
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Foot
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Foot/pasted__pasted__toe_Lgroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Foot/pasted__pasted__toe_Lgroup/pasted__pasted__lift_Lgroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Foot/pasted__pasted__toe_Lgroup/pasted__pasted__lift_Lgroup/pasted__pasted__leftFootIkHandle1
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Foot/pasted__pasted__toe_Lgroup/pasted__pasted__lift_Lgroup/pasted__pasted__leftLegHandle1
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_Hand
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_LegLocator
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__left_weapon_control
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__leftArmHandle
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_ArmLocator
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Foot
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Foot/pasted__pasted__toe_Rgroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Foot/pasted__pasted__toe_Rgroup/pasted__pasted__lift_Rgroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Foot/pasted__pasted__toe_Rgroup/pasted__pasted__lift_Rgroup/pasted__pasted__rightFootIkHandle1
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Foot/pasted__pasted__toe_Rgroup/pasted__pasted__lift_Rgroup/pasted__pasted__rightLegHandle1
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_Hand
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__right_LegLocator
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__rightArmHandle
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__root_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__root_CtrCurve/pasted__pasted__hips_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__root_CtrCurve/pasted__pasted__spine_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__root_CtrCurve/pasted__pasted__spine_CtrCurve/pasted__pasted__spine01_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GlobalScale/pasted__pasted__root_CtrCurve/pasted__pasted__spine_CtrCurve/pasted__pasted__spine01_CtrCurve/pasted__pasted__spine02_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GW0643_model
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__GW0643_model/pasted__pasted__body
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__HP_left_waise
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__HP_right_waise
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg/pasted__pasted__cloth1
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg/pasted__pasted__leftLeg
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg/pasted__pasted__leftLeg/pasted__pasted__leftFoot
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg/pasted__pasted__leftLeg/pasted__pasted__leftFoot/pasted__pasted__HP_left_foot
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__leftUpLeg/pasted__pasted__leftLeg/pasted__pasted__leftFoot/pasted__pasted__leftFootIndex1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg/pasted__pasted__cloth2
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg/pasted__pasted__rightLeg
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg/pasted__pasted__rightLeg/pasted__pasted__rightFoot
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg/pasted__pasted__rightLeg/pasted__pasted__rightFoot/pasted__pasted__HP_right_foot
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__rightUpLeg/pasted__pasted__rightLeg/pasted__pasted__rightFoot/pasted__pasted__rightFootIndex1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__HP_back_shield
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__HP_back_weapon
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__HP_hitPoint
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__HP_left_shoulder
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__HP_left_shield
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__HP_magic_l
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__left_hand
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__left_hand/pasted__pasted__HP_left_hand
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__leftHandMiddle1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__leftHandMiddle1/pasted__pasted__leftHandMiddle2
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__leftHandThumb1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm/pasted__pasted__leftForeArm/pasted__pasted__leftForeArmRoll/pasted__pasted__leftHand/pasted__pasted__leftHandThumb1/pasted__pasted__leftHandThumb2
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup/pasted__pasted__leftArm_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup/pasted__pasted__leftArm_CtrCurve/pasted__pasted__leftForeArm_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup/pasted__pasted__leftArm_CtrCurve/pasted__pasted__leftForeArm_CtrCurveGroup/pasted__pasted__leftForeArm_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup/pasted__pasted__leftArm_CtrCurve/pasted__pasted__leftForeArm_CtrCurveGroup/pasted__pasted__leftForeArm_CtrCurve/pasted__pasted__leftHand_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__leftShoulder/pasted__pasted__leftArm_CtrCurveGroup/pasted__pasted__leftArm_CtrCurve/pasted__pasted__leftForeArm_CtrCurveGroup/pasted__pasted__leftForeArm_CtrCurve/pasted__pasted__leftHand_CtrCurveGroup/pasted__pasted__leftHand_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head/pasted__pasted__hair1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head/pasted__pasted__hair1/pasted__pasted__hair2
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head/pasted__pasted__hair1/pasted__pasted__hair2/pasted__pasted__hair3
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head/pasted__pasted__hair1/pasted__pasted__hair2/pasted__pasted__hair3/pasted__pasted__hair4
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__neck/pasted__pasted__head/pasted__pasted__HP_head
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__HP_right_shoulder
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__HP_magic_r
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__right_hand
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__right_hand/pasted__pasted__HP_right_hand
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__rightHandMiddle1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__rightHandMiddle1/pasted__pasted__rightHandMiddle2
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__rightHandThumb1
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm/pasted__pasted__rightForeArm/pasted__pasted__rightForeArmRoll/pasted__pasted__rightHand/pasted__pasted__rightHandThumb1/pasted__pasted__rightHandThumb2
+        weight: 1
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup/pasted__pasted__rightArm_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup/pasted__pasted__rightArm_CtrCurve/pasted__pasted__rightForeArm_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup/pasted__pasted__rightArm_CtrCurve/pasted__pasted__rightForeArm_CtrCurveGroup/pasted__pasted__rightForeArm_CtrCurve
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup/pasted__pasted__rightArm_CtrCurve/pasted__pasted__rightForeArm_CtrCurveGroup/pasted__pasted__rightForeArm_CtrCurve/pasted__pasted__rightHand_CtrCurveGroup
+        weight: 0
+      - path: group/pasted__group03/pasted__pasted__hips/pasted__pasted__spine/pasted__pasted__spine1/pasted__pasted__spine2/pasted__pasted__spine3/pasted__pasted__rightShoulder/pasted__pasted__rightArm_CtrCurveGroup/pasted__pasted__rightArm_CtrCurve/pasted__pasted__rightForeArm_CtrCurveGroup/pasted__pasted__rightForeArm_CtrCurve/pasted__pasted__rightHand_CtrCurveGroup/pasted__pasted__rightHand_CtrCurve
+        weight: 0
+      - path: HP_body
+        weight: 0
+      - path: HP_root
+        weight: 0
+      - path: HP_title
+        weight: 0
+      - path: root
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

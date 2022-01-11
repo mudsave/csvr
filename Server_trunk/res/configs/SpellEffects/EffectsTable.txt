@@ -1,0 +1,68 @@
+﻿#效果ID	效果类型ID	效果描述	参数01	参数02	参数03	参数04	参数05
+id	className	description	param1	param2	param3	param4	param5
+int	string	string					
+0							
+#101	EffectDynamicDamage	①HP上限变动时，会连带影响当前HP　　　　　　　　　　②原则上，不独立使用HP减益表现	属性加成值(float)　　　　　　　　　　ProfitPercent　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用	属性附加值(int)　　　　　　　　　　ProfitValue　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用			
+123456	EffectDynamicDamage	造成[物攻×100%]点物理伤害	0	1	0		
+500401001	EffectHitPose	获得[击中]	1				
+500401002	EffectHitPose	获得[击倒]	2				
+500401003	EffectHitPose	获得[击飞]	3				
+500402001	EffectDirectionChange	朝向施术者	1				
+500402002	EffectDirectionChange	背向施术者	2				
+500402003	EffectDirectionChange	同施术者当前朝向	3				
+500402004	EffectDirectionChange	反施术者当前朝向	4				
+500402005	EffectDirectionChange	同受术者当前朝向	5				
+500402006	EffectDirectionChange	反受术者当前朝向	6				
+500202001	EffectDizziness	获得[眩晕]	1				
+501202001	EffectDizziness	失去[眩晕]	0				
+123451	EffectDynamicDamage	伤害测试	0	1.5	0		
+123452	EffectPositionChange	施法者位置改变	1.5	3.5			
+123453	EffectLighting	爆炸光效	Model/	baozha	火球-炸裂	FALSE	
+123454	EffectDynamicDamage	造成[物攻×40%]点物理伤害	0	0.4	0		
+123455	EffectDynamicDamage	造成[物攻×20%]点物理伤害	0	0.2	0		
+123457	EffectLighting	冰爆光效	Model/	bingbao		FALSE	
+123458	EffectDynamicDamage	造成[物攻×100%]点物理伤害	0	1.2	0		
+#101	EffectProfitHPMax	①HP上限变动时，会连带影响当前HP　　　　　　　　　　②原则上，不独立使用HP减益表现	属性加成值(float)　　　　　　　　　　ProfitPercent　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用	属性附加值(int)　　　　　　　　　　ProfitValue　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用			
+#500101000	EffectProfitHPMax						
+500101001	EffectProfitHPMax	生命值上限[﹢1%]	0.01	0			
+501101001	EffectProfitHPMax	生命值上限[﹣1%]	-0.01	0			
+#599101999							
+#102	EffectProfitMPMax	①MP上限变动时，会连带影响当前MP　　　　　　　　　　②原则上，不独立使用MP减益表现	属性加成值(float)　　　　　　　　　　ProfitPercent　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用	属性附加值(int)　　　　　　　　　　ProfitValue　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝原则上不使用			
+#500102000	EffectProfitMPMax						
+500102001	EffectProfitMPMax	法力值上限[﹢1%]	0.01	0			
+501102001	EffectProfitMPMax	法力值上限[﹣1%]	-0.01	0			
+#004	EffectSuckBlood	①治疗初值＝伤害值	治疗加成值(float)　　　　　　　　　　healPercent　　　　　　　　　　原则上不使用负值	治疗附加值(int)　　　　　　　　　　healValue　　　　　　　　　　原则上不使用负值			
+#500004000	EffectSuckBlood						
+500004001	EffectSuckBlood	造成[伤害×1%]点吸血	0.01	0			
+#008	EffectHealMP	①治疗初值＝目标HP上限	治疗加成值(float)　　　　　　　　　　healPercent	治疗附加值(int)　　　　　　　　　　healValue			
+#500008000	EffectHealMP						
+500008001	EffectHealMP	造成[法力值上限×1%]点MP治疗	0.01	0			
+501008001	EffectHealMP	造成[法力值上限×-1%]点MP治疗	-0.01	0			
+#003	EffectHealHP	①治疗初值＝目标HP上限	治疗加成值(float)　　　　　　　　　　healPercent	治疗附加值(int)　　　　　　　　　　healValue			
+#500003000	EffectHealHP						
+500003001	EffectHealHP	造成[生命值上限×1%]点HP治疗	0.01	0			
+501003001	EffectHealHP	造成[生命值上限×-1%]点HP治疗	-0.01	0			
+#203	EffectSuperBody		状态改变类型(int)　　　　　　　　　　0＝失去状态　　　　　　　　　　1＝获得状态				
+#500203000	EffectSuperBody						
+500203001	EffectSuperBody	获得[霸体]	1				
+501203001	EffectSuperBody	失去[霸体]	0				
+#201	EffectInvincible		状态改变类型(int)　　　　　　　　　　0＝失去状态　　　　　　　　　　1＝获得状态				
+#500201000	EffectInvincible						
+500201001	EffectInvincible	获得[无敌]	1				
+501201001	EffectInvincible	失去[无敌]	0				
+#109	EffectProfitMoveSpeed		属性加成值(float)　　　　　　　　　　ProfitPercent　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝减少属性	属性附加值(int)　　　　　　　　　　ProfitValue　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝减少属性			
+#500109000	EffectProfitMoveSpeed						
+500109001	EffectProfitMoveSpeed	移动速度[﹢1%]	0.01	0			
+501109001	EffectProfitMoveSpeed	移动速度[﹣1%]	-0.01	0			
+#104	EffectProfitDEF	①物理、法术防御力联动	防御性质类型(int)　　　　　　　　　　damageType　　　　　　　　　　0＝物理防御　　　　　　　　　　1＝法术防御                　　　　　　负值＝减少属性	 属性加成值(float)　　　　　　　　　　ProfitPercent　　　　　　　　　　正值＝增加属性　　　　	属性附加值(int)　　　　　　　　　　ProfitValue　　　　　　　　　　正值＝增加属性　　　　　　　　　　负值＝减少属性		
+#500104000	EffectProfitDEF						
+500104001	EffectProfitDEF	物理防御力[﹢1%]	0	0.01	0		
+501104001	EffectProfitDEF	物理防御力[﹣1%]	0	-0.01	0		
+501104101	EffectProfitDEF	法术防御力[﹢1%]	1	0.01	0		
+501104201	EffectProfitDEF	法术防御力[﹣1%]	1	-0.01	0		
+#301	EffectFlash		闪现距离（float）				
+#500301000	EffectFlash						
+500301001	EffectFlash	闪现	6				
+500301002	EffectInterruptBuff	中断盾buff	555000				
+500301003	EffectLighting	爆炸光效	Model/GlobalScale/root_CtrCurve/	LightningHit	电流-命中	TRUE	
+123459	EffectDynamicDamage	造成[物攻×20%]点物理伤害	0	0.2	9999999		

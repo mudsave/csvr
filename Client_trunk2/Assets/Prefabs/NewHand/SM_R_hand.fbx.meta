@@ -1,0 +1,141 @@
+fileFormatVersion: 2
+guid: d9ecce4c58856ae4e8529b508720ae8f
+timeCreated: 1488506657
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: polySurface4
+    100004: transform1
+    100006: Bone003(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    100008: Bone003(mirrored)(mirrored)(mirrored)(mirrored)L
+    100010: Bone003(mirrored)(mirrored)(mirrored)L
+    100012: Bone003(mirrored)(mirrored)L
+    100014: Bone003(mirrored)L
+    100016: Bone004(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    100018: Bone004(mirrored)(mirrored)(mirrored)(mirrored)L
+    100020: Bone004(mirrored)(mirrored)(mirrored)L
+    100022: Bone004(mirrored)(mirrored)L
+    100024: Bone004(mirrored)L
+    100026: Bone005(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    100028: Bone005(mirrored)(mirrored)(mirrored)(mirrored)L
+    100030: Bone005(mirrored)(mirrored)(mirrored)L
+    100032: Bone005(mirrored)(mirrored)L
+    100034: Bone005(mirrored)L
+    100036: R_Forearm
+    100038: R_Hand
+    100040: SM_R_hand
+    100042: Bone003
+    100044: Bone003(mirrored)
+    100046: Bone003(mirrored)(mirrored)(mirrored)
+    100048: Bone004
+    100050: Bone004(mirrored)
+    100052: Bone004(mirrored)(mirrored)(mirrored)
+    100054: Bone005(mirrored)
+    100056: Bone005(mirrored)(mirrored)(mirrored)
+    100058: L_Forearm
+    100060: L_Hand
+    400000: //RootNode
+    400002: polySurface4
+    400004: transform1
+    400006: Bone003(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    400008: Bone003(mirrored)(mirrored)(mirrored)(mirrored)L
+    400010: Bone003(mirrored)(mirrored)(mirrored)L
+    400012: Bone003(mirrored)(mirrored)L
+    400014: Bone003(mirrored)L
+    400016: Bone004(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    400018: Bone004(mirrored)(mirrored)(mirrored)(mirrored)L
+    400020: Bone004(mirrored)(mirrored)(mirrored)L
+    400022: Bone004(mirrored)(mirrored)L
+    400024: Bone004(mirrored)L
+    400026: Bone005(mirrored)(mirrored)(mirrored)(mirrored)(mirrored)L
+    400028: Bone005(mirrored)(mirrored)(mirrored)(mirrored)L
+    400030: Bone005(mirrored)(mirrored)(mirrored)L
+    400032: Bone005(mirrored)(mirrored)L
+    400034: Bone005(mirrored)L
+    400036: R_Forearm
+    400038: R_Hand
+    400040: SM_R_hand
+    400042: Bone003
+    400044: Bone003(mirrored)
+    400046: Bone003(mirrored)(mirrored)(mirrored)
+    400048: Bone004
+    400050: Bone004(mirrored)
+    400052: Bone004(mirrored)(mirrored)(mirrored)
+    400054: Bone005(mirrored)
+    400056: Bone005(mirrored)(mirrored)(mirrored)
+    400058: L_Forearm
+    400060: L_Hand
+    2300000: //RootNode
+    2300002: polySurface4
+    3300000: //RootNode
+    3300002: polySurface4
+    4300000: SM_R_hand
+    4300002: polySurface4
+    9500000: //RootNode
+    13700000: SM_R_hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 3
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

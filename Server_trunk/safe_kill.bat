@@ -1,0 +1,1 @@
+C:\Python34\python .\kbe\tools\server\pycluster\cluster_controller.py shutdown

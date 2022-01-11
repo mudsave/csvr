@@ -1,0 +1,106 @@
+<root>
+	<template>							<!--	初始化时	-->
+		<id>							INT32									</id>
+		<className>						None									</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+	</template>	
+	
+	<template>							<!--	标准Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffSimple								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	弹道打击Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffBullet								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION_BUFFBULLET				</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE_BUFFBULLET			</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_BUFFBULLET				</combatFunction>
+	</template>
+	
+	<template>							<!--	推Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffPush								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION_BUFFPUSH				</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	召唤Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffSummon								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_SUMMON					</combatFunction>
+	</template>
+
+	<template>							<!--	冰冻Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffFrozen								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	盾buff	-->
+		<id>							INT32									</id>
+		<className>						BuffShield								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION_BUFFBULLET				</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE_BUFFSHIELD			</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_BUFFSHIELD				</combatFunction>
+	</template>
+	
+	<template>							<!--	闪电链Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffLightning							</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_BUFFLIGHTNING			</combatFunction>
+	</template>
+	
+	<template>							<!--	次元门吸收buff	-->
+		<id>							INT32									</id>
+		<className>						BuffAbsorb								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	盾击Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffShieldHit							</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION_BUFFPUSH				</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	冰霜减速Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffFrost								</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	冰霜地面Buff	-->
+		<id>							INT32									</id>
+		<className>						BuffFrostOnGround						</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+</root>

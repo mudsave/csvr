@@ -1,0 +1,36 @@
+<root>
+	<id>333333</id>
+	<className>BuffSummon</className>
+	<generalPerformance>
+		<name>召唤</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>20</stayTime>
+		<tickTime>0</tickTime>
+		<interruptCode></interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<entityID>1000000</entityID>
+		<entityEffect></entityEffect>
+		<castFailEffect></castFailEffect>
+		<battlecryEffect></battlecryEffect>
+		<attachEffect></attachEffect>
+		<tickEffect></tickEffect>
+		<interruptEffect></interruptEffect>
+		<detachEffect></detachEffect>
+	</combatFunction>
+</root>

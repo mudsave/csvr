@@ -1,0 +1,125 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000011284394124}
+  m_IsPrefabParent: 1
+--- !u!1 &1000011284394124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 4000011359782144}
+  - 114: {fileID: 114000012673433780}
+  m_Layer: 0
+  m_Name: effectManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011359782144
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011284394124}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.747493, y: -46.84483, z: -28.043087}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &114000012673433780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000011284394124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7be5a22481da60f44a909a708ebb74a5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_effects:
+  - effectName: fire
+    effectType: 0
+    effectPrefabs: {fileID: 1000011649493492, guid: b95e603465264e84db376b8596dae217,
+      type: 2}
+  - effectName: leidian
+    effectType: 0
+    effectPrefabs: {fileID: 1000011159534938, guid: be5f27e2a1efad44fbe9d31cba84142d,
+      type: 2}
+  - effectName: xuanyun
+    effectType: 0
+    effectPrefabs: {fileID: 107876, guid: 7e288e6629d738c478c1c49f19baaf58, type: 2}
+  - effectName: duwu
+    effectType: 0
+    effectPrefabs: {fileID: 100000, guid: 7f77b17b22efc3949894363a06ddafd2, type: 2}
+  - effectName: dici
+    effectType: 0
+    effectPrefabs: {fileID: 100012, guid: 8d31bf4e6c88d7d42a9a99bb05c31eb0, type: 2}
+  - effectName: shachen
+    effectType: 0
+    effectPrefabs: {fileID: 100004, guid: 1e827535d9b54424fa5b5a293ee6ac3d, type: 2}
+  - effectName: qungong
+    effectType: 0
+    effectPrefabs: {fileID: 1000012734990492, guid: d4493412ab67c194a8bdcec0015af2e6,
+      type: 2}
+  - effectName: baozha
+    effectType: 0
+    effectPrefabs: {fileID: 1000013717395774, guid: 541895dd6896ec34991f813d8182d56b,
+      type: 2}
+  - effectName: bingqiu
+    effectType: 0
+    effectPrefabs: {fileID: 1000012395482392, guid: c9ea5db88b601aa459f3b06aefa74e9e,
+      type: 2}
+  - effectName: bingbao
+    effectType: 0
+    effectPrefabs: {fileID: 1000012209359574, guid: eae41632bc5a111488f35dbee34ba911,
+      type: 2}
+  - effectName: huoweapon
+    effectType: 0
+    effectPrefabs: {fileID: 1000012681056482, guid: dae48b3433765ed4d88b556be1f4e40a,
+      type: 2}
+  - effectName: zaohuanzhen
+    effectType: 0
+    effectPrefabs: {fileID: 141798, guid: cadbe7a3c314d614face170f221c9296, type: 2}
+  - effectName: bingweapon
+    effectType: 0
+    effectPrefabs: {fileID: 1000010824088252, guid: 78716d35ea95d244f81b3a24d002ba21,
+      type: 2}
+  - effectName: dianweapon
+    effectType: 0
+    effectPrefabs: {fileID: 1000013632745808, guid: ce468cac374ebb64da3d4b965fc4d982,
+      type: 2}
+  - effectName: huikan
+    effectType: 0
+    effectPrefabs: {fileID: 100176, guid: 27b4fc6da228efa428cddabe52032fdd, type: 2}
+  - effectName: shangtiao
+    effectType: 0
+    effectPrefabs: {fileID: 100176, guid: 0d708a76bb76071499e0af670a77c383, type: 2}
+  - effectName: zaohuanweapon
+    effectType: 0
+    effectPrefabs: {fileID: 1000010562868790, guid: 4fca96dbdcf72e94bbbff99d3278983d,
+      type: 2}
+  - effectName: lvseweapon
+    effectType: 0
+    effectPrefabs: {fileID: 1000010516116624, guid: 960085231a9ef154cb0296bb427ec509,
+      type: 2}
+  - effectName: chusheng
+    effectType: 0
+    effectPrefabs: {fileID: 100000, guid: 1726d872952ba254fbe1177b32c9de0a, type: 2}
+  - effectName: sf_xuanfeng_feng
+    effectType: 0
+    effectPrefabs: {fileID: 100010, guid: 61d60453646f96a478e1c41f46a44f88, type: 2}

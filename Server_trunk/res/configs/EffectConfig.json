@@ -1,0 +1,367 @@
+{
+    "duwu": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/attack_shamojuchong_head",
+        "ruleType": 3,
+        "name": "duwu",
+        "alias": "duwu",
+        "type": 0
+    },
+    "dianweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/dian",
+        "ruleType": 2,
+        "name": "dianweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "fireballTailing": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/fireballTailing",
+        "ruleType": 0,
+        "name": "fireballTailing",
+        "alias": "fireballTailing",
+        "type": 0
+    },
+    "shield": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/dun03",
+        "ruleType": 0,
+        "name": "shield",
+        "alias": "shield",
+        "type": 0
+    },
+    "bingweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/bing",
+        "ruleType": 2,
+        "name": "bingweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "shangtiao": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/112001003_sf_p1",
+        "ruleType": 3,
+        "name": "shangtiao",
+        "alias": "shangtiao",
+        "type": 0
+    },
+    "dici": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/skill_shachendici_flow",
+        "ruleType": 3,
+        "name": "dici",
+        "alias": "dici",
+        "type": 0
+    },
+    "zaohuanzhen": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/Prefabs/500108001",
+        "ruleType": 1,
+        "name": "zaohuanzhen",
+        "alias": "zaohuanzhen",
+        "type": 0
+    },
+    "huikan": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/112001002_sf_p1",
+        "ruleType": 3,
+        "name": "huikan",
+        "alias": "huikan",
+        "type": 0
+    },
+    "huoweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/huo 1",
+        "ruleType": 2,
+        "name": "huoweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "LightningHit": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/shandianjizhong02",
+        "ruleType": 0,
+        "name": "LightningHit",
+        "alias": "LightningHit",
+        "type": 0
+    },
+    "blackhole": {
+        "lastTime": 9.0,
+        "args": [],
+        "path": "Effects/Portal/Prefabs/blackhole",
+        "ruleType": 0,
+        "name": "blackhole",
+        "alias": "blackhole",
+        "type": 0
+    },
+    "shachen": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/public/public_shamojingchong_shachen_buff",
+        "ruleType": 1,
+        "name": "shachen",
+        "alias": "shachen",
+        "type": 0
+    },
+    "LuminousEffect": {
+        "lastTime": 0.0,
+        "args": [
+            [
+                1,
+                0.934,
+                0.875,
+                1
+            ],
+            [
+                1,
+                0.79,
+                0.103,
+                1
+            ],
+            0.5
+        ],
+        "path": "",
+        "ruleType": 2,
+        "name": "LuminousEffect",
+        "alias": "modelEffect",
+        "type": 2
+    },
+    "bingqiu": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/bingqiu",
+        "ruleType": 0,
+        "name": "bingqiu",
+        "alias": "bingqiu",
+        "type": 0
+    },
+    "xuli01": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/xuli01",
+        "ruleType": 0,
+        "name": "xuli01",
+        "alias": "xuli01",
+        "type": 0
+    },
+    "xuli02": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/xuli02",
+        "ruleType": 0,
+        "name": "xuli02",
+        "alias": "xuli02",
+        "type": 0
+    },
+    "bingbao": {
+        "lastTime": 1.5,
+        "args": [],
+        "path": "Effects/prefabs/skill/baodian",
+        "ruleType": 0,
+        "name": "bingbao",
+        "alias": "bingbao",
+        "type": 0
+    },
+    "FrozenEffect": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "",
+        "ruleType": 2,
+        "name": "FrozenEffect",
+        "alias": "modelEffect",
+        "type": 1
+    },
+    "fireball": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/fireballLasting",
+        "ruleType": 0,
+        "name": "fireball",
+        "alias": "fireball",
+        "type": 0
+    },
+    "baozha": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huobao04",
+        "ruleType": 0,
+        "name": "baozha",
+        "alias": "baozha",
+        "type": 0
+    },
+    "LightningHand": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/jineng/shandianjian/shandianjian",
+        "ruleType": 0,
+        "name": "LightningHand",
+        "alias": "LightningHand",
+        "type": 0
+    },
+    "lvseweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/li",
+        "ruleType": 2,
+        "name": "lvseweapon",
+        "alias": "lvseweapon",
+        "type": 0
+    },
+    "zaohuanweapon": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/weapon/hongse",
+        "ruleType": 2,
+        "name": "zaohuanweapon",
+        "alias": "weapon",
+        "type": 0
+    },
+    "shieldhit": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/dunhit",
+        "ruleType": 0,
+        "name": "shieldhit",
+        "alias": "shieldhit",
+        "type": 0
+    },
+    "shieldxiaoshi": {
+        "lastTime": 0.8,
+        "args": [],
+        "path": "Effects/prefabs/skill/dunxiaoshi",
+        "ruleType": 0,
+        "name": "shieldxiaoshi",
+        "alias": "shieldxiaoshi",
+        "type": 0
+    },
+    "qungong": {
+        "lastTime": 2.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/baozha",
+        "ruleType": 0,
+        "name": "qungong",
+        "alias": "qungong",
+        "type": 0
+    },
+    "chusheng": {
+        "lastTime": 1.0,
+        "args": [],
+        "path": "Effects/Prefabs/chusheng",
+        "ruleType": 1,
+        "name": "chusheng",
+        "alias": "chusheng",
+        "type": 0
+    },
+    "shield2": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/dunpai",
+        "ruleType": 0,
+        "name": "shield2",
+        "alias": "shield2",
+        "type": 0
+    },
+    "fire03": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu03",
+        "ruleType": 0,
+        "name": "fire03",
+        "alias": "fire03",
+        "type": 0
+    },
+    "LightningHand02": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/LightningHand",
+        "ruleType": 0,
+        "name": "LightningHand02",
+        "alias": "LightningHand02",
+        "type": 0
+    },
+    "leidian": {
+        "lastTime": 2.5,
+        "args": [],
+        "path": "Effects/prefabs/skill/dianbao",
+        "ruleType": 0,
+        "name": "leidian",
+        "alias": "leidian",
+        "type": 0
+    },
+    "fire02": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu02",
+        "ruleType": 0,
+        "name": "fire02",
+        "alias": "fire02",
+        "type": 0
+    },
+    "LightningHitEmpty": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/jineng/shandianjizhong/LightningHitEmpty",
+        "ruleType": 0,
+        "name": "LightningHitEmpty",
+        "alias": "LightningHitEmpty",
+        "type": 0
+    },
+    "xuanyun": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/jineng/500201001",
+        "ruleType": 1,
+        "name": "xuanyun",
+        "alias": "xuanyun",
+        "type": 0
+    },
+    "Lightning": {
+        "lastTime": 0.5,
+        "args": [],
+        "path": "Effects/prefabs/jineng/Lighting",
+        "ruleType": 0,
+        "name": "Lightning",
+        "alias": "Lightning",
+        "type": 0
+    },
+    "WarpEffect": {
+        "lastTime": 5.0,
+        "args": [
+            [
+                10,
+                0.5,
+                0,
+                0
+            ],
+            0.003,
+            0
+        ],
+        "path": "",
+        "ruleType": 2,
+        "name": "WarpEffect",
+        "alias": "WarpEffect",
+        "type": 3
+    },
+    "fire01": {
+        "lastTime": 0.0,
+        "args": [],
+        "path": "Effects/prefabs/skill/huoqiu01",
+        "ruleType": 0,
+        "name": "fire01",
+        "alias": "fire01",
+        "type": 0
+    }
+}

@@ -1,0 +1,52 @@
+<root>
+	<template>							<!--	初始化默认空技能	-->
+		<id>							INT32									</id>
+		<className>						None									</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+	</template>
+		
+	<template>							<!--	时间触发主动技能	-->
+		<id>							INT32									</id>
+		<className>						SpellExCurveFightRelySer				</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>							<describe>【标准技能】分割线</describe>
+	
+	<template>							<!--	基于位置触发效果的玩家技能类型	-->
+		<id>							INT32									</id>
+		<className>						PlayerSpellExToPos				        </className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				CASTER_ANIMATION_PLAYER					</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>	
+	
+	<template>							<!--	NPC客户端碰撞触发效果的技能类型	-->
+		<id>							INT32									</id>
+		<className>						SpellExCollider							</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_COLLIDER				</combatFunction>
+	</template>
+
+	<template>							<!--	闪电链技能	-->
+		<id>							INT32									</id>
+		<className>						SpellExLightning						</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_LIGHTNING				</combatFunction>
+	</template>
+	
+	<template>							<!--	时间触发单机技能	-->
+		<id>							INT32									</id>
+		<className>						SpellExFightWithTime				    </className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>	
+</root>

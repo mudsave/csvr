@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: pm0123_01
+  m_Shader: {fileID: 4800000, guid: 0deb97acae014934eb11941484a38fb6, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+    - first:
+        name: _BumpMap
+      second:
+        m_Texture: {fileID: 2800000, guid: 9d559639f1fd02d49bc5f3ad1890e18b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _Cube
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _LightMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _MainTex
+      second:
+        m_Texture: {fileID: 2800000, guid: 1ca17ecb895b1d840a2a7579013e686a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _ParallaxMap
+      second:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_295
+      second:
+        m_Texture: {fileID: 2800000, guid: 212cf183c95adf4489ab5c3dc809de40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2_copy
+      second:
+        m_Texture: {fileID: 2800000, guid: 8d7dbdc5a11f28e4f8d7bc94087b3b40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_2_copy_copy
+      second:
+        m_Texture: {fileID: 2800000, guid: 212cf183c95adf4489ab5c3dc809de40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - first:
+        name: _node_79
+      second:
+        m_Texture: {fileID: 2800000, guid: 8d7dbdc5a11f28e4f8d7bc94087b3b40, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - first:
+        name: PixelSnap
+      second: 0
+    - first:
+        name: _BumpAmt
+      second: 10
+    - first:
+        name: _InvFade
+      second: 1
+    - first:
+        name: _Parallax
+      second: 0.02
+    - first:
+        name: _node_14
+      second: 3
+    - first:
+        name: _node_14_copy
+      second: 1
+    - first:
+        name: _node_297
+      second: 3
+    - first:
+        name: _node_303
+      second: 0.5
+    - first:
+        name: _node_362
+      second: 0.1
+    - first:
+        name: _node_81
+      second: 10
+    m_Colors:
+    - first:
+        name: _Color
+      second: {r: 1, g: 1, b: 1, a: 1}
+    - first:
+        name: _ReflectColor
+      second: {r: 1, g: 1, b: 1, a: 0.5}
+    - first:
+        name: _TintColor
+      second: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 0.5176471}
+    - first:
+        name: _node_300
+      second: {r: 0.06617647, g: 0.03016869, b: 0.03016869, a: 1}
+    - first:
+        name: _node_301
+      second: {r: 1, g: 0.1448276, b: 0, a: 1}
+    - first:
+        name: _node_306
+      second: {r: 1, g: 0.8068966, b: 0, a: 1}
+    - first:
+        name: _node_5_copy
+      second: {r: 0.6102941, g: 0.13468558, b: 0.10321149, a: 1}
+    - first:
+        name: _node_5_copy_copy
+      second: {r: 0, g: 0, b: 0, a: 1}
+    - first:
+        name: _node_71
+      second: {r: 0, g: 0, b: 0, a: 1}

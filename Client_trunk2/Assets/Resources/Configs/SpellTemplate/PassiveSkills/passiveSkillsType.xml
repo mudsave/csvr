@@ -1,0 +1,26 @@
+<root>
+	<template>							<!--	初始化时默认	-->
+		<id>							INT32									</id>
+		<className>						None									</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+	</template>
+	
+	<template>							<!--	标准被动技能	-->
+		<id>							INT32									</id>
+		<className>						PassiveSkillSimple						</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION							</combatFunction>
+	</template>
+	
+	<template>							<!--	打击点被动技能	-->
+		<id>							INT32									</id>
+		<className>						PassiveSkillRange						</className>
+		<generalPerformance>			GENERAL_PERFORMANCE						</generalPerformance>
+		<generalFunction>				GENERAL_FUNCTION						</generalFunction>
+		<combatPerformance>				COMBAT_PERFORMANCE						</combatPerformance>
+		<combatFunction>				COMBAT_FUNCTION_RANGE					</combatFunction>
+	</template>							<describe>【标准被动】分割线</describe>
+	
+</root>

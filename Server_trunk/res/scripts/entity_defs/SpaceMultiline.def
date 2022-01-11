@@ -1,0 +1,17 @@
+<root>
+	<Parent>	Space	</Parent>
+
+	<Properties>
+		<lineNumber>
+			<Type>			INT8			</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</lineNumber>
+
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+</root>

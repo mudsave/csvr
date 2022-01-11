@@ -1,0 +1,191 @@
+{
+    "39200403": {
+        "recordOnLeave": 0,
+        "navFlags": 1,
+        "loginAction": 1,
+        "birthPoint": 3000002,
+        "mappingPath": "feng_sha_tan_01Navmesh/",
+        "relatedID": 0,
+        "music": "fm_city",
+        "initLine": 0,
+        "campMap": [
+            [
+                0,
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                1,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                0
+            ]
+        ],
+        "campIDForPlayerEnter": 1,
+        "disableReviveType": [0],
+        "maxPlayer": 1,
+        "clientPath": "feng_sha_tan_01",
+        "enterPos": 3000002,
+        "dataType": "QianNengSpaceData",
+        "newLineByPlayerAmount": 0,
+        "eMetaClass": "39200403",
+        "rewardID": 0,
+        "finishCondition": {},
+        "maxLine": 0,
+        "canModifyPKMode": 0,
+        "enterCondition": {},
+        "name": "风煞坛",
+        "aoi": 120.0,
+        "autoCloseDelay": 0,
+        "isNormalPKRule": 0,
+        "loadOnStart": 0,
+        "autoClose": 1
+    },
+    "30200008": {
+        "recordOnLeave": 0,
+        "navFlags": 1,
+        "loginAction": 1,
+        "birthPoint": 3000008,
+        "mappingPath": "Feng_MingNavmesh/",
+        "relatedID": 0,
+        "music": "fm_city",
+        "initLine": 0,
+        "campMap": [
+            [
+                0,
+                1,
+                1,
+                2,
+                2,
+                1
+            ],
+            [
+                1,
+                0,
+                2,
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                2,
+                0,
+                1,
+                2,
+                2
+            ],
+            [
+                2,
+                1,
+                1,
+                0,
+                1,
+                2
+            ],
+            [
+                2,
+                2,
+                2,
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                2,
+                2,
+                2,
+                2,
+                0
+            ]
+        ],
+        "campIDForPlayerEnter": 1,
+        "disableReviveType": [0],
+        "maxPlayer": 1,
+        "clientPath": "Feng_Ming",
+        "enterPos": 3000008,
+        "dataType": "QianNengSpaceData",
+        "newLineByPlayerAmount": 0,
+        "eMetaClass": "30200008",
+        "rewardID": 0,
+        "finishCondition": {},
+        "maxLine": 0,
+        "canModifyPKMode": 0,
+        "enterCondition": {},
+        "name": "凤鸣",
+        "aoi": 500.0,
+        "autoCloseDelay": 0,
+        "isNormalPKRule": 0,
+        "loadOnStart": 0,
+        "autoClose": 1
+    },
+    "30200002": {
+        "recordOnLeave": 0,
+        "navFlags": 1,
+        "loginAction": 1,
+        "birthPoint": 3000003,
+        "mappingPath": "ji_jian_tai_A3Navmesh/",
+        "relatedID": 0,
+        "music": "fm_city",
+        "initLine": 0,
+        "campMap": [
+            [
+                0,
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                1,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                0
+            ]
+        ],
+        "campIDForPlayerEnter": 1,
+        "disableReviveType": [0],
+        "maxPlayer": 1,
+        "clientPath": "ji_jian_tai_A3",
+        "enterPos": 3000003,
+        "dataType": "QianNengSpaceData",
+        "newLineByPlayerAmount": 0,
+        "eMetaClass": "30200002",
+        "rewardID": 0,
+        "finishCondition": {},
+        "maxLine": 0,
+        "canModifyPKMode": 0,
+        "enterCondition": {},
+        "name": "祭剑台",
+        "aoi": 500.0,
+        "autoCloseDelay": 0,
+        "isNormalPKRule": 0,
+        "loadOnStart": 0,
+        "autoClose": 1
+    }
+}

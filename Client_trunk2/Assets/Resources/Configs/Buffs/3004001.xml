@@ -1,0 +1,34 @@
+<root>
+	<id>3004001</id>
+	<className>BuffFrost</className>
+	<generalPerformance>
+		<name>冰霜减速</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>3</stayTime>
+		<tickTime>0</tickTime>
+		<interruptCode>3004001</interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<castFailEffect></castFailEffect>
+		<battlecryEffect></battlecryEffect>
+		<attachEffect></attachEffect>
+		<tickEffect></tickEffect>
+		<interruptEffect></interruptEffect>
+		<detachEffect></detachEffect>
+	</combatFunction>
+</root>

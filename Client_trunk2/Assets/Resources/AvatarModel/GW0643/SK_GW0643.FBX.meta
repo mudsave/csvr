@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: 35c1abf14eb82b24d8e78a8da991c576
+timeCreated: 1487563779
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: cloth1
+    100002: cloth2
+    100004: foot
+    100006: GlobalScale
+    100008: hair1
+    100010: hair2
+    100012: hair3
+    100014: hair4
+    100016: hand
+    100018: head
+    100020: head 1
+    100022: hips
+    100024: hips_CtrCurve
+    100026: kuijia
+    100028: left_ArmLocator
+    100030: left_Foot
+    100032: left_Hand
+    100034: left_hand
+    100036: left_LegLocator
+    100038: left_weapon_control
+    100040: leftArm
+    100042: leftArm_CtrCurve
+    100044: leftArm_CtrCurveGroup
+    100046: leftArmHandle
+    100048: leftFoot
+    100050: leftFootIkHandle1
+    100052: leftFootIndex1
+    100054: leftForeArm
+    100056: leftForeArm_CtrCurve
+    100058: leftForeArm_CtrCurveGroup
+    100060: leftForeArmRoll
+    100062: leftHand
+    100064: leftHand_CtrCurve
+    100066: leftHand_CtrCurveGroup
+    100068: leftHandMiddle1
+    100070: leftHandMiddle2
+    100072: leftHandThumb1
+    100074: leftHandThumb2
+    100076: leftLeg
+    100078: leftLegHandle1
+    100080: leftShoulder
+    100082: leftUpLeg
+    100084: lift_Lgroup
+    100086: lift_Rgroup
+    100088: neck
+    100090: right_ArmLocator
+    100092: right_Foot
+    100094: right_Hand
+    100096: right_hand
+    100098: right_LegLocator
+    100100: rightArm
+    100102: rightArm_CtrCurve
+    100104: rightArm_CtrCurveGroup
+    100106: rightArmHandle
+    100108: rightFoot
+    100110: rightFootIkHandle1
+    100112: rightFootIndex1
+    100114: rightForeArm
+    100116: rightForeArm_CtrCurve
+    100118: rightForeArm_CtrCurveGroup
+    100120: rightForeArmRoll
+    100122: rightHand
+    100124: rightHand_CtrCurve
+    100126: rightHand_CtrCurveGroup
+    100128: rightHandMiddle1
+    100130: rightHandMiddle2
+    100132: rightHandThumb1
+    100134: rightHandThumb2
+    100136: rightLeg
+    100138: rightLegHandle1
+    100140: rightShoulder
+    100142: rightUpLeg
+    100144: root
+    100146: root_CtrCurve
+    100148: //RootNode
+    100150: SM_S01_007
+    100152: spine
+    100154: spine01_CtrCurve
+    100156: spine02_CtrCurve
+    100158: spine1
+    100160: spine2
+    100162: spine3
+    100164: spine_CtrCurve
+    100166: toe_Lgroup
+    100168: toe_Rgroup
+    100170: yifu
+    100172: dao
+    400000: cloth1
+    400002: cloth2
+    400004: foot
+    400006: GlobalScale
+    400008: hair1
+    400010: hair2
+    400012: hair3
+    400014: hair4
+    400016: hand
+    400018: head
+    400020: head 1
+    400022: hips
+    400024: hips_CtrCurve
+    400026: kuijia
+    400028: left_ArmLocator
+    400030: left_Foot
+    400032: left_Hand
+    400034: left_hand
+    400036: left_LegLocator
+    400038: left_weapon_control
+    400040: leftArm
+    400042: leftArm_CtrCurve
+    400044: leftArm_CtrCurveGroup
+    400046: leftArmHandle
+    400048: leftFoot
+    400050: leftFootIkHandle1
+    400052: leftFootIndex1
+    400054: leftForeArm
+    400056: leftForeArm_CtrCurve
+    400058: leftForeArm_CtrCurveGroup
+    400060: leftForeArmRoll
+    400062: leftHand
+    400064: leftHand_CtrCurve
+    400066: leftHand_CtrCurveGroup
+    400068: leftHandMiddle1
+    400070: leftHandMiddle2
+    400072: leftHandThumb1
+    400074: leftHandThumb2
+    400076: leftLeg
+    400078: leftLegHandle1
+    400080: leftShoulder
+    400082: leftUpLeg
+    400084: lift_Lgroup
+    400086: lift_Rgroup
+    400088: neck
+    400090: right_ArmLocator
+    400092: right_Foot
+    400094: right_Hand
+    400096: right_hand
+    400098: right_LegLocator
+    400100: rightArm
+    400102: rightArm_CtrCurve
+    400104: rightArm_CtrCurveGroup
+    400106: rightArmHandle
+    400108: rightFoot
+    400110: rightFootIkHandle1
+    400112: rightFootIndex1
+    400114: rightForeArm
+    400116: rightForeArm_CtrCurve
+    400118: rightForeArm_CtrCurveGroup
+    400120: rightForeArmRoll
+    400122: rightHand
+    400124: rightHand_CtrCurve
+    400126: rightHand_CtrCurveGroup
+    400128: rightHandMiddle1
+    400130: rightHandMiddle2
+    400132: rightHandThumb1
+    400134: rightHandThumb2
+    400136: rightLeg
+    400138: rightLegHandle1
+    400140: rightShoulder
+    400142: rightUpLeg
+    400144: root
+    400146: root_CtrCurve
+    400148: //RootNode
+    400150: SM_S01_007
+    400152: spine
+    400154: spine01_CtrCurve
+    400156: spine02_CtrCurve
+    400158: spine1
+    400160: spine2
+    400162: spine3
+    400164: spine_CtrCurve
+    400166: toe_Lgroup
+    400168: toe_Rgroup
+    400170: yifu
+    400172: dao
+    4300000: head
+    4300002: foot
+    4300004: yifu
+    4300006: hand
+    4300008: kuijia
+    4300010: dao
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: foot
+    13700002: hand
+    13700004: head
+    13700006: kuijia
+    13700008: yifu
+    13700010: dao
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 0
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

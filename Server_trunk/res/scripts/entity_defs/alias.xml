@@ -1,0 +1,132 @@
+<root>
+	<OBJECT_ID>			INT32		</OBJECT_ID>
+	<BOOL>				UINT8		</BOOL>
+	<CONTROLLER_ID>		INT32		</CONTROLLER_ID>
+	<EXPERIENCE>		UINT64		</EXPERIENCE>
+	<ITEM_ID>			INT32		</ITEM_ID>
+	<SPELLID>			INT32		</SPELLID>
+	<TIMER_ID>			INT32		</TIMER_ID>
+	<DBID>				UINT64		</DBID>
+	<UID>				UINT64		</UID>
+	<ENTITY_ID>			INT32		</ENTITY_ID>
+	<SPACE_ID>			UINT32		</SPACE_ID>
+	<POSITION>			VECTOR3		</POSITION>
+	<DIRECTION>			VECTOR3		</DIRECTION>
+	<ENTITY_UTYPE>		UINT32		</ENTITY_UTYPE>
+	<SPACE_IDENT>		STRING		</SPACE_IDENT>
+	<COOLDOWN_ID>		INT32		</COOLDOWN_ID>
+
+	<!-- 技能引用类型 -->
+	<SPELL_REF> FIXED_DICT
+		<implementedBy>	SpellRefDataType.instance	</implementedBy>
+		<Properties>
+			<spellID>    <Type> SPELLID   </Type> </spellID>    <!-- 技能唯一编号 -->
+		</Properties>
+	</SPELL_REF>
+	
+	<!-- 技能类型，用于存储技能施放时的动态数据 -->
+	<SPELL_DATA_TYPE> FIXED_DICT
+		<implementedBy>	SpellDataType.instance	</implementedBy>
+		<Properties>
+			<dataType>   <Type> INT8      </Type> </dataType>   <!-- 标识技能动态数据类型 -->
+			<spellID>    <Type> SPELLID   </Type> </spellID>    <!-- 技能唯一编号 -->
+			<targetID>   <Type> OBJECT_ID </Type> </targetID>   <!-- 施法目标的entity id（如果是对目标对象施放）-->
+			<posOrDir>   <Type> VECTOR3   </Type> </posOrDir>   <!-- 施法目标位置或朝向 -->
+			<misc>       <Type> BLOB      </Type> </misc>       <!-- 其它的杂项数据 -->
+		</Properties>
+	</SPELL_DATA_TYPE>
+
+	<PASSIVE_SKILL_GRID> FIXED_DICT
+		<!-- 被动技能格 -->
+		<Properties>
+			<index>    <Type> INT8     </Type> </index>    <!-- 唯一位置（索引） -->
+			<spellID>  <Type> SPELLID  </Type> </spellID>  <!-- 被动技能ID -->
+		</Properties>
+	</PASSIVE_SKILL_GRID>
+	
+	<PASSIVE_SKILL_BAG> FIXED_DICT
+		<!-- 被动技能包，用于记录所有被动触发的技能 -->
+		<implementedBy>	PassiveSkillBagDataType.instance	</implementedBy>
+		<Properties>
+			<items> <Type> ARRAY <of> PASSIVE_SKILL_GRID </of> </Type> </items>    <!-- 唯一位置（索引） -->
+		</Properties>
+	</PASSIVE_SKILL_BAG>
+
+	<BUFF_DATA_TYPE> FIXED_DICT
+		<implementedBy>	BuffDataType.instance	</implementedBy>
+		<Properties>
+			<index>     <Type> INT8      </Type> </index>      <!-- buff在管理器中的唯一位置 -->
+			<timerID>   <Type> TIMER_ID  </Type> </timerID>    <!-- 定时器id -->
+			<buffID>    <Type> SPELLID   </Type> </buffID>     <!-- 技能唯一编号 -->
+			<casterID>  <Type> OBJECT_ID </Type> </casterID>   <!-- 施法者entity id -->
+			<endTime>   <Type> DOUBLE    </Type> </endTime>    <!-- buff的结束时间 -->
+			<counter>   <Type> INT8      </Type> </counter>    <!-- 心跳计数器 -->
+			<saveType>  <Type> INT8      </Type> </saveType>    <!-- buff的下线保存类型 -->
+			<misc>      <Type> UNICODE   </Type> </misc>       <!-- 其它的杂项数据(json) -->
+		</Properties>
+	</BUFF_DATA_TYPE>
+	
+	<BUFF_MGR> FIXED_DICT
+		<implementedBy>	BuffMgrDataType.instance	</implementedBy>
+		<Properties> <!-- buff管理器，负责记录放在entity身上的buff -->
+			<items> <Type> ARRAY <of> BUFF_DATA_TYPE </of> </Type> </items> <!-- buff数据实例 -->
+		</Properties>
+	</BUFF_MGR>
+
+	<COOLDOWN_DATA_TYPE> FIXED_DICT
+		<Properties>
+			<cooldownID> <Type> COOLDOWN_ID </Type> </cooldownID> <!-- 定时器唯一编号 -->
+			<beginTime>  <Type> DOUBLE       </Type> </beginTime>  <!-- 开始时间 -->
+			<endTime>    <Type> DOUBLE       </Type> </endTime>    <!-- 结束时间；考虑：如果buff下线不计时，则保存的是剩余时间 -->
+		</Properties>
+	</COOLDOWN_DATA_TYPE>
+	
+	<COOLDOWN_MGR> FIXED_DICT
+		<implementedBy>	CooldownMgrDataType.instance	</implementedBy>
+		<Properties>
+			<cooldowns> <Type> ARRAY <of> COOLDOWN_DATA_TYPE </of> </Type> </cooldowns>
+		</Properties>
+	</COOLDOWN_MGR>
+
+	<!-- AI基础 -->
+	<AI_REF> FIXED_DICT
+		<implementedBy>	AIRefDataType.instance	</implementedBy>
+		<Properties>
+			<id> <Type> INT32 </Type> </id>
+		</Properties>
+	</AI_REF>
+
+	<!-- 用于存放乱七八糟的标准数据的数据类型 -->
+	<DATA_STREAM> FIXED_DICT
+		<implementedBy>	DataStreamDataType.instance	</implementedBy>
+		<Properties>
+			<datas>       <Type> BLOB      </Type> </datas>
+		</Properties>
+	</DATA_STREAM>
+
+	<!-- 敌人列表 -->
+	<ENEMY_LIST> FIXED_DICT
+		<implementedBy>	EnemyListDataType.instance	</implementedBy>
+		<Properties>
+			<items> <Type> ARRAY <of> INT32 </of> </Type> </items>    <!-- 敌人EntityID列表 -->
+		</Properties>
+	</ENEMY_LIST>
+
+	<!-- 任务单类 -->
+	<QUEST>	FIXED_DICT
+		<implementedBy>	QuestType.instance	</implementedBy>
+		<Properties>
+			<id>  <Type> INT32 </Type>  </id>
+			<status>	<Type>	INT16	</Type>	</status>
+			<target>	<Type> ARRAY <of> INT32 </of> </Type> </target>
+		</Properties>
+	</QUEST>
+		
+	<!-- 任务列表 -->
+	<QUESTLIST>	FIXED_DICT
+		<implementedBy>	QuestListType.instance	</implementedBy>
+		<Properties>
+			<items> <Type> ARRAY <of> QUEST </of> </Type> </items>
+		</Properties>
+	</QUESTLIST>	
+</root>

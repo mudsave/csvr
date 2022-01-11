@@ -1,0 +1,162 @@
+fileFormatVersion: 2
+guid: 016acca7f59566143a1fb21211e5a9dd
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: lan_gan_001_a
+    100004: lan_gan_001_b
+    100006: lan_gan_001_c
+    100008: lan_gan_001_d
+    100010: lan_gan_001_e
+    100012: lan_gan_001_f
+    100014: lan_gan_001_g
+    100016: lan_gan_001_a01
+    100018: lan_gan_001_a02
+    100020: lan_gan_001_b01
+    100022: lan_gan_001_c01
+    100024: lan_gan_001_c02
+    100026: lan_gan_001_d01
+    100028: lan_gan_001_d02
+    100030: lan_gan_001_d03
+    100032: lan_gan_001_d04
+    100034: lan_gan_001_e01
+    100036: lan_gan_001_e02
+    400000: //RootNode
+    400002: lan_gan_001_a
+    400004: lan_gan_001_b
+    400006: lan_gan_001_c
+    400008: lan_gan_001_d
+    400010: lan_gan_001_e
+    400012: lan_gan_001_f
+    400014: lan_gan_001_g
+    400016: lan_gan_001_a01
+    400018: lan_gan_001_a02
+    400020: lan_gan_001_b01
+    400022: lan_gan_001_c01
+    400024: lan_gan_001_c02
+    400026: lan_gan_001_d01
+    400028: lan_gan_001_d02
+    400030: lan_gan_001_d03
+    400032: lan_gan_001_d04
+    400034: lan_gan_001_e01
+    400036: lan_gan_001_e02
+    2300000: lan_gan_001_a
+    2300002: lan_gan_001_b
+    2300004: lan_gan_001_c
+    2300006: lan_gan_001_d
+    2300008: lan_gan_001_e
+    2300010: lan_gan_001_f
+    2300012: lan_gan_001_g
+    2300014: lan_gan_001_a01
+    2300016: lan_gan_001_a02
+    2300018: lan_gan_001_b01
+    2300020: lan_gan_001_c01
+    2300022: lan_gan_001_c02
+    2300024: lan_gan_001_d01
+    2300026: lan_gan_001_d02
+    2300028: lan_gan_001_d03
+    2300030: lan_gan_001_d04
+    2300032: lan_gan_001_e01
+    2300034: lan_gan_001_e02
+    3300000: lan_gan_001_a
+    3300002: lan_gan_001_b
+    3300004: lan_gan_001_c
+    3300006: lan_gan_001_d
+    3300008: lan_gan_001_e
+    3300010: lan_gan_001_f
+    3300012: lan_gan_001_g
+    3300014: lan_gan_001_a01
+    3300016: lan_gan_001_a02
+    3300018: lan_gan_001_b01
+    3300020: lan_gan_001_c01
+    3300022: lan_gan_001_c02
+    3300024: lan_gan_001_d01
+    3300026: lan_gan_001_d02
+    3300028: lan_gan_001_d03
+    3300030: lan_gan_001_d04
+    3300032: lan_gan_001_e01
+    3300034: lan_gan_001_e02
+    4300000: lan_gan_001_f
+    4300002: lan_gan_001_e
+    4300004: lan_gan_001_g
+    4300006: lan_gan_001_c
+    4300008: lan_gan_001_d
+    4300010: lan_gan_001_b
+    4300012: lan_gan_001_a
+    4300014: lan_gan_001_e01
+    4300016: lan_gan_001_d01
+    4300018: lan_gan_001_c01
+    4300020: lan_gan_001_b01
+    4300022: lan_gan_001_a02
+    4300024: lan_gan_001_a01
+    4300026: lan_gan_001_d03
+    4300028: lan_gan_001_d02
+    4300030: lan_gan_001_d04
+    4300032: lan_gan_001_e02
+    4300034: lan_gan_001_c02
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

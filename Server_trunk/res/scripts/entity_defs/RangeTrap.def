@@ -1,0 +1,57 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+		<Interface> GameObject </Interface>
+		<Interface> ObjectType </Interface>	
+	</Implements>
+
+	<Properties>
+		<name>  <!-- 用于显示的名字 -->
+			<Type>			UNICODE				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</name>
+
+		<triggerSize> <!-- 碰撞盒Size -->
+			<Type>			VECTOR3			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>				
+		</triggerSize>	
+
+		<triggerCenter> <!-- 碰撞盒Center -->
+			<Type>			VECTOR3			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>				
+		</triggerCenter>
+
+		<openTrap>	<!-- 是否开启陷阱 -->
+			<Type>			INT8			</Type>
+			<Flags>			ALL_CLIENTS		</Flags>
+			<Default>		1				</Default>
+		</openTrap>		
+	</Properties>
+
+	<ClientMethods>
+	</ClientMethods>	
+	
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnterTrap>
+			<Exposed/>
+			<Arg>	ENTITY_ID	</Arg>	<!--进入陷阱的entityID-->			
+		</onEnterTrap>	
+		
+		<onLeaveTrap>
+			<Exposed/>
+			<Arg>	ENTITY_ID	</Arg>	<!--离开陷阱的entityID-->			
+		</onLeaveTrap>			
+	</CellMethods>
+
+</root>

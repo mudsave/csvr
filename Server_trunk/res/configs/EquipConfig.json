@@ -1,0 +1,28 @@
+{"10001": {
+    "stackLimit": 1,
+    "flag": [
+        1,
+        4
+    ],
+    "icon": "skillIcon/AnYingXingHe",
+    "bindType": 1,
+    "description": "武器测试",
+    "reqLevel": 1,
+    "type": 1,
+    "spellID": 0,
+    "quality": 1,
+    "equipSlot": 0,
+    "price": 1,
+    "suitID": 0,
+    "name": "测试用武器",
+    "model": "zywqsp228_lod0",
+    "passiveEffects": 0,
+    "id": 10001,
+    "equipAttrs": 110005000,
+    "equipProfession": [
+        0,
+        1,
+        2,
+        3
+    ]
+}}

@@ -1,0 +1,106 @@
+{
+    "fs000": {
+        "path": "AvatarModel/fs000_lod0/fs000_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/fs000_lod0/fs000_lod0_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "fs000",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/fs000_lod0_c_show",
+        "type": 1
+    },
+    "ss020": {
+        "path": "AvatarModel/ss020/ss020_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/ss020/ss020_lod0_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "ss020",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/ss020_lod0_c_show",
+        "type": 1
+    },
+    "jk000": {
+        "path": "AvatarModel/jk000_lod0/jk000_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/jk000_lod0/jk000_lod0_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "jk000",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/jk000_lod0_c_show",
+        "type": 1
+    },
+    "zs150": {
+        "path": "AvatarModel/zs150_lod0/zs150_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/zs150_lod0/zs150_lod0_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "zs150",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/zs150_lod0_c_show",
+        "type": 1
+    }
+}

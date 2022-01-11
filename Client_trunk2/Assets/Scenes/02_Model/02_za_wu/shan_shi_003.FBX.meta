@@ -1,0 +1,142 @@
+fileFormatVersion: 2
+guid: f8a128f17d7e9104d999ed20d9b52e1b
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: fu_kong_shi_12
+    100002: fu_kong_shi_14
+    100004: fu_kong_shi_15
+    100006: objdefault53
+    100008: polySurface33902
+    100010: polySurface33912
+    100012: polySurface357
+    100014: polySurface359
+    100016: //RootNode
+    100018: shan_shi_003_a
+    100020: shan_shi_003_b
+    100022: shan_shi_003_c
+    100024: shan_shi_003_d
+    100026: shan_shi_003_e
+    100028: shan_shi_003_f
+    100030: shan_shi_003_g
+    100032: shan_shi_003_h
+    400000: fu_kong_shi_12
+    400002: fu_kong_shi_14
+    400004: fu_kong_shi_15
+    400006: objdefault53
+    400008: polySurface33902
+    400010: polySurface33912
+    400012: polySurface357
+    400014: polySurface359
+    400016: //RootNode
+    400018: shan_shi_003_a
+    400020: shan_shi_003_b
+    400022: shan_shi_003_c
+    400024: shan_shi_003_d
+    400026: shan_shi_003_e
+    400028: shan_shi_003_f
+    400030: shan_shi_003_g
+    400032: shan_shi_003_h
+    2300000: fu_kong_shi_12
+    2300002: fu_kong_shi_14
+    2300004: fu_kong_shi_15
+    2300006: objdefault53
+    2300008: polySurface33902
+    2300010: polySurface33912
+    2300012: polySurface357
+    2300014: polySurface359
+    2300016: shan_shi_003_a
+    2300018: shan_shi_003_b
+    2300020: shan_shi_003_c
+    2300022: shan_shi_003_d
+    2300024: shan_shi_003_e
+    2300026: shan_shi_003_f
+    2300028: shan_shi_003_g
+    2300030: shan_shi_003_h
+    3300000: fu_kong_shi_12
+    3300002: fu_kong_shi_14
+    3300004: fu_kong_shi_15
+    3300006: objdefault53
+    3300008: polySurface33902
+    3300010: polySurface33912
+    3300012: polySurface357
+    3300014: polySurface359
+    3300016: shan_shi_003_a
+    3300018: shan_shi_003_b
+    3300020: shan_shi_003_c
+    3300022: shan_shi_003_d
+    3300024: shan_shi_003_e
+    3300026: shan_shi_003_f
+    3300028: shan_shi_003_g
+    3300030: shan_shi_003_h
+    4300000: polySurface357
+    4300002: polySurface359
+    4300004: objdefault53
+    4300006: polySurface33902
+    4300008: fu_kong_shi_12
+    4300010: polySurface33912
+    4300012: fu_kong_shi_14
+    4300014: fu_kong_shi_15
+    4300016: shan_shi_003_e
+    4300018: shan_shi_003_f
+    4300020: shan_shi_003_h
+    4300022: shan_shi_003_a
+    4300024: shan_shi_003_c
+    4300026: shan_shi_003_b
+    4300028: shan_shi_003_d
+    4300030: shan_shi_003_g
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

@@ -1,0 +1,186 @@
+fileFormatVersion: 2
+guid: 57ccda00fc2d2d5409e8420f103c6b61
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: trail01
+    100002: trail02
+    100004: trail03
+    100006: trail04
+    100008: trail05
+    100010: trail06
+    100012: trail07
+    100014: trail09
+    100016: //RootNode
+    100018: xuanfeng_1
+    100020: xuanfeng_2
+    100022: xuanfeng_3
+    100024: xuanfeng_4
+    100026: xuanfeng_5
+    100028: xuanfeng_6
+    100030: trail10
+    100032: trail11
+    100034: Plane001
+    100036: trail12
+    100038: trail13
+    100040: trail14
+    100042: trail14 1
+    100044: trail08
+    100046: trail15
+    100048: trail16
+    100050: trail13 1
+    400000: trail01
+    400002: trail02
+    400004: trail03
+    400006: trail04
+    400008: trail05
+    400010: trail06
+    400012: trail07
+    400014: trail09
+    400016: //RootNode
+    400018: xuanfeng_1
+    400020: xuanfeng_2
+    400022: xuanfeng_3
+    400024: xuanfeng_4
+    400026: xuanfeng_5
+    400028: xuanfeng_6
+    400030: trail10
+    400032: trail11
+    400034: Plane001
+    400036: trail12
+    400038: trail13
+    400040: trail14
+    400042: trail14 1
+    400044: trail08
+    400046: trail15
+    400048: trail16
+    400050: trail13 1
+    2300000: trail01
+    2300002: trail02
+    2300004: trail03
+    2300006: trail04
+    2300008: trail05
+    2300010: trail06
+    2300012: trail07
+    2300014: trail09
+    2300016: xuanfeng_1
+    2300018: xuanfeng_2
+    2300020: xuanfeng_3
+    2300022: xuanfeng_4
+    2300024: xuanfeng_5
+    2300026: xuanfeng_6
+    2300028: trail10
+    2300030: trail11
+    2300032: Plane001
+    2300034: trail12
+    2300036: trail13
+    2300038: trail14
+    2300040: trail14 1
+    2300042: trail08
+    2300044: trail15
+    2300046: trail16
+    2300048: trail13 1
+    3300000: trail01
+    3300002: trail02
+    3300004: trail03
+    3300006: trail04
+    3300008: trail05
+    3300010: trail06
+    3300012: trail07
+    3300014: trail09
+    3300016: xuanfeng_1
+    3300018: xuanfeng_2
+    3300020: xuanfeng_3
+    3300022: xuanfeng_4
+    3300024: xuanfeng_5
+    3300026: xuanfeng_6
+    3300028: trail10
+    3300030: trail11
+    3300032: Plane001
+    3300034: trail12
+    3300036: trail13
+    3300038: trail14
+    3300040: trail14 1
+    3300042: trail08
+    3300044: trail15
+    3300046: trail16
+    3300048: trail13 1
+    4300000: trail01
+    4300002: trail02
+    4300004: trail03
+    4300006: trail04
+    4300008: trail05
+    4300010: xuanfeng_1
+    4300012: xuanfeng_3
+    4300014: xuanfeng_2
+    4300016: xuanfeng_4
+    4300018: xuanfeng_5
+    4300020: xuanfeng_6
+    4300022: trail07
+    4300024: trail06
+    4300026: trail09
+    4300028: trail10
+    4300030: trail11
+    4300032: trail12
+    4300034: trail13
+    4300036: Plane001
+    4300038: trail14
+    4300040: trail14
+    4300042: trail08
+    4300044: trail15
+    4300046: trail16
+    9500000: //RootNode
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

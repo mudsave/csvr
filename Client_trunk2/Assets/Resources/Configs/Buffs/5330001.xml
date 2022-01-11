@@ -1,0 +1,34 @@
+<root>
+	<id>5330001</id>
+	<className>BuffSimple</className>
+	<generalPerformance>
+		<name>单机测试buff</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>10</stayTime>
+		<tickTime>3</tickTime>
+		<interruptCode>5330001</interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<castFailEffect></castFailEffect>
+		<battlecryEffect></battlecryEffect>
+		<attachEffect></attachEffect>
+		<tickEffect></tickEffect>
+		<interruptEffect></interruptEffect>
+		<detachEffect></detachEffect>
+	</combatFunction>
+</root>

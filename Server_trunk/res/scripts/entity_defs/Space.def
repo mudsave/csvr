@@ -1,0 +1,80 @@
+<root>
+	<Implements>
+		<Interface> ObjectType </Interface>
+	</Implements>
+
+	<Properties>
+		<eMetaClass>
+			<Type>			STRING			</Type>
+			<Flags>		ALL_CLIENTS			</Flags>
+		</eMetaClass>
+
+		<domainMB>
+			<Type>		MAILBOX		</Type>
+			<Flags>		CELL_PRIVATE		</Flags>
+		</domainMB>
+
+		<params> <!-- 存储Space被创建时来自SpaceDomain给予的参数 -->
+			<Type>		PY_DICT		</Type>
+			<Flags>		BASE	</Flags>
+		</params>
+
+		<cellParams> <!-- 存储Space被创建时来自params给予的参数 -->
+			<Type>		PY_DICT		</Type>
+			<Flags>		CELL_PUBLIC	</Flags>
+		</cellParams>
+	</Properties>
+
+	<BaseMethods>
+		<createCell>
+		</createCell>
+
+		<onEnter>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnter>
+
+		<onLeave>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onLeave>
+
+		<closeSpace>
+			<Arg>	INT8		</Arg>	<!-- delefromDB -->
+		</closeSpace>
+
+		<teleportEntity>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</teleportEntity>
+
+		<entityCreateCell>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</entityCreateCell>
+		
+		<broadcastMessage>
+			<Arg> UINT16 </Arg>
+			<Arg> UNICODE </Arg>
+			<Arg>	DBID	</Arg> 	<!-- 聊天的玩家的DBID -->
+			<Arg> UNICODE </Arg>
+			<Arg>	ARRAY <of> UNICODE </of>	</Arg> <!-- 特殊文字 -->
+		</broadcastMessage>
+	</BaseMethods>
+
+	<CellMethods>
+		<onEnter>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onEnter>
+
+		<onLeave>
+			<Arg>	MAILBOX		</Arg>	<!-- cellMailbox -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</onLeave>
+
+	</CellMethods>
+
+</root>

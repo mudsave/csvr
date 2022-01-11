@@ -1,0 +1,41 @@
+{"201003": {
+    "reward": [
+        [
+            "exp",
+            500
+        ],
+        [
+            "gold",
+            100
+        ]
+    ],
+    "givenNpc": 2002001,
+    "goneCondition": {},
+    "meetNpcTalk": "银沙岛地灵之气浓郁，乃我仙道后起之秀在洪荒历练的据点，魔道为断我仙道传承已派大军攻占此岛，你师兄灵珠子被困于岛中，徒儿速去救援。",
+    "autoPath": [],
+    "givenEvent": [],
+    "type": 2,
+    "target": [
+        [
+            "killnpc",
+            [
+                1002001,
+                4
+            ]
+        ],
+        [
+            "killnpc",
+            [
+                1002004,
+                1
+            ]
+        ]
+    ],
+    "givenNpcTalk": "魔道突然大举来袭，我仙道众多同门都被魔道抓了起来。",
+    "condition": {},
+    "resetCondition": {},
+    "name": "援救",
+    "action": [],
+    "id": 201003,
+    "meetNpc": 2001001
+}}

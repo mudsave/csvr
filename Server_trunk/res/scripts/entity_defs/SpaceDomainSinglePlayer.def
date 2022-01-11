@@ -1,0 +1,10 @@
+<root>
+	<!-- 单人副本领域 -->
+	<Parent>	SpaceDomain	</Parent>
+
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+</root>

@@ -1,0 +1,12 @@
+{"2000000": {
+    "weaponID": "zywqsp097a_lod0",
+    "modelID": "sp220",
+    "entityType": 3,
+    "name": "测试npc1",
+    "icon": "headIcon/sp147",
+    "property": {},
+    "id": 2000000,
+    "dialogID": 1000001,
+    "actName": "",
+    "fightID": 101001001
+}}

@@ -1,0 +1,505 @@
+<root>
+<!--	技能系统通用																																													技能系统通用	-->
+	<NULL>								FIXED_DICT								<describe>空项目						</describe>
+		<Properties>
+		</Properties>
+	</NULL>
+	
+	<OBJECT_FINDER_UNION_SKILL_CASTER>	UNION									<describe>技能作用范围类型
+注意：
+　　此处的“作用范围”以“主动技能的施术者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<施术者单体>				OBJECT_FINDER_SELF						<key>9</key>																	</施术者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>5</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_SKILL_CASTER>
+	
+	<OBJECT_FINDER_UNION_PASSIVESKILL_TARGET>	UNION							<describe>被动作用范围类型
+注意：
+　　此处的“作用范围”以“被动技能的受术者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<被动技能受术者单体>		OBJECT_FINDER_SELF						<key>9</key>																	</被动技能受术者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>5</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_PASSIVESKILL_TARGET>
+	
+	<OBJECT_FINDER_UNION_BUFF_OWNER>	UNION									<describe>Buff作用范围类型
+注意：
+　　此处的“作用范围”以“Buff的持有者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<Buff持有者单体>			OBJECT_FINDER_SELF						<key>9</key>																	</Buff持有者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>5</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_BUFF_OWNER>
+	
+	<OBJECT_FINDER_ROUND>				FIXED_DICT								<describe>圆形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“圆心”、		
+　　以“radius”为“半径”、
+　　的圆形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+		</Properties>
+	</OBJECT_FINDER_ROUND>
+	
+	<OBJECT_FINDER_SECTOR>				FIXED_DICT								<describe>扇形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“圆心”，
+　　以“基准单位当前朝向”为“方向”，
+　　以“radius”为“半径”，
+　　以“angle”为“圆心角”（左右各一半），
+　　的扇形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>圆心角（度）					</describe>								</angle>
+		</Properties>
+	</OBJECT_FINDER_SECTOR>
+	
+	<OBJECT_FINDER_EXPAND_SECTOR>		FIXED_DICT								<describe>扩展扇形（作用范围类型）
+定义：
+　　“扇形”圆心处附加一个“辅助圆形”的范围。
+																														</describe>
+		<Properties>
+			<distance>					FLOAT<Default>0</Default>				<describe>辅圆半径（米）				</describe>								</distance>
+			<radius>					FLOAT<Default>0</Default>				<describe>扇形半径（米）				</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>扇形圆心角（度）				</describe>								</angle>
+		</Properties>
+	</OBJECT_FINDER_EXPAND_SECTOR>
+	
+	<OBJECT_FINDER_RECTANGLE>			FIXED_DICT								<describe>矩形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“长边中点”，
+　　以“基准单位当前朝向”为“宽边方向”，
+　　的矩形范围。
+																														</describe>
+		<Properties>
+			<width>						FLOAT<Default>0</Default>				<describe>长（米）
+注意：
+　　向“左”和向“右”各一半				
+																														</describe>								</width>
+			<length>					FLOAT<Default>0</Default>				<describe>宽（米）
+注意：
+　　向“前”						
+																														</describe>								</length>
+		</Properties>
+	</OBJECT_FINDER_RECTANGLE>
+	
+	<OBJECT_FINDER_OFFSET_ROUND>		FIXED_DICT								<describe>偏移圆形（作用范围类型）
+　　以“偏移位置”为“圆心”，
+　　以“偏移方向”为“方向”，
+　　的圆形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_ROUND>
+	
+	<OBJECT_FINDER_OFFSET_RECTANGLE>	FIXED_DICT								<describe>偏移矩形（作用范围类型）
+　　以“偏移位置”为“长边中点”，
+　　以“偏移方向”为“宽边方向”，
+　　的矩形范围。
+																														</describe>
+		<Properties>
+			<width>						FLOAT<Default>0</Default>				<describe>长（米）
+注意：
+　　向“左”和向“右”各一半		
+																														</describe>								</width>
+			<length>					FLOAT<Default>0</Default>				<describe>宽（米）
+注意：
+　　向“前”						
+																														</describe>								</length>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_RECTANGLE>
+	
+	<OBJECT_FINDER_OFFSET_SECTOR>		FIXED_DICT								<describe>偏移扇形（作用范围类型）
+定义：
+　　以“偏移位置”为“圆心”，
+　　以“偏移方向”为“方向”，
+　　的扇形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>圆心角（度）					</describe>								</angle>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_SECTOR>
+	
+	<OBJECT_FINDER_SELF>				FIXED_DICT								<describe>基准单位单体（作用范围类型）	</describe>
+		<Properties>
+		</Properties>
+	</OBJECT_FINDER_SELF>
+	
+	<OBJECT_FINDER_TEAMMATE>			FIXED_DICT								<describe>附近的队友（作用范围类型）	</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>队友距离上限（米）			</describe>								</radius>
+		</Properties>
+	</OBJECT_FINDER_TEAMMATE>
+	
+	<RELATION_NUMINPUT>					NUMINPUT								<describe>目标立场关系类型
+注意：
+　　一个都不选，就谁都打不到
+　　																													</describe>
+		<Properties>
+<!--		<无关系>					-1																														</无关系>								未启用封印	-->
+			<自身>						3																														</自身>
+			<友方玩家>					2																														</友方玩家>
+			<友方NPC>					6																														</友方NPC>
+<!--		<中立玩家>					7																														</中立玩家>								未启用封印	-->
+<!--		<中立NPC>					8																														</中立NPC>								未启用封印	-->
+			<敌对玩家>					1																														</敌对玩家>
+			<敌对NPC>					5																														</敌对NPC>
+		</Properties>					<Default></Default>
+	</RELATION_NUMINPUT>
+	
+	<CONDITION_UNION>					UNION									<describe>条件要求类型					</describe>
+		<Properties>
+			<无>						NULL									<key>0									</key>									</无>
+			<依据单位状态>				CONDITION_EENTITYSTATUS					<key>5									</key>									</依据单位状态>
+			<依据控制状态>				CONDITION_PLAYERCONTROLSTATUS			<key>11									</key>									</依据控制状态>
+			<依据效果状态>				CONDITION_EEFFECTSTATUS					<key>6									</key>									</依据效果状态>
+			<依据行为开关>				CONDITION_EACTIONRESTRICT				<key>7									</key>									</依据行为开关>
+			<依据概率>					CONDITION_PROBABILITY					<key>4									</key>									</依据概率>
+			<依据Buff>					CONDITION_BUFF							<key>3									</key>									</依据Buff>
+			<依据属性一一剩余ＨＰ比例>	CONDITION_ATTRIBUTE						<key>8									</key>									</依据属性一一剩余ＨＰ比例>
+			<依据属性一一剩余ＭＰ比例>	CONDITION_ATTRIBUTE						<key>9									</key>									</依据属性一一剩余ＭＰ比例>
+<!--		<程序占用>					NULL									<key>1									</key>									</程序占用>								未启用封印	-->
+<!--		<目标非死亡>				NULL									<key>2									</key>									</目标非死亡>							未启用封印	-->
+<!--		<程序占用>					NULL									<key>10									</key>									</程序占用>								未启用封印	-->
+		</Properties>					<Default>依据单位状态</Default>
+	</CONDITION_UNION>
+	
+	<CONDITION_BUFF>					FIXED_DICT								<describe>依据目标的Buff（条件类型）	</describe>
+		<Properties>
+			<type>						CONDITION_BUFF_TYPE_EUM																									</type>
+			<buffID>					INT32<Default>0</Default>				<describe>指定Buff_ID					</describe>								</buffID>
+		</Properties>
+	</CONDITION_BUFF>
+	
+	<CONDITION_BUFF_TYPE_EUM>			ENUME									<describe>Buff持有要求类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>✘	（要求“无”该Buff）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>✔	（要求“有”该Buff）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_BUFF_TYPE_EUM>
+	
+	<CONDITION_PROBABILITY>				FIXED_DICT								<describe>依据随机概率（条件类型）		</describe>
+		<Properties>
+			<probability>				FLOAT<Default>1</Default>				<describe>成功率（100%）				</describe>								</probability>
+		</Properties>
+	</CONDITION_PROBABILITY>
+	
+	<CONDITION_EENTITYSTATUS>			FIXED_DICT								<describe>依据基础状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<status>					CONDITION_EENTITYSTATUS_EUM																								</status>
+		</Properties>
+	</CONDITION_EENTITYSTATUS>
+	
+	<CONDITION_STATU_TYPE_EUM>			ENUME									<describe>单位状态取值要求类型			</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>✘	（要求“无”该状态）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>✔	（要求“有”该状态）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_STATU_TYPE_EUM>
+	
+	<CONDITION_EENTITYSTATUS_EUM>		ENUME									<describe>单位基础状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>未决	（初始化时）(0)				</Name>									</Arg>
+<!--		<Arg>						<Value>1</Value>						<Name>待机	（作用待定）(1)				</Name>									</Arg>									未启用封印	-->
+			<Arg>						<Value>2</Value>						<Name>战斗	（作用待定）(2)				</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>死亡	[3]							</Name>									</Arg>
+		</Properties>					<Default>3</Default>
+	</CONDITION_EENTITYSTATUS_EUM>
+	
+	<CONDITION_EEFFECTSTATUS>			FIXED_DICT								<describe>依据效果状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<effectStatus>				CONDITION_EEFFECTSTATUS_EUM																								</effectStatus>
+		</Properties>
+	</CONDITION_EEFFECTSTATUS>
+	
+	<CONDITION_EEFFECTSTATUS_EUM>		ENUME									<describe>单位效果状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>移动中	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>施法中	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>受击中	(2)						</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>无敌	[3]							</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>眩晕	(4)							</Name>									</Arg>
+			<Arg>						<Value>5</Value>						<Name>霸体	(5)							</Name>									</Arg>
+			<Arg>						<Value>6</Value>						<Name>固定	(6)							</Name>									</Arg>
+		</Properties>					<Default>3</Default>
+	</CONDITION_EEFFECTSTATUS_EUM>
+	
+	<CONDITION_EACTIONRESTRICT>			FIXED_DICT								<describe>依据行为开关（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<actionRestrict>			CONDITION_EACTIONRESTRICT_EUM																							</actionRestrict>
+		</Properties>
+	</CONDITION_EACTIONRESTRICT>
+	
+	<CONDITION_EACTIONRESTRICT_EUM>		ENUME									<describe>单位行为开关类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>禁止移动	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>禁止施法	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>禁止受击	[2]						</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>禁止AI思考	(3)					</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>禁止使用道具	(4)					</Name>									</Arg>
+		</Properties>					<Default>2</Default>
+	</CONDITION_EACTIONRESTRICT_EUM>
+	
+	<CONDITION_ATTRIBUTE>				FIXED_DICT								<describe>依据战斗属性（条件类型）		</describe>
+		<Properties>
+			<type>						NUMBER_RELATION_TYPE_ENUM																								</type>
+			<number>					FLOAT<Default>0</Default>				<describe>指定数量						</describe>								</number>
+		</Properties>															
+	</CONDITION_ATTRIBUTE>
+	
+	<NUMBER_RELATION_TYPE_ENUM>			ENUME									<describe>数量关系要求类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>＞大于	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>＜小于	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>≥大于等于	[2]					</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>≤小于等于	(3)					</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>＝等于	(4)						</Name>									</Arg>
+			<Arg>						<Value>5</Value>						<Name>≠不等于	(5)						</Name>									</Arg>
+		</Properties>					<Default>2</Default>
+	</NUMBER_RELATION_TYPE_ENUM>
+	
+	<CONDITION_PLAYERCONTROLSTATUS>		FIXED_DICT								<describe>依据控制状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<effectStatus>				CONDITION_PLAYERCONTROLSTATUS_EUM																						</effectStatus>
+		</Properties>
+	</CONDITION_PLAYERCONTROLSTATUS>
+	
+	<CONDITION_PLAYERCONTROLSTATUS_EUM>	ENUME									<describe>单位控制状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>人物状态	[0]						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>法宝状态	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>骑乘状态	(2)						</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_PLAYERCONTROLSTATUS_EUM>
+	
+	<OBJECT_SIZER_UNION>				UNION									<describe>排序要求类型					</describe>
+		<Properties>
+			<无>						NULL									<key>0									</key>									</无>
+			<随机排序>					OBJECT_SIZER_RANDOM						<key>1									</key>									</随机排序>
+			<依据距离>					OBJECT_SIZER_DISTANCE					<key>2									</key>									</依据距离>
+			<依据指定属性>				OBJECT_SIZER_ATTRIBUTE					<key>3									</key>									</依据指定属性>
+		</Properties>					<Default>无</Default>
+	</OBJECT_SIZER_UNION>
+	
+	<OBJECT_SIZER_RANDOM>				FIXED_DICT								<describe>随机排序（排序类型）			</describe>
+		<Properties>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_RANDOM>
+	
+	<OBJECT_SIZER_DISTANCE>				FIXED_DICT								<describe>依据距离排序（排序类型）		</describe>
+		<Properties>
+			<sortType>					OBJECT_SIZER_SORT_TYPE_ENUM																								</sortType>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_DISTANCE>
+	
+	<OBJECT_SIZER_SORT_TYPE_ENUM>		ENUME									<describe>排序方向类型					</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>↗升序	（从小到大）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>↘降序	（从大到小）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</OBJECT_SIZER_SORT_TYPE_ENUM>
+	
+	<OBJECT_SIZER_ATTRIBUTE>			FIXED_DICT								<describe>依据属性排序（排序类型）		</describe>
+		<Properties>
+			<attributeType>				OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM																						</attributeType>
+			<sortType>					OBJECT_SIZER_SORT_TYPE_ENUM																								</sortType>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_ATTRIBUTE>
+	
+	<OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM>	ENUME									<describe>排序属性类型					</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>ＨＰ	（当前生命值）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>ＭＰ	（当前法力值）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM>
+	
+	<ISHITJUDGMENT_ENUM>				ENUME									<describe>是否判定命中					</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（通过判定决定）[True]			</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（跳过判定必中）(False)			</Name>									</Arg>
+		</Properties>					<Default>True</Default>
+	</ISHITJUDGMENT_ENUM>
+	
+	<BINDEFFECT_ENUM>					ENUME									<describe>是否绑定光效					</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（随模型移动）[True]			</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（不移动）(False)				</Name>									</Arg>
+		</Properties>					<Default>True</Default>
+	</BINDEFFECT_ENUM>
+	
+<!--	标准被动技能（PassiveSkillSimple）																																								标准被动技能	-->
+	<GENERAL_PERFORMANCE>				FIXED_DICT								<describe>常规表现模块（标准被动）		</describe>
+		<Properties>
+			<name>						STRING<Default></Default>				<describe>【未启用】名称				</describe>								</name>
+			<level>						INT32<Default>1</Default>				<describe>【未启用】等级				</describe>								</level>
+			<icon>						STRING<Default></Default>				<describe>【未启用】图标				</describe>								</icon>
+			<memo>						STRING<Default></Default>				<describe>【未启用】文案描述			</describe>								</memo>
+			<description>				STRING<Default></Default>				<describe>【未启用】效果描述			</describe>								</description>
+		</Properties>
+	</GENERAL_PERFORMANCE>
+	
+	<GENERAL_FUNCTION>					FIXED_DICT								<describe>常规功能模块（标准被动）		</describe>
+		<Properties>
+			<fightEvent>				FIGHT_EVENT_ENUM																										</fightEvent>
+			<isOwnEffect>				ISOWNEFFECT_ENUM																										</isOwnEffect>
+			<cooldownID>				INT32<Default>0</Default>				<describe>CD码							</describe>								</cooldownID>
+			<cooldownTime>				FLOAT<Default>0</Default>				<describe>CD时间（秒）					</describe>								</cooldownTime>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>施法条件要求列表				</describe>								</conditions>
+		</Properties>
+	</GENERAL_FUNCTION>
+	
+	<ISOWNEFFECT_ENUM>					ENUME									<describe>被动技能目标选择类型
+注意：
+　　具体目标选择，依据不同触发点而不同而不同
+																														</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（目标＝被动持有者）(True)		</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（目标≠被动持有者）[False]		</Name>									</Arg>
+		</Properties>					<Default>False</Default>
+	</ISOWNEFFECT_ENUM>
+	
+	<FIGHT_EVENT_ENUM>					ENUME									<describe>被动技能响应触发点类型		</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>空	[0]							</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>施法时	（施术者）(1)			</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>闪避时	（受击者）(2)			</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>被闪避时	（攻击者）(3)			</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>命中友方时	（攻击者）(4)		</Name>									</Arg>
+			<Arg>						<Value>5</Value>						<Name>被友方命中时	（受击者）(5)		</Name>									</Arg>
+			<Arg>						<Value>6</Value>						<Name>命中敌方时	（攻击者）(6)		</Name>									</Arg>
+			<Arg>						<Value>7</Value>						<Name>被敌方命中时	（受击者）(7)		</Name>									</Arg>
+			<Arg>						<Value>14</Value>						<Name>暴击时	（攻击者）(14)			</Name>									</Arg>
+			<Arg>						<Value>15</Value>						<Name>被暴击时	（受击者）(15)			</Name>									</Arg>
+			<Arg>						<Value>12</Value>						<Name>被招架时	（攻击者）(12)			</Name>									</Arg>
+			<Arg>						<Value>13</Value>						<Name>招架时	（受击者）(13)			</Name>									</Arg>
+			<Arg>						<Value>10</Value>						<Name>伤害时	（攻击者）(10)			</Name>									</Arg>
+			<Arg>						<Value>11</Value>						<Name>被伤害时	（受击者）(11)			</Name>									</Arg>
+			<Arg>						<Value>8</Value>						<Name>击杀时	（攻击者）(8)			</Name>									</Arg>
+			<Arg>						<Value>9</Value>						<Name>被击杀时	（受击者）(9)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</FIGHT_EVENT_ENUM>
+	
+	<COMBAT_PERFORMANCE>				FIXED_DICT								<describe>战斗表现模块（标准被动）		</describe>
+		<Properties>
+			<animation>					STRING<Default></Default>				
+										<cantModify>true</cantModify>			<describe>触发动作
+定义：
+　　原则上“非主动的状态机跳转”是不应该的
+																														</describe>								</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>被动技能施展光效创建路径
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																	</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>触发光效
+定义：
+　　在“effectManager组件”中定义的“光效名称”
+　　（如：baodian01）
+																														</describe>								</effect>
+			<sound>						STRING<Default></Default>				<describe>触发音效
+定义：
+　　在“soundFXManager组件”中定义的“音效名称”
+　　（如：dao1）
+																														</describe>								</sound>
+		</Properties>
+	</COMBAT_PERFORMANCE>
+	
+	<COMBAT_FUNCTION>					FIXED_DICT								<describe>战斗功能模块（标准被动）		</describe>
+		<Properties>
+			<relation>					RELATION_NUMINPUT																										</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求列表				</describe>								</targetConditions>
+			<effects>					ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</effects>
+		</Properties>
+	</COMBAT_FUNCTION>
+	
+<!--	打击点被动技能（PassiveSkillRange）																																								打击点被动技能	-->
+	<COMBAT_FUNCTION_RANGE>				FIXED_DICT								<describe>战斗功能模块（打击点被动）	</describe>
+		<Properties>
+			<passiveTriggers>			ARRAY<of>PASSIVE_TRIGGER</of>			<describe>被动触发打击点列表			</describe>								</passiveTriggers>
+		</Properties>
+	</COMBAT_FUNCTION_RANGE>
+	
+	<PASSIVE_TRIGGER>					FIXED_DICT								<describe>被动触发打击点				</describe>
+		<Properties>
+			<targetFinder>				OBJECT_FINDER_UNION_PASSIVESKILL_TARGET																					</targetFinder>
+			<relation>					RELATION_NUMINPUT																										</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求列表				</describe>								</targetConditions>
+			<targetSizer>				OBJECT_SIZER_UNION																										</targetSizer>
+			<isHitJudgment>				ISHITJUDGMENT_ENUM																										</isHitJudgment>
+			<casterEffects>				ARRAY<of>INT32</of>						<describe>副作用效果ID列表				</describe>								</casterEffects>
+			<spellEffects>				ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</spellEffects>
+		</Properties>
+	</PASSIVE_TRIGGER>
+	
+</root>

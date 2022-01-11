@@ -1,0 +1,1497 @@
+<root>
+<!--	技能系统通用																																													技能系统通用	-->
+	<NULL>								FIXED_DICT								<describe>空项目						</describe>
+		<Properties>
+		</Properties>
+	</NULL>
+	
+	<OBJECT_FINDER_UNION_SKILL_CASTER>	UNION									<describe>技能作用范围类型
+注意：
+　　此处的“作用范围”以“主动技能的施术者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<施术者单体>				OBJECT_FINDER_SELF						<key>9</key>																	</施术者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>5</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_SKILL_CASTER>
+	
+	<OBJECT_FINDER_UNION_PASSIVESKILL_TARGET>	UNION							<describe>被动作用范围类型
+注意：
+　　此处的“作用范围”以“被动技能的受术者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<被动技能受术者单体>		OBJECT_FINDER_SELF						<key>5</key>																	</被动技能受术者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>9</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_PASSIVESKILL_TARGET>
+	
+	<OBJECT_FINDER_UNION_BUFF_OWNER>	UNION									<describe>Buff作用范围类型
+注意：
+　　此处的“作用范围”以“Buff的持有者”为基准
+																														</describe>
+		<Properties>
+			<无>						NULL									<key>1</key>																	</无>
+			<Buff持有者单体>			OBJECT_FINDER_SELF						<key>9</key>																	</Buff持有者单体>
+			<附近队友>					OBJECT_FINDER_TEAMMATE					<key>10</key>																	</附近队友>
+			<圆形>						OBJECT_FINDER_ROUND						<key>2</key>																	</圆形>
+			<矩形>						OBJECT_FINDER_RECTANGLE					<key>5</key>																	</矩形>
+			<扇形>						OBJECT_FINDER_SECTOR					<key>3</key>																	</扇形>
+			<扩展扇形>					OBJECT_FINDER_EXPAND_SECTOR				<key>4</key>																	</扩展扇形>
+			<偏移圆形>					OBJECT_FINDER_OFFSET_ROUND				<key>6</key>																	</偏移圆形>
+			<偏移矩形>					OBJECT_FINDER_OFFSET_RECTANGLE			<key>7</key>																	</偏移矩形>
+			<偏移扇形>					OBJECT_FINDER_OFFSET_SECTOR				<key>8</key>																	</偏移扇形>
+		</Properties>					<Default>无</Default>
+	</OBJECT_FINDER_UNION_BUFF_OWNER>
+	
+	<OBJECT_FINDER_ROUND>				FIXED_DICT								<describe>圆形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“圆心”、		
+　　以“radius”为“半径”、
+　　的圆形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+		</Properties>
+	</OBJECT_FINDER_ROUND>
+	
+	<OBJECT_FINDER_SECTOR>				FIXED_DICT								<describe>扇形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“圆心”，
+　　以“基准单位当前朝向”为“方向”，
+　　以“radius”为“半径”，
+　　以“angle”为“圆心角”（左右各一半），
+　　的扇形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>圆心角（度）					</describe>								</angle>
+		</Properties>
+	</OBJECT_FINDER_SECTOR>
+	
+	<OBJECT_FINDER_EXPAND_SECTOR>		FIXED_DICT								<describe>扩展扇形（作用范围类型）
+定义：
+　　“扇形”圆心处附加一个“辅助圆形”的范围。
+																														</describe>
+		<Properties>
+			<distance>					FLOAT<Default>0</Default>				<describe>辅圆半径（米）				</describe>								</distance>
+			<radius>					FLOAT<Default>0</Default>				<describe>扇形半径（米）				</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>扇形圆心角（度）				</describe>								</angle>
+		</Properties>
+	</OBJECT_FINDER_EXPAND_SECTOR>
+	
+	<OBJECT_FINDER_RECTANGLE>			FIXED_DICT								<describe>矩形（作用范围类型）
+定义：
+　　以“基准单位当前位置”为“长边中点”，
+　　以“基准单位当前朝向”为“宽边方向”，
+　　的矩形范围。
+																														</describe>
+		<Properties>
+			<width>						FLOAT<Default>0</Default>				<describe>长（米）
+注意：
+　　向“左”和向“右”各一半				
+																														</describe>								</width>
+			<length>					FLOAT<Default>0</Default>				<describe>宽（米）
+注意：
+　　向“前”						
+																														</describe>								</length>
+		</Properties>
+	</OBJECT_FINDER_RECTANGLE>
+	
+	<OBJECT_FINDER_OFFSET_ROUND>		FIXED_DICT								<describe>偏移圆形（作用范围类型）
+　　以“偏移位置”为“圆心”，
+　　以“偏移方向”为“方向”，
+　　的圆形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_ROUND>
+	
+	<OBJECT_FINDER_OFFSET_RECTANGLE>	FIXED_DICT								<describe>偏移矩形（作用范围类型）
+　　以“偏移位置”为“长边中点”，
+　　以“偏移方向”为“宽边方向”，
+　　的矩形范围。
+																														</describe>
+		<Properties>
+			<width>						FLOAT<Default>0</Default>				<describe>长（米）
+注意：
+　　向“左”和向“右”各一半		
+																														</describe>								</width>
+			<length>					FLOAT<Default>0</Default>				<describe>宽（米）
+注意：
+　　向“前”						
+																														</describe>								</length>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_RECTANGLE>
+	
+	<OBJECT_FINDER_OFFSET_SECTOR>		FIXED_DICT								<describe>偏移扇形（作用范围类型）
+定义：
+　　以“偏移位置”为“圆心”，
+　　以“偏移方向”为“方向”，
+　　的扇形范围。
+																														</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>半径（米）					</describe>								</radius>
+			<angle>						FLOAT<Default>0</Default>				<describe>圆心角（度）					</describe>								</angle>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（度）
+注意：
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+		</Properties>
+	</OBJECT_FINDER_OFFSET_SECTOR>
+	
+	<OBJECT_FINDER_SELF>				FIXED_DICT								<describe>基准单位单体（作用范围类型）	</describe>
+		<Properties>
+		</Properties>
+	</OBJECT_FINDER_SELF>
+	
+	<OBJECT_FINDER_TEAMMATE>			FIXED_DICT								<describe>附近的队友（作用范围类型）	</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>队友距离上限（米）			</describe>								</radius>
+		</Properties>
+	</OBJECT_FINDER_TEAMMATE>
+	
+	<RELATION_NUMINPUT>					NUMINPUT								<describe>目标立场关系类型
+注意：
+　　一个都不选，就谁都打不到
+　　																													</describe>
+		<Properties>
+<!--		<无关系>					-1																														</无关系>								未启用封印	-->
+			<自身>						3																														</自身>
+			<友方玩家>					2																														</友方玩家>
+			<友方NPC>					6																														</友方NPC>
+<!--		<中立玩家>					7																														</中立玩家>								未启用封印	-->
+<!--		<中立NPC>					8																														</中立NPC>								未启用封印	-->
+			<敌对玩家>					1																														</敌对玩家>
+			<敌对NPC>					5																														</敌对NPC>
+		</Properties>					<Default></Default>
+	</RELATION_NUMINPUT>
+	
+	<CONDITION_UNION>					UNION									<describe>条件要求类型					</describe>
+		<Properties>
+			<无>						NULL									<key>0									</key>									</无>
+			<依据单位状态>				CONDITION_EENTITYSTATUS					<key>3									</key>									</依据单位状态>
+			<依据控制状态>				CONDITION_PLAYERCONTROLSTATUS			<key>11									</key>									</依据控制状态>
+			<依据效果状态>				CONDITION_EEFFECTSTATUS					<key>4									</key>									</依据效果状态>
+			<依据行为开关>				CONDITION_EACTIONRESTRICT				<key>7									</key>									</依据行为开关>
+			<依据概率>					CONDITION_PROBABILITY					<key>6									</key>									</依据概率>
+			<依据Buff>					CONDITION_BUFF							<key>5									</key>									</依据Buff>
+			<依据属性一一剩余ＨＰ比例>	CONDITION_ATTRIBUTE						<key>8									</key>									</依据属性一一剩余ＨＰ比例>
+			<依据属性一一剩余ＭＰ比例>	CONDITION_ATTRIBUTE						<key>9									</key>									</依据属性一一剩余ＭＰ比例>
+<!--		<程序占用>					NULL									<key>1									</key>									</程序占用>								未启用封印	-->
+<!--		<目标非死亡>				NULL									<key>2									</key>									</目标非死亡>							未启用封印	-->
+<!--		<程序占用>					NULL									<key>10									</key>									</程序占用>								未启用封印	-->
+		</Properties>					<Default>依据单位状态</Default>
+	</CONDITION_UNION>
+	
+	<CONDITION_BUFF>					FIXED_DICT								<describe>依据目标的Buff（条件类型）	</describe>
+		<Properties>
+			<type>						CONDITION_BUFF_TYPE_EUM																									</type>
+			<buffID>					INT32<Default>0</Default>				<describe>指定Buff_ID					</describe>								</buffID>
+		</Properties>
+	</CONDITION_BUFF>
+	
+	<CONDITION_BUFF_TYPE_EUM>			ENUME									<describe>Buff持有要求类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>✘	（要求“无”该Buff）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>✔	（要求“有”该Buff）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_BUFF_TYPE_EUM>
+	
+	<CONDITION_PROBABILITY>				FIXED_DICT								<describe>依据随机概率（条件类型）		</describe>
+		<Properties>
+			<probability>				FLOAT<Default>1</Default>				<describe>成功率（100%）				</describe>								</probability>
+		</Properties>
+	</CONDITION_PROBABILITY>
+	
+	<CONDITION_EENTITYSTATUS>			FIXED_DICT								<describe>依据基础状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<status>					CONDITION_EENTITYSTATUS_EUM																								</status>
+		</Properties>
+	</CONDITION_EENTITYSTATUS>
+	
+	<CONDITION_STATU_TYPE_EUM>			ENUME									<describe>单位状态取值要求类型			</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>✘	（要求“无”该状态）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>✔	（要求“有”该状态）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_STATU_TYPE_EUM>
+	
+	<CONDITION_EENTITYSTATUS_EUM>		ENUME									<describe>单位基础状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>未决	（初始化时）(0)				</Name>									</Arg>
+<!--		<Arg>						<Value>1</Value>						<Name>待机	（作用待定）(1)				</Name>									</Arg>									未启用封印	-->
+			<Arg>						<Value>2</Value>						<Name>战斗	（作用待定）(2)				</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>死亡	[3]							</Name>									</Arg>
+		</Properties>					<Default>3</Default>
+	</CONDITION_EENTITYSTATUS_EUM>
+	
+	<CONDITION_EEFFECTSTATUS>			FIXED_DICT								<describe>依据效果状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<effectStatus>				CONDITION_EEFFECTSTATUS_EUM																								</effectStatus>
+		</Properties>
+	</CONDITION_EEFFECTSTATUS>
+	
+	<CONDITION_EEFFECTSTATUS_EUM>		ENUME									<describe>单位效果状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>移动中	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>施法中	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>受击中	(2)						</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>无敌	[3]							</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>眩晕	(4)							</Name>									</Arg>
+			<Arg>						<Value>5</Value>						<Name>霸体	(5)							</Name>									</Arg>
+			<Arg>						<Value>6</Value>						<Name>固定	(6)							</Name>									</Arg>
+		</Properties>					<Default>3</Default>
+	</CONDITION_EEFFECTSTATUS_EUM>
+	
+	<CONDITION_EACTIONRESTRICT>			FIXED_DICT								<describe>依据行为开关（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<actionRestrict>			CONDITION_EACTIONRESTRICT_EUM																							</actionRestrict>
+		</Properties>
+	</CONDITION_EACTIONRESTRICT>
+	
+	<CONDITION_EACTIONRESTRICT_EUM>		ENUME									<describe>单位行为开关类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>禁止移动	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>禁止施法	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>禁止受击	[2]						</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>禁止AI思考	(3)					</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>禁止使用道具	(4)					</Name>									</Arg>
+		</Properties>					<Default>2</Default>
+	</CONDITION_EACTIONRESTRICT_EUM>
+	
+	<CONDITION_ATTRIBUTE>				FIXED_DICT								<describe>依据战斗属性（条件类型）		</describe>
+		<Properties>
+			<type>						NUMBER_RELATION_TYPE_ENUM																								</type>
+			<number>					FLOAT<Default>0</Default>				<describe>指定数量						</describe>								</number>
+		</Properties>															
+	</CONDITION_ATTRIBUTE>
+	
+	<NUMBER_RELATION_TYPE_ENUM>			ENUME									<describe>数量关系要求类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>＞大于	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>＜小于	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>≥大于等于	[2]					</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>≤小于等于	(3)					</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>＝等于	(4)						</Name>									</Arg>
+			<Arg>						<Value>5</Value>						<Name>≠不等于	(5)						</Name>									</Arg>
+		</Properties>					<Default>2</Default>
+	</NUMBER_RELATION_TYPE_ENUM>
+	
+	<CONDITION_PLAYERCONTROLSTATUS>		FIXED_DICT								<describe>依据控制状态（条件类型）		</describe>
+		<Properties>
+			<type>						CONDITION_STATU_TYPE_EUM																								</type>
+			<effectStatus>				CONDITION_PLAYERCONTROLSTATUS_EUM																						</effectStatus>
+		</Properties>
+	</CONDITION_PLAYERCONTROLSTATUS>
+	
+	<CONDITION_PLAYERCONTROLSTATUS_EUM>	ENUME									<describe>单位控制状态类型				</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>人物状态	[0]						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>法宝状态	(1)						</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>骑乘状态	(2)						</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</CONDITION_PLAYERCONTROLSTATUS_EUM>
+	
+	<OBJECT_SIZER_UNION>				UNION									<describe>排序要求类型					</describe>
+		<Properties>
+			<无>						NULL									<key>0									</key>									</无>
+			<随机排序>					OBJECT_SIZER_RANDOM						<key>1									</key>									</随机排序>
+			<依据距离>					OBJECT_SIZER_DISTANCE					<key>2									</key>									</依据距离>
+			<依据指定属性>				OBJECT_SIZER_ATTRIBUTE					<key>3									</key>									</依据指定属性>
+		</Properties>					<Default>无</Default>
+	</OBJECT_SIZER_UNION>
+	
+	<OBJECT_SIZER_RANDOM>				FIXED_DICT								<describe>随机排序（排序类型）			</describe>
+		<Properties>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_RANDOM>
+	
+	<OBJECT_SIZER_DISTANCE>				FIXED_DICT								<describe>依据距离排序（排序类型）		</describe>
+		<Properties>
+			<sortType>					OBJECT_SIZER_SORT_TYPE_ENUM																								</sortType>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_DISTANCE>
+	
+	<OBJECT_SIZER_SORT_TYPE_ENUM>		ENUME									<describe>排序方向类型					</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>↗升序	（从小到大）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>↘降序	（从大到小）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</OBJECT_SIZER_SORT_TYPE_ENUM>
+	
+	<OBJECT_SIZER_ATTRIBUTE>			FIXED_DICT								<describe>依据属性排序（排序类型）		</describe>
+		<Properties>
+			<attributeType>				OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM																						</attributeType>
+			<sortType>					OBJECT_SIZER_SORT_TYPE_ENUM																								</sortType>
+			<maxNumber>					INT32<Default>0</Default>				<describe>目标人数上限（个）			</describe>								</maxNumber>
+		</Properties>
+	</OBJECT_SIZER_ATTRIBUTE>
+	
+	<OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM>	ENUME									<describe>排序属性类型					</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>ＨＰ	（当前生命值）[0]			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>ＭＰ	（当前法力值）(1)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</OBJECT_SIZER_ATTRIBUTE_TYPE_ENUM>
+	
+	<ISHITJUDGMENT_ENUM>				ENUME									<describe>是否判定命中					</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（通过判定决定）[True]			</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（跳过判定必中）(False)			</Name>									</Arg>
+		</Properties>					<Default>True</Default>
+	</ISHITJUDGMENT_ENUM>
+	
+	<BINDEFFECT_ENUM>					ENUME									<describe>是否绑定光效					</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（随模型移动）[True]			</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（不移动）(False)				</Name>									</Arg>
+		</Properties>					<Default>True</Default>
+	</BINDEFFECT_ENUM>
+	
+<!--	标准Buff（BuffSimple）																																											标准Buff	-->
+	<GENERAL_PERFORMANCE>				FIXED_DICT								<describe>常规表现模块（标准Buff）		</describe>
+		<Properties>
+			<name>						STRING<Default></Default>				<describe>【未启用】名称				</describe>								</name>
+			<level>						INT32<Default>1</Default>				<describe>【未启用】等级				</describe>								</level>
+			<icon>						STRING<Default></Default>				<describe>【未启用】图标				</describe>								</icon>
+			<memo>						STRING<Default></Default>				<describe>【未启用】文案描述			</describe>								</memo>
+			<description>				STRING<Default></Default>				<describe>【未启用】效果描述			</describe>								</description>
+		</Properties>
+	</GENERAL_PERFORMANCE>
+	
+	<GENERAL_FUNCTION>					FIXED_DICT								<describe>常规功能模块（标准Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM																											</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+		</Properties>
+	</GENERAL_FUNCTION>
+	
+	<SAVETYPE_ENUM>						ENUME									<describe>Buff保存类型
+注意：
+　　此类Buff支持下线存储，但仍需谨慎配置
+																														</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>不存储，死亡中断	[0]				</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>下线存储	（照算时间）(1)			</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>下线挂起	（冻结持间）(2)			</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>不存储，死亡不中断	(3)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</SAVETYPE_ENUM>
+	
+	<SAVETYPE_ENUM_NOSAVE>				ENUME									<describe>Buff保存类型（不支持下线保存）
+注意：
+①大部分Buff，实际上并不支持下线存储
+　　（重新上线之后，位置、施法者等信息都不再可靠）
+　　因此，此处封印了部分选项
+②部分类型的Buff由于表现需要，建议配置成死亡不中断
+　　如：击退Buff，表现为飞完这一趟再播死亡表现
+　　如：子弹Buff，表现为飞完这一趟再消失
+																														</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>不存储，死亡中断	[0]				</Name>									</Arg>
+<!--		<Arg>						<Value>1</Value>						<Name>下线存储	（照算时间）(1)			</Name>									</Arg>									未启用封印	-->
+<!--		<Arg>						<Value>2</Value>						<Name>下线挂起	（冻结持间）(2)			</Name>									</Arg>									未启用封印	-->
+			<Arg>						<Value>3</Value>						<Name>不存储，死亡不中断	(3)			</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</SAVETYPE_ENUM_NOSAVE>
+	
+	<SYNCTYPE_ENUM>						ENUME									<describe>Buff AOI同步类型
+定义：
+　　用以明确客户端创建单位实体的时候，是否需要同步单位持有的Buff的表现。
+　　同步＝重新向服务器申请该Buff的所需信息
+　　不同步＝忽视该Buff的显示
+																														</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>不同步	[0]						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>同步	(1)							</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</SYNCTYPE_ENUM>
+	
+	<SYNCTYPE_ENUM_MUSTSYNC>			ENUME									<describe>Buff AOI同步类型（必须同步）
+定义：
+　　用以明确客户端创建单位实体的时候，是否需要同步单位持有的Buff的表现
+　　同步＝重新向服务器申请该Buff的所需信息
+　　不同步＝忽视该Buff的显示
+注意：
+　　对于护盾Buff来说，护盾值是必须要同步的
+																														</describe>
+		<Properties>
+<!--		<Arg>						<Value>0</Value>						<Name>不同步	[0]						</Name>									</Arg>									未启用封印	-->
+			<Arg>						<Value>1</Value>						<Name>同步	(1)							</Name>									</Arg>
+		</Properties>					<Default>1</Default>
+	</SYNCTYPE_ENUM_MUSTSYNC>
+	
+	<COMBAT_PERFORMANCE>				FIXED_DICT								<describe>战斗表现模块（标准Buff）		</describe>
+		<Properties>
+			<animation>					STRING<Default></Default>
+										<cantModify>true</cantModify>			<describe>Buff动作
+注意：
+　　原则上“非主动的状态机跳转”是不应该的
+																														</describe>								</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>Buff施展光效创建
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																	</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>Buff光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</effect>
+			<sound>						STRING<Default></Default>				<describe>Buff音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</sound>
+		</Properties>
+	</COMBAT_PERFORMANCE>
+	
+	<COMBAT_FUNCTION>					FIXED_DICT								<describe>战斗功能模块（标准Buff）		</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+		</Properties>
+	</COMBAT_FUNCTION>
+	
+<!--	击退Buff（BuffHitBack）																																											击退Buff	-->
+	<GENERAL_FUNCTION_BUFFHITBACK>		FIXED_DICT								<describe>常规功能模块（击退Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<hitPoseType>				HITPOSETYPE_ENUM																										</hitPoseType>
+			<orientation>				ORIENTATION_CHANGE_ENUM																									</orientation>
+			<distance>					FLOAT<Default>0</Default>				<describe>击退距离（米）				</describe>								</distance>
+			<pushTime>					FLOAT<Default>0</Default>				<describe>击退时间（秒）				</describe>								</pushTime>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFHITBACK>
+	
+	<HITPOSETYPE_ENUM>					ENUME									<describe>受击动作类型					</describe>
+		<Properties>
+			<Arg>						<Value>1</Value>						<Name>击中	[1]							</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>击倒	(2)							</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>击飞	(3)							</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>跳跃	(4)							</Name>									</Arg>
+		</Properties>					<Default>1</Default>
+	</HITPOSETYPE_ENUM>
+	
+	<ORIENTATION_CHANGE_ENUM>			ENUME									<describe>作用目标改变朝向类型			</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>不改变朝向	[0]					</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>朝向施术者	(1)					</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>背向施术者	(2)					</Name>									</Arg>
+			<Arg>						<Value>3</Value>						<Name>反施术者当前朝向	(3)				</Name>									</Arg>
+			<Arg>						<Value>4</Value>						<Name>同施术者当前朝向	(4)				</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</ORIENTATION_CHANGE_ENUM>
+	
+<!--	拉Buff（BuffDragToPoint）																																										拉Buff	-->
+	<GENERAL_FUNCTION_BUFFDRAGTOPOINT>	FIXED_DICT								<describe>常规功能模块（拉Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>拖拽终点偏移角度（度）
+注意：
+　　以施术者当前位置、朝向为准，偏移得到“目的地”
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+			<dragSpeed>					FLOAT<Default>10</Default>				<describe>拖拽速度（米/秒）				</describe>								</dragSpeed>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFDRAGTOPOINT>
+	
+<!--	旧推Buff（BuffPushToDir）																																										旧推Buff	-->
+	<GENERAL_FUNCTION_BUFFPUSHTODIR>	FIXED_DICT								<describe>常规功能模块（旧推Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>推动偏移角度（度）
+注意：
+　　以施术者当前位置、朝向为准，偏移得到“目的地”
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<pushSpeed>					FLOAT<Default>10</Default>				<describe>推动速度（米/秒）				</describe>								</pushSpeed>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFPUSHTODIR>
+	
+<!--	推Buff（BuffPush）																																												推Buff	-->
+	<GENERAL_FUNCTION_BUFFPUSH>			FIXED_DICT								<describe>常规功能模块（推Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<referenceType>				REFERENCETYPE_ENUM																										</referenceType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>推动朝向偏移角度（°）
+注意：
+　　从指定“基准”偏移指定“角度”后，得到“推动方向”
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<distance>					FLOAT<Default>0</Default>				<describe>推动距离（米）				</describe>								</distance>
+			<pushTime>					FLOAT<Default>0</Default>				<describe>推动时间（秒）				</describe>								</pushTime>
+			<hitPoseType>               INT32<Default>0</Default>                                                                                               </hitPoseType>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFPUSH>
+	
+	<REFERENCETYPE_ENUM>				ENUME									<describe>偏移朝向基准类型
+注意：
+　　定义计算位置偏移时的朝向基准
+　　从指定“基准”偏移指定“角度”后，得到“推动方向”等
+																														</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>施术者当前朝向	[0]				</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>受术者当前朝向	(1)				</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>施术者→受术者	(2)				</Name>									</Arg>
+		</Properties>					<Default>0</Default>
+	</REFERENCETYPE_ENUM>
+	
+<!--	闪烁Buff（BuffBlink）																																											闪烁Buff	-->
+	<GENERAL_FUNCTION_BUFFBLINK>		FIXED_DICT								<describe>常规功能模块（闪烁Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>1</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①闪烁Buff持续时间直到收到客户端反馈为止
+　　　　此参数意义为“等待消息的时间上限”
+　　②原则上越短越好，考虑到延迟，建议保持默认
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<referenceType>				REFERENCETYPE_ENUM																										</referenceType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>闪烁偏移角度（度）
+注意：
+　　以施术者当前位置、朝向为准，偏移得到“目的地”
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>闪烁偏移距离（米）			</describe>								</offsetDistance>
+			<changeDirection>			CHANGEDIRECTION_ENUM																									</changeDirection>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFBLINK>
+	
+	<CHANGEDIRECTION_ENUM>				ENUME<Default>2</Default>				<describe>施法者改变朝向类型</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>同施法者朝向	(0)					</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>同作用目标朝向	(1)				</Name>									</Arg>
+			<Arg>						<Value>2</Value>						<Name>施法者→作用目标朝向	[2]			</Name>									</Arg>
+		</Properties>
+	</CHANGEDIRECTION_ENUM>
+	
+<!--	跳跃Buff（BuffPushToDir）																																										跳跃Buff	-->
+	<GENERAL_FUNCTION_BUFFJUMP>			FIXED_DICT								<describe>常规功能模块（跳跃Buff）</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>推动偏移角度（度）
+注意：
+　　以施术者当前位置、朝向为准，偏移得到“目的地”
+　　从上往下看，逆时针方向为正
+　　0	＝前方
+　　90	＝左方
+　　180	＝后方
+　　270	＝右方（或-90）
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+																														</describe>								</offsetAngle>
+			<distance>					FLOAT<Default>0</Default>				<describe>跳跃距离（米）
+流程说明：
+　　①计算“指定目标位置”
+　　②寻找“有效目标位置”（寻找附近最近的有效位置）
+　　③开始跳跃表现
+注意：
+　　①可以跨越寻路缝隙，专用于跳台表现
+　　②需要避免在过于陡峭的地形中使用
+　　（以避免找到起跳点，而不是楼上）
+																														</describe>								</distance>
+			<jumpTime>					FLOAT<Default>0</Default>				<describe>跳跃时间（秒）
+注意：
+　　需要与跳跃动作的时间相匹配
+																														</describe>								</jumpTime>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFJUMP>
+	
+<!--	弹道打击Buff（BuffBullet）																																										弹道打击Buff	-->
+	<GENERAL_FUNCTION_BUFFBULLET>		FIXED_DICT								<describe>常规功能模块（弹道打击Buff）	</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②弹道Buff的持续时间动态调整，直到撞次数达到上限
+　　　　此配置参数的意义为“子弹存在的时间上限”
+　　③弹道Buff结束时，会将子弹光效移除
+　　④由于客户端AOI范围的存在，Buff持有者离开太远时，会存在Buff异常
+　　　　若有裁判，看不到子弹，但能被击中；若无裁判，看不到子弹，不会被击中
+　　　　因此建议，非副本专用的子弹，持续时间不要超过4秒，避免玩家离开公共地图的AOI范围
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<collisionRelation>			RELATION_NUMINPUT																										</collisionRelation>
+			<collisionNumber>			INT32<Default>0</Default>				<describe>有效碰撞次数上限（次）
+定义：
+　　有效碰撞次数达到上限时，触发Buff结束事件
+　　（填0意味着没有上限）
+注意：
+　　①目前无法排除miss的碰撞次数
+　　②目前无法排除死亡单位的碰撞次数
+　　以上需要排除时，另提需求重新设计完善
+																														</describe>								</collisionNumber>
+			<collisionEffect>			ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</collisionEffect>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFBULLET>
+	
+	<COMBAT_PERFORMANCE_BUFFBULLET>		FIXED_DICT								<describe>战斗表现模块（弹道打击Buff）	</describe>
+		<Properties>
+			<animation>					STRING<Default></Default>
+										<cantModify>true</cantModify>			<describe>Buff动作
+定义：
+　　原则上“非主动的状态机跳转”是不应该的
+																														</describe>								</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>Buff施展光效创建
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																											</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>Buff光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</effect>
+			<sound>						STRING<Default></Default>				<describe>Buff音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</sound>
+			<bulletBindingObjectPath>	STRING<Default></Default>				<describe>子弹光效创建点
+注意：
+　　创建时的方向，由资源的朝向决定
+																														</describe>								</bulletBindingObjectPath>
+			<bulletBindEffect>			BULLET_BINDEFFECT_ENUM																									</bulletBindEffect>
+			<bulletEffect>				STRING<Default></Default>				<describe>子弹光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+																														</describe>								</bulletEffect>
+			<bulletSound>				STRING<Default></Default>				<describe>子弹音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+																														</describe>								</bulletSound>
+			<trackType>					BULLET_TRACK_TYPE_UNION																									</trackType>
+		</Properties>
+	</COMBAT_PERFORMANCE_BUFFBULLET>
+	
+	<BULLET_BINDEFFECT_ENUM>			ENUME									<describe>是否绑定子弹光效
+注意：
+　　具体轨迹类型中，绑定表现各有不同
+　　配置时需要慎重
+																														</describe>
+		<Properties>
+			<Arg>						<Value>True</Value>						<Name>✔	（子弹跟随模型移动）[True]		</Name>									</Arg>
+			<Arg>						<Value>False</Value>					<Name>✘	（子弹不跟随模型移动）(False)	</Name>									</Arg>
+		</Properties>					<Default>True</Default>
+	</BULLET_BINDEFFECT_ENUM>
+	
+	<BULLET_TRACK_TYPE_UNION>			UNION									<describe>子弹轨迹类型
+注意：
+　　(0)无　：停在原地／跟随玩家移动
+　　[1]直线：沿施术者朝向前进／在施术者前方推进
+　　(2)自转：原地旋转／跟着施术者旋转
+　　(3)布尔：随机轨迹移动
+																														</describe>
+		<Properties>
+			<无轨迹>					BULLET_TRACK_TYPE_NULL					<key>0									</key>									</无轨迹>
+			<沿直线前进>				BULLET_TRACK_TYPE_STRAIGHTLINE			<key>1									</key>									</沿直线前进>
+			<沿基点自转>				BULLET_TRACK_TYPE_ROTATION				<key>2									</key>									</沿基点自转>
+<!--		<布朗随机运动>				BULLET_TRACK_TYPE_BROWNIAN_MOTION		<key>3									</key>									</布朗随机运动>							未启用封印	-->
+		</Properties>					<Default>沿直线前进</Default>
+	</BULLET_TRACK_TYPE_UNION>
+	
+	<BULLET_TRACK_TYPE_NULL>			FIXED_DICT								<describe>无轨迹（子弹轨迹类型）
+定义：
+　　子弹创建后自身不移动
+　　若光效绑定，则跟随施法者移动
+　　若光效不绑定，则停留在原地
+																														</describe>
+		<Properties>
+		</Properties>
+	</BULLET_TRACK_TYPE_NULL>
+	
+	<BULLET_TRACK_TYPE_STRAIGHTLINE>	FIXED_DICT								<describe>沿直线前进轨迹（子弹轨迹类型）
+定义：
+　　子弹以指定速度，沿直线运动
+																														</describe>
+		<Properties>
+			<speed>						FLOAT<Default>10</Default>				<describe>子弹飞行速度（米/秒）			</describe>								</speed>
+		</Properties>
+	</BULLET_TRACK_TYPE_STRAIGHTLINE>
+	
+	<BULLET_TRACK_TYPE_ROTATION>		FIXED_DICT								<describe>沿基点自转轨迹（子弹轨迹类型）
+定义：
+　　以子弹光效资源的当前位置为圆心，以竖直方向为轴
+　　以指定角速度，旋转
+																														</describe>
+		<Properties>
+			<speed>						FLOAT<Default>0</Default>				<describe>子弹旋转速度（度/秒）
+　　从上往下看，逆时针方向为正
+　　（安培定则：右手握住单位，四指弯曲方向为正）
+　　																													</describe>								</speed>
+		</Properties>
+	</BULLET_TRACK_TYPE_ROTATION>
+	
+	<BULLET_TRACK_TYPE_BROWNIAN_MOTION>	FIXED_DICT								<describe>布朗随机移动轨迹（子弹轨迹类型）
+定义：
+　　以指定速度移动，指定间隔改变方向
+　　一开始就算好随机路径，然后再发射
+																														</describe>
+		<Properties>
+			<speed>						FLOAT<Default>0</Default>				<describe>子弹飞线速度（米/秒）			</describe>								</speed>
+		</Properties>															
+	</BULLET_TRACK_TYPE_BROWNIAN_MOTION>
+	
+	<COMBAT_FUNCTION_BUFFBULLET>		FIXED_DICT								<describe>战斗功能模块（弹道打击Buff）	</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<collisionTriggers>			ARRAY<of>BUFFBULLET_TRIGGER</of>		<describe>弹道触发打击点列表			</describe>								</collisionTriggers>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFBULLET>
+	
+	<BUFFBULLET_TRIGGER>				FIXED_DICT								<describe>弹道触发打击点				</describe>
+		<Properties>
+			<targetFinder>				OBJECT_FINDER_UNION_PASSIVESKILL_TARGET																					</targetFinder>
+			<relation>					RELATION_NUMINPUT																										</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求					</describe>								</targetConditions>
+			<targetSizer>				OBJECT_SIZER_UNION																										</targetSizer>
+			<isHitJudgment>				ISHITJUDGMENT_ENUM																										</isHitJudgment>
+			<casterEffects>				ARRAY<of>INT32</of>						<describe>副作用效果ID列表				</describe>								</casterEffects>
+			<spellEffects>				ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</spellEffects>
+		</Properties>
+	</BUFFBULLET_TRIGGER>
+	
+<!--	初始位置打击Buff（BuffStartPosition）																																							初始位置Buff	-->
+	<GENERAL_FUNCTION_BUFFONINITPOS>	FIXED_DICT								<describe>常规功能模块（初始位置打击Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求列表				</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM																											</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>初始位置偏移角度（角度）
+注意：
+　　指的是以Buff持有者位置为基准的偏移
+																														</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>初始位置偏移距离（米）
+注意：
+　　指的是以Buff持有者位置为基准的偏移
+																														</describe>								</offsetDistance>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFONINITPOS>
+	
+	<COMBAT_FUNCTION_BUFFONINITPOS>		FIXED_DICT								<describe>战斗功能模块（初始位置打击Buff）</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>添加效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<positionEffect>			ARRAY<of>BUFFSTARTPOSITION_TRIGGER</of>	<describe>初始位置打击点列表
+注意：
+　　①触发时机：周期效果之后
+　　②作用范围类型：写死是的偏移圆形
+　　③半径：配置半径
+　　④偏移角度：通过当前位置、记录位置，计算获得
+　　⑤偏移距离：通过当前位置、记录位置，计算获得
+																														</describe>								</positionEffect>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFONINITPOS>
+	
+	<BUFFSTARTPOSITION_TRIGGER>			FIXED_DICT								<describe>初始位置打击点				</describe>
+		<Properties>
+			<radius>					FLOAT<Default>0</Default>				<describe>初始位置范围半径（米）
+注意：
+　　①触发时机：周期效果之后
+　　②作用范围类型：写死是的偏移圆形
+　　③半径：配置半径
+　　④偏移角度：通过当前位置、记录位置，计算获得
+　　⑤偏移距离：通过当前位置、记录位置，计算获得
+																														</describe>								</radius>
+			<relation>					RELATION_NUMINPUT						<describe>								</describe>								</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求					</describe>								</targetConditions>
+			<targetSizer>				OBJECT_SIZER_UNION						<describe>								</describe>								</targetSizer>
+			<isHitJudgment>				ISHITJUDGMENT_ENUM						<describe>								</describe>								</isHitJudgment>
+			<casterEffects>				ARRAY<of>INT32</of>						<describe>副作用效果ID列表				</describe>								</casterEffects>
+			<spellEffects>				ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</spellEffects>
+		</Properties>
+	</BUFFSTARTPOSITION_TRIGGER>
+	
+<!--	火焰路径打击Buff（BuffFlamePath）																																								火焰路径打击Buff	-->
+	<GENERAL_FUNCTION_BUFFFLAMEPATH>	FIXED_DICT								<describe>常规功能模块（火焰路径打击Buff）</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求					</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②烈焰之径Buff在结束时，会将所有火焰光效移除
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）
+注意：
+　　烈焰之径Buff在周期时，会额外地投放一个火焰光效
+																														</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE					<describe>								</describe>								</saveType>
+			<syncType>					SYNCTYPE_ENUM							<describe>								</describe>								</syncType>
+			<collisionRelation>			RELATION_NUMINPUT						<describe>								</describe>								</collisionRelation>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFFLAMEPATH>
+	
+	<COMBAT_PERFORMANCE_BUFFFLAMEPATH>	FIXED_DICT								<describe>战斗表现模块（火焰路径打击Buff）</describe>
+		<Properties>
+			<animation>					STRING<Default></Default>
+										<cantModify>true</cantModify>			<describe>Buff动作
+定义：
+　　原则上“非主动的状态机跳转”是不应该的
+																														</describe>							</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>Buff施展光效创建
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																											</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>Buff光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</effect>
+			<sound>						STRING<Default></Default>				<describe>Buff音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</sound>
+			<flameBindingObjectPath>	STRING<Default></Default>				<describe>火焰光效创建
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+注意：
+　　火焰光效写死不跟随绑定点
+																														</describe>								</flameBindingObjectPath>
+			<flameEffect>				STRING<Default></Default>				<describe>火焰光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+																														</describe>								</flameEffect>
+			<flameSound>				STRING<Default></Default>				<describe>火焰音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+																														</describe>								</flameSound>
+		</Properties>
+	</COMBAT_PERFORMANCE_BUFFFLAMEPATH>
+	
+	<COMBAT_FUNCTION_BUFFFLAMEPATH>		FIXED_DICT								<describe>战斗功能模块（火焰路径打击Buff）</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<collisionTriggers>			ARRAY<of>BUFFFLAMEPATH_TRIGGER</of>		<describe>火焰触发打击点列表			</describe>								</collisionTriggers>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFFLAMEPATH>
+	
+	<BUFFFLAMEPATH_TRIGGER>				FIXED_DICT								<describe>火焰路径打击点</describe>
+		<Properties>
+			<targetFinder>				OBJECT_FINDER_UNION_PASSIVESKILL_TARGET																					</targetFinder>
+			<relation>					RELATION_NUMINPUT																										</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求					</describe>								</targetConditions>
+			<targetSizer>				OBJECT_SIZER_UNION																										</targetSizer>
+			<isHitJudgment>				ISHITJUDGMENT_ENUM																										</isHitJudgment>
+			<casterEffects>				ARRAY<of>INT32</of>						<describe>副作用效果ID列表				</describe>								</casterEffects>
+			<spellEffects>				ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</spellEffects>
+		</Properties>
+	</BUFFFLAMEPATH_TRIGGER>
+	
+<!--	失神Buff（BuffAbsence）																																											失神Buff	-->
+	<GENERAL_FUNCTION_BUFFABSENCE>		FIXED_DICT								<describe>常规功能模块（失神Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求					</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM_NOSAVE																									</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<startValue>				FLOAT<Default>0</Default>				<describe>进度初值						</describe>								</startValue>
+			<autoIncrement>				FLOAT<Default>0</Default>				<describe>自动增量（50次/秒）
+																														</describe>								</autoIncrement>
+			<manualIncrement>			FLOAT<Default>0</Default>				<describe>手动增量（每次点击）
+注意：
+　　我个人的极限≈6.25（下/秒）
+　　建议考验标准＝6.00(下/秒)
+																														</describe>								</manualIncrement>
+			<breakTime>					FLOAT<Default>0</Default>				<describe>刹车时间（秒）
+注意：
+　　每次点击后，自动增量会暂时停止，维持刹车时间
+																														</describe>								</breakTime>
+			<goalType>					BUFFABSENCE_GOALTYPE_ENUM														</goalType>
+			<goalValue>					FLOAT<Default>0</Default>				<describe>QTE成功条件
+注意：
+　　达到该条件则挣扎成功
+																														</describe>								</goalValue>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFABSENCE>
+	
+	<BUFFABSENCE_GOALTYPE_ENUM>			ENUME									<describe>QTE成功条件类型（失神Buff）	</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>≥大于等于指定取值	(0)			</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>≤小于等于指定取值	[1]			</Name>									</Arg>
+		</Properties>					<Default>1</Default>
+	</BUFFABSENCE_GOALTYPE_ENUM>
+	
+	<COMBAT_FUNCTION_BUFFABSENCE>		FIXED_DICT								<describe>战斗功能模块（失神Buff）</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<qteEffect>					ARRAY<of>INT32</of>						<describe>QTE成功效果ID列表				</describe>								</qteEffect>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFABSENCE>
+	
+<!--	打击点Buff（BuffTrigger）																																										打击点Buff	-->
+	<COMBAT_FUNCTION_BUFFTRIGGER>		FIXED_DICT								<describe>战斗功能模块（打击点Buff）	</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>BUFF_TRIGGER</of>				<describe>战吼打击点列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>BUFF_TRIGGER</of>				<describe>开始打击点列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>BUFF_TRIGGER</of>				<describe>周期打击点列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>BUFF_TRIGGER</of>				<describe>中断打击点列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>BUFF_TRIGGER</of>				<describe>结束打击点列表				</describe>								</detachEffect>
+		</Properties>															
+	</COMBAT_FUNCTION_BUFFTRIGGER>
+	
+	<BUFF_TRIGGER>						FIXED_DICT								<describe>Buff打击点					</describe>
+		<Properties>
+			<targetFinder>				OBJECT_FINDER_UNION_BUFF_OWNER																							</targetFinder>
+			<relation>					RELATION_NUMINPUT																										</relation>
+			<targetConditions>			ARRAY<of>CONDITION_UNION</of>			<describe>目标条件要求					</describe>								</targetConditions>
+			<targetSizer>				OBJECT_SIZER_UNION																										</targetSizer>
+			<isHitJudgment>				ISHITJUDGMENT_ENUM																										</isHitJudgment>
+			<casterEffects>				ARRAY<of>INT32</of>						<describe>副作用效果ID列表				</describe>								</casterEffects>
+			<spellEffects>				ARRAY<of>INT32</of>						<describe>作用效果ID列表				</describe>								</spellEffects>
+		</Properties>
+	</BUFF_TRIGGER>
+	
+<!--	连线Buff（BuffLinkLine）																																										连线Buff	-->
+	<COMBAT_PERFORMANCE_BUFFLINKLINE>	FIXED_DICT								<describe>战斗表现模块（连线Buff）		</describe>
+		<Properties>
+			<animation>					STRING<Default></Default>
+										<cantModify>true</cantModify>			<describe>Buff动作
+定义：
+　　原则上“非主动的状态机跳转”是不应该的
+																														</describe>								</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>Buff施展光效创建
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																											</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>Buff光效
+定义：
+　　在effectManager组件中定义的光效名
+　　（如：baodian01）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</effect>
+			<sound>						STRING<Default></Default>				<describe>Buff音效
+定义：
+　　在soundFXManager组件中定义的光效名
+　　（如：dao1）
+注意：
+　　Buff表现定义为“持续表现”而非“施展成功表现”
+　　Buff“结束”或“中断”时，表现播放被会中止
+																														</describe>								</sound>
+			<lineEffect>				STRING<Default></Default>				<describe>连线光效
+定义：
+　　①在effectManager组件中定义的光效名
+　　②需要配置众多插件与参数，由程序或美术同仁提供
+　　③需要调整表现参数，请联系程序或美术同仁
+																														</describe>								</lineEffect>
+			<ownerBindingObjectPath>	STRING<Default></Default>				<describe>（Buff持有者端）连线光效绑定点
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</ownerBindingObjectPath>
+			<ownerWidth>				FLOAT<Default>1</Default>				<describe>Buff持有者端连线大小（%）
+																														</describe>								</ownerWidth>
+			<casterBindingObjectPath>	STRING<Default></Default>				<describe>（Buff施术者端）连线光效绑定点
+定义：
+　　从“Entity组件”中定义的“绑定点路径”
+　　（如：左手＝Model/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Spine2/Bip001 Neck/Bip001 L Clavicle/Bip001 L UpperArm/Bip001 L Forearm/Bip001 L Hand/l_h）
+　　（留空就是不依附于模型骨骼的“根节点”）
+																														</describe>								</casterBindingObjectPath>
+			<casterWidth>				FLOAT<Default>1</Default>				<describe>Buff施术者端连线大小（%）
+																														</describe>								</casterWidth>
+			<maxDistance>				FLOAT<Default>10</Default>				<describe>连线距离上限（米）
+注意：
+　　①每个tick开始前，检查距离
+　　②若距离≤距离上限，则成功触发tick
+　　③若距离＞距离上限，则中断此Buff
+																														</describe>								</maxDistance>
+		</Properties>
+	</COMBAT_PERFORMANCE_BUFFLINKLINE>
+	
+<!--	护盾Buff（BuffShield）																																											护盾Buff	-->
+	<GENERAL_FUNCTION_BUFFSHIELD>		FIXED_DICT								<describe>常规功能模块（护盾Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求					</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM																											</saveType>
+			<syncType>					SYNCTYPE_ENUM_MUSTSYNC																									</syncType>
+			<shieldType>				SHIELDYPE_ENUM																											</shieldType>
+			<value>						INT32<Default>0</Default>				<describe>护盾值（点）
+注意：
+　　若配置护盾＝0，则护盾会在首次抵扣伤害时中断
+																														</describe>								</value>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFSHIELD>
+	
+	<SHIELDYPE_ENUM>					ENUME									<describe>护盾响应类型
+定义：
+　　描述此护盾响应何种“伤害”
+　　响应“生命值伤害”就以护盾值抵扣生命值伤害，就是普通盾
+　　响应“霸体值伤害”就以护盾值抵扣霸体值伤害，就是霸体盾
+注意：
+　　暂未支持“法力值伤害”，有需要时提起需求制作
+																														</describe>
+		<Properties>
+			<Arg>						<Value>0</Value>						<Name>霸体值	(0)						</Name>									</Arg>
+			<Arg>						<Value>1</Value>						<Name>生命值	[1]						</Name>									</Arg>
+		</Properties>					<Default>1</Default>
+	</SHIELDYPE_ENUM>
+	
+	<COMBAT_FUNCTION_BUFFSHIELD>		FIXED_DICT								<describe>战斗功能模块（护盾Buff）		</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<triggerEffect>				ARRAY<of>INT32</of>						<describe>护甲扣除时效果ID列表
+定义：
+　　护甲值扣除时，触发指定该效果列表
+　　效果的施法者是Buff持有者，目标是护盾伤害的施法者
+注意：
+　　①护甲值扣除＞0时触发，＝0时不触发
+　　②时机在“扣除护盾后”，“Buff中断前”
+																														</describe>								</triggerEffect>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFSHIELD>
+	
+<!--	召唤Buff（BuffSummon）																																											召唤Buff	-->
+	<GENERAL_FUNCTION_BUFFSUMMON>		FIXED_DICT								<describe>常规功能模块（召唤Buff）		</describe>
+		<Properties>
+			<conditions>				ARRAY<of>CONDITION_UNION</of>			<describe>添加条件要求					</describe>								</conditions>
+			<stayTime>					FLOAT<Default>0</Default>				<describe>Buff持续时间（秒）
+注意：
+　　①若持续时间＝0，代表无计时（只能中断）
+　　②若持续时间＜周期时间，则至少持续一次周期时间
+																														</describe>								</stayTime>
+			<tickTime>					FLOAT<Default>0</Default>				<describe>Buff周期时间（秒）			</describe>								</tickTime>
+			<interruptCode>				STRING<Default></Default>				<describe>Buff中断码
+定义：
+　　4位：程序写死，系统发送，见下表；
+　　　1001＝失去移动能力时；2001＝重获移动能力时；
+　　　1002＝失去施法能力时；2002＝重获施法能力时；
+　　　1003＝失去受击能力时；2003＝重获受击能力时；
+　　　1032＝移动开始时；　　2032＝移动停止时；
+　　　1033＝施法开始时；　　2033＝施法停止时；
+　　　1034＝受击开始时；　　2034＝受击停止时；
+　　6位：针对技能系统，如：
+　　　效果ID前6位；（如：500201＝通用无敌中断）
+注意：
+　　①同时填多项时，英文逗号分隔，顺序执行
+																														</describe>								</interruptCode>
+			<saveType>					SAVETYPE_ENUM																											</saveType>
+			<syncType>					SYNCTYPE_ENUM																											</syncType>
+			<offsetAngle>				FLOAT<Default>0</Default>				<describe>偏移角度（角度）				</describe>								</offsetAngle>
+			<offsetDistance>			FLOAT<Default>0</Default>				<describe>偏移距离（米）				</describe>								</offsetDistance>
+			<radius>					FLOAT<Default>0</Default>				<describe>随机范围半径（米）			</describe>								</radius>
+			<entityID>					INT32<Default>0</Default>				<describe>召唤单位ID
+定义：详见NPCEConfig.json
+																														</describe>								</entityID>
+			<effectID>					ARRAY<of>INT32</of>						<describe>效果列表						</describe>								</effectID>
+		</Properties>
+	</GENERAL_FUNCTION_BUFFSUMMON>
+	
+	<COMBAT_FUNCTION_SUMMON>					FIXED_DICT								<describe>战斗功能模块（标准Buff）		</describe>
+		<Properties>
+			<entityID>                  STRING                                  <describe>召唤的entityID				</describe>                             </entityID>
+			<entityEffect	>			ARRAY<of>INT32</of>						<describe>投递给召唤entity的效果ID列表	</describe>								</entityEffect>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+		</Properties>
+	</COMBAT_FUNCTION_SUMMON>
+	
+	<COMBAT_PERFORMANCE_BUFFSHIELD>		FIXED_DICT								<describe>战斗表现模块（盾Buff）	</describe>
+		<Properties>
+			<animation>					STRING<Default></Default><cantModify>true</cantModify>			<describe>Buff动作</describe>							</animation>
+			<bindingObjectPath>			STRING<Default></Default>				<describe>Buff施展光效创建</describe>								            </bindingObjectPath>
+			<bindEffect>				BINDEFFECT_ENUM																											</bindEffect>
+			<effect>					STRING<Default></Default>				<describe>Buff光效</describe>								                    </effect>
+			<sound>						STRING<Default></Default>				<describe>Buff音效</describe>								                    </sound>
+			<shieldBindingObjectPath>	STRING<Default></Default>				<describe>盾光效创建点</describe>								            </shieldBindingObjectPath>
+			<shieldEffect>				STRING<Default></Default>				<describe>盾光效</describe>								                    </shieldEffect>
+		</Properties>
+	</COMBAT_PERFORMANCE_BUFFSHIELD>
+	
+	<COMBAT_FUNCTION_BUFFSHIELD>		FIXED_DICT								<describe>战斗功能模块（盾Buff）	</describe>
+		<Properties>
+			<castFailEffect>			ARRAY<of>INT32</of>						<describe>失败效果ID列表				</describe>								</castFailEffect>
+			<battlecryEffect>			ARRAY<of>INT32</of>						<describe>战吼效果ID列表				</describe>								</battlecryEffect>
+			<attachEffect>				ARRAY<of>INT32</of>						<describe>开始效果ID列表				</describe>								</attachEffect>
+			<tickEffect>				ARRAY<of>INT32</of>						<describe>周期效果ID列表				</describe>								</tickEffect>
+			<interruptEffect>			ARRAY<of>INT32</of>						<describe>中断效果ID列表				</describe>								</interruptEffect>
+			<detachEffect>				ARRAY<of>INT32</of>						<describe>结束效果ID列表				</describe>								</detachEffect>
+			<shieldEffect>				ARRAY<of>INT32</of>						<describe>盾碰撞效果ID点列表			</describe>								</shieldEffect>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFSHIELD>
+	
+	<COMBAT_FUNCTION_BUFFLIGHTNING>		FIXED_DICT								<describe>战斗功能模块（闪电链Buff）	</describe>
+		<Properties>
+			<times>						INT32						<describe>打击次数				</describe>								</times>
+			<radius>					FLOAT						<describe>半径					</describe>								</radius>
+			<effect>					ARRAY<of>INT32</of>			<describe>效果					</describe>								</effect>
+		</Properties>
+	</COMBAT_FUNCTION_BUFFLIGHTNING>
+	
+</root>

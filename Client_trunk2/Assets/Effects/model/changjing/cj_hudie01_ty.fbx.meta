@@ -1,0 +1,331 @@
+fileFormatVersion: 2
+guid: c961a61eca01a984f984a4da49db2639
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: curve1
+    100002: curve1 1
+    100004: curve1 2
+    100006: curve1 3
+    100008: curve1 4
+    100010: curve1 5
+    100012: group1
+    100014: group1_1
+    100016: group2
+    100018: group2_2
+    100020: group3
+    100022: group3_3
+    100024: joint1
+    100026: joint1 1
+    100028: joint1 2
+    100030: joint1 3
+    100032: joint1 4
+    100034: joint1 5
+    100036: joint2
+    100038: joint2 1
+    100040: joint2 2
+    100042: joint2 3
+    100044: joint2 4
+    100046: joint2 5
+    100048: joint3
+    100050: joint3 1
+    100052: joint3 2
+    100054: joint3 3
+    100056: joint3 4
+    100058: joint3 5
+    100060: joint4
+    100062: joint4 1
+    100064: joint4 2
+    100066: joint4 3
+    100068: joint4 4
+    100070: joint4 5
+    100072: joint5
+    100074: joint5 1
+    100076: joint5 2
+    100078: joint5 3
+    100080: joint5 4
+    100082: joint5 5
+    100084: pPlane1
+    100086: pPlane1 1
+    100088: pPlane1 2
+    100090: pPlane1 3
+    100092: pPlane1 4
+    100094: pPlane1 5
+    100096: pPlane2
+    100098: pPlane2 1
+    100100: pPlane2 2
+    100102: pPlane2 3
+    100104: pPlane2 4
+    100106: pPlane2 5
+    100108: //RootNode
+    400000: curve1
+    400002: curve1 1
+    400004: curve1 2
+    400006: curve1 3
+    400008: curve1 4
+    400010: curve1 5
+    400012: group1
+    400014: group1_1
+    400016: group2
+    400018: group2_2
+    400020: group3
+    400022: group3_3
+    400024: joint1
+    400026: joint1 1
+    400028: joint1 2
+    400030: joint1 3
+    400032: joint1 4
+    400034: joint1 5
+    400036: joint2
+    400038: joint2 1
+    400040: joint2 2
+    400042: joint2 3
+    400044: joint2 4
+    400046: joint2 5
+    400048: joint3
+    400050: joint3 1
+    400052: joint3 2
+    400054: joint3 3
+    400056: joint3 4
+    400058: joint3 5
+    400060: joint4
+    400062: joint4 1
+    400064: joint4 2
+    400066: joint4 3
+    400068: joint4 4
+    400070: joint4 5
+    400072: joint5
+    400074: joint5 1
+    400076: joint5 2
+    400078: joint5 3
+    400080: joint5 4
+    400082: joint5 5
+    400084: pPlane1
+    400086: pPlane1 1
+    400088: pPlane1 2
+    400090: pPlane1 3
+    400092: pPlane1 4
+    400094: pPlane1 5
+    400096: pPlane2
+    400098: pPlane2 1
+    400100: pPlane2 2
+    400102: pPlane2 3
+    400104: pPlane2 4
+    400106: pPlane2 5
+    400108: //RootNode
+    4300000: pPlane1
+    4300002: pPlane2
+    4300004: pPlane1
+    4300006: pPlane2
+    4300008: pPlane1
+    4300010: pPlane2
+    4300012: pPlane1
+    4300014: pPlane2
+    4300016: pPlane1
+    4300018: pPlane2
+    4300020: pPlane1
+    4300022: pPlane2
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: pPlane1
+    13700002: pPlane1 1
+    13700004: pPlane1 2
+    13700006: pPlane1 3
+    13700008: pPlane1 4
+    13700010: pPlane1 5
+    13700012: pPlane2
+    13700014: pPlane2 1
+    13700016: pPlane2 2
+    13700018: pPlane2 3
+    13700020: pPlane2 4
+    13700022: pPlane2 5
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 97
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: group1
+        weight: 1
+      - path: group1/curve1
+        weight: 1
+      - path: group1/joint1
+        weight: 1
+      - path: group1/joint1/joint2
+        weight: 1
+      - path: group1/joint1/joint2/joint3
+        weight: 1
+      - path: group1/joint1/joint4
+        weight: 1
+      - path: group1/joint1/joint4/joint5
+        weight: 1
+      - path: group1/pPlane1
+        weight: 1
+      - path: group1/pPlane2
+        weight: 1
+      - path: group1_1
+        weight: 1
+      - path: group1_1/curve1 1
+        weight: 1
+      - path: group1_1/joint1 1
+        weight: 1
+      - path: group1_1/joint1 1/joint2 1
+        weight: 1
+      - path: group1_1/joint1 1/joint2 1/joint3 1
+        weight: 1
+      - path: group1_1/joint1 1/joint4 1
+        weight: 1
+      - path: group1_1/joint1 1/joint4 1/joint5 1
+        weight: 1
+      - path: group1_1/pPlane1 1
+        weight: 1
+      - path: group1_1/pPlane2 1
+        weight: 1
+      - path: group2
+        weight: 1
+      - path: group2/curve1 2
+        weight: 1
+      - path: group2/joint1 2
+        weight: 1
+      - path: group2/joint1 2/joint2 2
+        weight: 1
+      - path: group2/joint1 2/joint2 2/joint3 2
+        weight: 1
+      - path: group2/joint1 2/joint4 2
+        weight: 1
+      - path: group2/joint1 2/joint4 2/joint5 2
+        weight: 1
+      - path: group2/pPlane1 2
+        weight: 1
+      - path: group2/pPlane2 2
+        weight: 1
+      - path: group2_2
+        weight: 1
+      - path: group2_2/curve1 3
+        weight: 1
+      - path: group2_2/joint1 3
+        weight: 1
+      - path: group2_2/joint1 3/joint2 3
+        weight: 1
+      - path: group2_2/joint1 3/joint2 3/joint3 3
+        weight: 1
+      - path: group2_2/joint1 3/joint4 3
+        weight: 1
+      - path: group2_2/joint1 3/joint4 3/joint5 3
+        weight: 1
+      - path: group2_2/pPlane1 3
+        weight: 1
+      - path: group2_2/pPlane2 3
+        weight: 1
+      - path: group3
+        weight: 1
+      - path: group3/curve1 4
+        weight: 1
+      - path: group3/joint1 4
+        weight: 1
+      - path: group3/joint1 4/joint2 4
+        weight: 1
+      - path: group3/joint1 4/joint2 4/joint3 4
+        weight: 1
+      - path: group3/joint1 4/joint4 4
+        weight: 1
+      - path: group3/joint1 4/joint4 4/joint5 4
+        weight: 1
+      - path: group3/pPlane1 4
+        weight: 1
+      - path: group3/pPlane2 4
+        weight: 1
+      - path: group3_3
+        weight: 1
+      - path: group3_3/curve1 5
+        weight: 1
+      - path: group3_3/joint1 5
+        weight: 1
+      - path: group3_3/joint1 5/joint2 5
+        weight: 1
+      - path: group3_3/joint1 5/joint2 5/joint3 5
+        weight: 1
+      - path: group3_3/joint1 5/joint4 5
+        weight: 1
+      - path: group3_3/joint1 5/joint4 5/joint5 5
+        weight: 1
+      - path: group3_3/pPlane1 5
+        weight: 1
+      - path: group3_3/pPlane2 5
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  additionalBone: 0
+  userData: 

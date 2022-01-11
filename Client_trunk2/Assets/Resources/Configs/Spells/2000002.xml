@@ -1,0 +1,36 @@
+<root>
+	<id>2000002</id>
+	<className>SpellExCollider</className>
+	<generalPerformance>
+		<name>怪物测试技能</name>
+		<level>1</level>
+		<icon>skillIcon/HengSaoQianJun</icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<targetType>0</targetType>
+		<distance>2</distance>
+		<cooldownID>2000002</cooldownID>
+		<cooldownTime>8</cooldownTime>
+		<mpCost>0</mpCost>
+		<conditions></conditions>
+		<isIntoFightStatus>True</isIntoFightStatus>
+		<isTriggerDo>True</isTriggerDo>
+	</generalFunction>
+	<combatPerformance>
+		<casterAnimation>
+			<animation>attack02</animation>
+			<bindingObjectPath></bindingObjectPath>
+			<bindEffect>True</bindEffect>
+			<effect></effect>
+			<sound></sound>
+		</casterAnimation>
+	</combatPerformance>
+	<combatFunction>
+		<attackTimes>2</attackTimes>
+		<colliderEffects>
+			<item>1000001</item>
+		</colliderEffects>
+	</combatFunction>
+</root>

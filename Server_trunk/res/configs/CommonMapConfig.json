@@ -1,0 +1,86 @@
+{
+    "99999998": {
+        "recordOnLeave": 1,
+        "maxPlayer": 50,
+        "navFlags": 1,
+        "clientPath": "Demo",
+        "enterPos": 3000013,
+        "dataType": "MultilineSpaceData",
+        "newLineByPlayerAmount": 40,
+        "eMetaClass": "99999998",
+        "mappingPath": "DemoNavmesh/",
+        "music": "fm_city",
+        "maxLine": 99,
+        "canModifyPKMode": 0,
+        "name": "战斗平台测试",
+        "initLine": 1,
+        "campMap": [
+            [
+                0,
+                1,
+                2,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                2
+            ],
+            [
+                0,
+                1,
+                0,
+                2
+            ],
+            [
+                1,
+                0,
+                2,
+                0
+            ]
+        ],
+        "campIDForPlayerEnter": 1,
+        "disableReviveType": [1],
+        "monopolize": 0,
+        "aoi": 20.0,
+        "autoCloseDelay": 0,
+        "isNormalPKRule": 0,
+        "loadOnStart": 1,
+        "autoClose": 0
+    },
+    "99999999": {
+        "recordOnLeave": 1,
+        "maxPlayer": 50,
+        "navFlags": 1,
+        "clientPath": "001_suo_ling_ta_01",
+        "enterPos": 3000001,
+        "dataType": "MultilineSpaceData",
+        "newLineByPlayerAmount": 40,
+        "eMetaClass": "99999999",
+        "mappingPath": "001_suo_ling_ta_01Navmesh/",
+        "music": "fm_city",
+        "maxLine": 99,
+        "canModifyPKMode": 0,
+        "name": "锁灵塔测试地图",
+        "initLine": 1,
+        "campMap": [
+            [
+                0,
+                1
+            ],
+            [
+                1,
+                0
+            ]
+        ],
+        "campIDForPlayerEnter": 1,
+        "disableReviveType": [1],
+        "monopolize": 0,
+        "aoi": 20.0,
+        "autoCloseDelay": 0,
+        "isNormalPKRule": 0,
+        "loadOnStart": 1,
+        "autoClose": 0
+    }
+}

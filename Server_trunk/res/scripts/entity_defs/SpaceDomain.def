@@ -1,0 +1,62 @@
+<root>
+	<Properties>
+	</Properties>
+
+	<BaseMethods>
+		<onSpaceLoseCell>
+			<Arg>	ENTITY_ID 		</Arg>		<!-- space entity's id -->
+		</onSpaceLoseCell>
+
+		<onSpaceGetCell>
+			<Arg>	ENTITY_ID 		</Arg>		<!-- space entity's id -->
+		</onSpaceGetCell>
+
+		<onSpaceCloseNotify>
+			<Arg>	ENTITY_ID 		</Arg>		<!-- space entity's id -->
+		</onSpaceCloseNotify>
+
+		<onEntityEnterSpace>
+			<Arg>	MAILBOX 		</Arg>		<!-- space entity's mailbox -->
+			<Arg>	MAILBOX 		</Arg>		<!-- player entity's mailbox -->
+		</onEntityEnterSpace>
+
+		<onEntityLeaveSpace>
+			<Arg>	MAILBOX 		</Arg>		<!-- space entity's mailbox -->
+			<Arg>	MAILBOX 		</Arg>		<!-- player entity's mailbox -->
+		</onEntityLeaveSpace>
+
+		<teleportEntity>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntity>
+
+		<teleportEntitys>
+			<Arg>	VECTOR3		</Arg>	<!-- position -->
+			<Arg>	VECTOR3		</Arg>	<!-- direction -->
+			<Arg>	ARRAY <of>MAILBOX</of>		</Arg>	<!-- player base -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntitys>
+
+		<teleportEntityOnLogin>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	VECTOR3		</Arg>	<!-- default position -->
+			<Arg>	VECTOR3		</Arg>	<!-- default direction -->
+			<Arg>	SPACE_IDENT	</Arg>	<!-- prev space ident -->
+			<Arg>	VECTOR3		</Arg>	<!-- prev space position -->
+			<Arg>	PY_DICT		</Arg>	<!-- params -->
+		</teleportEntityOnLogin>
+		
+		<getMultiLines>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+		</getMultiLines>
+		
+		<setMultiLine>
+			<Arg>	MAILBOX		</Arg>	<!-- player base -->
+			<Arg>	VECTOR3		</Arg>	<!-- default position -->
+			<Arg>	VECTOR3		</Arg>	<!-- default direction -->
+			<Arg>	INT32		</Arg>	<!-- LINE NUM -->
+		</setMultiLine>
+	</BaseMethods>
+</root>

@@ -1,0 +1,411 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1430881755772456}
+  m_IsPrefabParent: 1
+--- !u!1 &1007629968919650
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4450101349775254}
+  - component: {fileID: 114937734161142508}
+  m_Layer: 0
+  m_Name: SkillBlackHole
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1107588176581640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4961556718448844}
+  - component: {fileID: 114374820981453780}
+  m_Layer: 0
+  m_Name: SkillFireJet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1430881755772456
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4604281784315624}
+  - component: {fileID: 114402818995317904}
+  - component: {fileID: 114846178681237694}
+  m_Layer: 0
+  m_Name: PlayerSkillManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1581675425209758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4549600982783370}
+  - component: {fileID: 114168426185079022}
+  m_Layer: 0
+  m_Name: SkillMeteor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1744266618555366
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4576129588952360}
+  - component: {fileID: 114201547926824846}
+  m_Layer: 0
+  m_Name: SkillFlySword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1820991209982884
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4467577150648334}
+  - component: {fileID: 114057541302386558}
+  m_Layer: 0
+  m_Name: SkillFrostJet
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1868830848919192
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4038124629047876}
+  - component: {fileID: 114650241179762060}
+  m_Layer: 0
+  m_Name: SkillShield
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4038124629047876
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868830848919192}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4450101349775254
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1007629968919650}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4467577150648334
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820991209982884}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4549600982783370
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581675425209758}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4576129588952360
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744266618555366}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4604281784315624
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430881755772456}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4961556718448844}
+  - {fileID: 4467577150648334}
+  - {fileID: 4549600982783370}
+  - {fileID: 4450101349775254}
+  - {fileID: 4576129588952360}
+  - {fileID: 4038124629047876}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4961556718448844
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107588176581640}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4604281784315624}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114057541302386558
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1820991209982884}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7f584d383457f43a3bd661d1dbe5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u51B0\u971C\u55B7\u5C04"
+  description: "\u6BCF0.5\u5BF9\u76EE\u6807\u9020\u9020\u6210\u4E00\u6B21\u51CF\u901Fbuff\n\u5730\u9762\u6548\u679C\u6BCF1\u79D2\u5BF9\u76EE\u6807\u9020\u6210\u4E00\u6B21\u4F24\u5BB3"
+  id: 2
+  magicSparCount: 3
+  castTime: 3
+  castHand: 2
+  handAnimation: launch
+  jetEffect: frostJet
+  hitEffect: iceTarget
+  OnGroundEffect: iceGround
+  relation: 05000000
+  triggerEffectsID: 61d62d00
+  intervalTime: 0.2
+  groundEffectsID: 63d62d00
+  groundIntervalTime: 1
+  groundEffectLayerMask:
+    serializedVersion: 2
+    m_Bits: 262144
+--- !u!114 &114168426185079022
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1581675425209758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9392e28ac686b044ba850026a30a7022, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u9668\u77F3\u6389\u843D"
+  description: "\u5BF9\u78B0\u649E\u5230\u7684\u76EE\u6807\u9020\u6210\u4E00\u6B21\u4F24\u5BB3\u5E76\u7729\u6655"
+  id: 3
+  magicSparCount: 4
+  castTime: 3
+  castHand: 2
+  handAnimation: 
+  meteorEffect: Meteor
+  relation: 05000000
+  triggerEffectsID: 41420f0049da2d00
+--- !u!114 &114201547926824846
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1744266618555366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f213b17cac96b04d83f8d1df08e7715, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u98DE\u5251"
+  description: 
+  id: 5
+  magicSparCount: 0
+  castTime: 0
+  castHand: 2
+  handAnimation: at
+  swordPrefab: {fileID: 1108046088323478, guid: 06dea0946f7120c4fa3c0cf0dbab9aa1,
+    type: 2}
+  holdSword: {fileID: 1827337190828720, guid: 7441181c617703c4390543a87636528a, type: 2}
+  followSpeed: 2
+  attackSpeed: 30
+  relation: 05000000
+  flySwordEffectsID: 47420f0029460f00
+  holdSwordEffectsID: 47420f0029460f00
+--- !u!114 &114374820981453780
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1107588176581640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e7f584d383457f43a3bd661d1dbe5f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u706B\u7130\u55B7\u5C04"
+  description: "\u6BCF0.5\u5BF9\u76EE\u6807\u9020\u6210\u4E00\u6B21\u4F24\u5BB3\n\u5730\u9762\u6548\u679C\u6BCF1\u79D2\u5BF9\u76EE\u6807\u9020\u6210\u4E00\u6B21\u4F24\u5BB3"
+  id: 1
+  magicSparCount: 3
+  castTime: 5
+  castHand: 2
+  handAnimation: launch
+  jetEffect: penhuo
+  hitEffect: penhuo_hit
+  OnGroundEffect: penhuodimian
+  relation: 05000000
+  triggerEffectsID: 46420f00
+  intervalTime: 0.5
+  groundEffectsID: 40420f00
+  groundIntervalTime: 1
+  groundEffectLayerMask:
+    serializedVersion: 2
+    m_Bits: 524288
+--- !u!114 &114402818995317904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430881755772456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6d5296fc37162ca4b9ecaa10eb80f435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114650241179762060
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1868830848919192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b849b56677c0ba148a27a5f3773f092f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u62A4\u76FE"
+  description: 
+  id: 6
+  magicSparCount: 0
+  castTime: 0
+  castHand: 1
+  handAnimation: 
+  NeedEnergyValue: 25
+  DefendExpendValue: 25
+  ShieldEffecName: shield2
+  ShieldEffecBrokenName: shield_suilie
+  ShieldBindObjectPath: LeftController/Weapon/
+  shieldMaterialNameList:
+  - T_VR_dun_D
+  - T_VR_dun_D_1
+  - T_VR_dun_D_2
+  - T_VR_dun_D_3
+--- !u!114 &114846178681237694
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1430881755772456}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11eaf998bc0ec9d46930a8818660fd1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UpButtonSkill: {fileID: 114374820981453780}
+  DownButtonSkill: {fileID: 114057541302386558}
+  LeftButtonSkill: {fileID: 114168426185079022}
+  RightButtonSkill: {fileID: 114937734161142508}
+--- !u!114 &114937734161142508
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1007629968919650}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab6d0ba5b61c50e4490a53f23ff3d1c2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  skillName: "\u6B21\u5143\u95E8"
+  description: "\u79D2\u6740"
+  id: 4
+  magicSparCount: 10
+  castTime: 8
+  castHand: 2
+  handAnimation: draw
+  blackHoleEffect: blackhole
+  paintPrefab: {fileID: 1000010754747542, guid: e207cbb1b562e234a9614dc21b51355c,
+    type: 2}
+  guidePrefab: {fileID: 1445709048999524, guid: b983719ae7cf37841900710e323dea16,
+    type: 2}
+  relation: 05000000
+  absorbRadius: 10
+  absorbLastTime: 8
+  absorbTime: 3
+  timeScale: 0.1
+  triggerEffectsID: 

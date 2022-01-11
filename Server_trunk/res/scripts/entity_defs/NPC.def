@@ -1,0 +1,35 @@
+<root>
+	<Volatile>
+		<position/>
+		<!--<position> 0 </position> Don't update-->
+		<yaw/>
+		<!--<pitch> 20 </pitch>-->
+		<pitch/>
+		<roll/>
+	</Volatile>
+
+	<Implements>
+		<Interface> GameObject </Interface>
+		<Interface> ObjectType </Interface>
+	</Implements>
+
+	<Properties>
+		<name>  <!-- 用于显示的名字 -->
+			<Type>			UNICODE				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</name>
+		
+		<weaponID>  <!-- 武器外观 -->
+			<Type>			STRING				</Type>
+			<Flags>			ALL_CLIENTS			</Flags>
+		</weaponID>
+		
+	</Properties>
+
+	<BaseMethods>
+	</BaseMethods>
+
+	<CellMethods>
+	</CellMethods>
+
+</root>

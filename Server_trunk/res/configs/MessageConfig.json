@@ -1,0 +1,176 @@
+{
+    "13000": {
+        "errorDescription": "指引系统",
+        "showType": 0,
+        "id": 13000,
+        "serverVar": "13001=>13999"
+    },
+    "13001": {
+        "errorDescription": "技能指引",
+        "showType": 0,
+        "id": 13001,
+        "serverVar": "GUIDE_SKILL_ID"
+    },
+    "10018": {
+        "errorDescription": "包含非法字符",
+        "showType": 1,
+        "id": 10018,
+        "serverVar": "PLAYERNAME_CONTAINS_SENSITIVE_WORDS"
+    },
+    "10011": {
+        "errorDescription": "创建人物失败",
+        "showType": 1,
+        "id": 10011,
+        "serverVar": "ACCOUNT_STATE_CREATE_FAIL"
+    },
+    "11001": {
+        "errorDescription": "副本胜利",
+        "showType": 1,
+        "id": 11001,
+        "serverVar": "SPACE_MSG_WIN"
+    },
+    "10010": {
+        "errorDescription": "未知的阵营、门派关系",
+        "showType": 1,
+        "id": 10010,
+        "serverVar": "ACCOUNT_STATE_CREATE_UNKNOWN_RELATION"
+    },
+    "11000": {
+        "errorDescription": "副本系统",
+        "showType": 0,
+        "id": 11000,
+        "serverVar": "11001=>11999"
+    },
+    "10013": {
+        "errorDescription": "该角色已登陆",
+        "showType": 1,
+        "id": 10013,
+        "serverVar": "ACCOUNT_STATE_ROLE_ALREADY_LOGIN"
+    },
+    "11003": {
+        "errorDescription": "副本即将关闭，{0}秒后传出副本",
+        "showType": 1,
+        "id": 11003,
+        "serverVar": "SPACE_CLOSE_WITH_DISBAND_TEAM"
+    },
+    "13002": {
+        "errorDescription": "{0}技能释放成功",
+        "showType": 1,
+        "id": 13002,
+        "serverVar": "GUIDE_SKILL_SUCCEED"
+    },
+    "10012": {
+        "errorDescription": "该帐号已登陆",
+        "showType": 1,
+        "id": 10012,
+        "serverVar": "ACCOUNT_STATE_ID_ALREADY_LOGIN"
+    },
+    "11002": {
+        "errorDescription": "副本失败",
+        "showType": 1,
+        "id": 11002,
+        "serverVar": "SPACE_MSG_FAIL"
+    },
+    "13003": {
+        "errorDescription": "{0}技能释放失败",
+        "showType": 1,
+        "id": 13003,
+        "serverVar": "GUIDE_SKILL_FAIL"
+    },
+    "10015": {
+        "errorDescription": "该角色不能删除",
+        "showType": 1,
+        "id": 10015,
+        "serverVar": "ACCOUNT_STATE_ROLE_UNALLOWD_DEL"
+    },
+    "10014": {
+        "errorDescription": "角色不存在",
+        "showType": 1,
+        "id": 10014,
+        "serverVar": "ACCOUNT_STATE_ROLE_NOT_EXIST"
+    },
+    "10017": {
+        "errorDescription": "服务器版本：(0)",
+        "showType": 1,
+        "id": 10017,
+        "serverVar": "ACCOUNT_STATE_SERVER_VERSION"
+    },
+    "10016": {
+        "errorDescription": "服务器繁忙，请稍后再试",
+        "showType": 1,
+        "id": 10016,
+        "serverVar": "ACCOUNT_STATE_SERVER_BUSY"
+    },
+    "12000": {
+        "errorDescription": "战斗系统",
+        "showType": 0,
+        "id": 12000,
+        "serverVar": "12001=>12999"
+    },
+    "10008": {
+        "errorDescription": "未知的阵营",
+        "showType": 1,
+        "id": 10008,
+        "serverVar": "ACCOUNT_STATE_CREATE_UNKNOWN_CAMP"
+    },
+    "10007": {
+        "errorDescription": "未知的性别",
+        "showType": 1,
+        "id": 10007,
+        "serverVar": "ACCOUNT_STATE_CREATE_UNKNOWN_GENDER"
+    },
+    "10009": {
+        "errorDescription": "未知的门派",
+        "showType": 1,
+        "id": 10009,
+        "serverVar": "ACCOUNT_STATE_CREATE_UNKNOWN_RACE"
+    },
+    "10000": {
+        "errorDescription": "创建人物时base返回状态",
+        "showType": 0,
+        "id": 10000,
+        "serverVar": "10001=>10999"
+    },
+    "12001": {
+        "errorDescription": "{0}技能冷却时间未到",
+        "showType": 1,
+        "id": 12001,
+        "serverVar": "FIGHT_SKILL_CDING"
+    },
+    "10002": {
+        "errorDescription": "角色名不能为空",
+        "showType": 1,
+        "id": 10002,
+        "serverVar": "ACCOUNT_STATE_NAME_NONE"
+    },
+    "10001": {
+        "errorDescription": "角色创建成功",
+        "showType": 1,
+        "id": 10001,
+        "serverVar": "ACCOUNT_STATE_CREATE_SUCCESS"
+    },
+    "10004": {
+        "errorDescription": "角色名包含非法字符",
+        "showType": 1,
+        "id": 10004,
+        "serverVar": "ACCOUNT_STATE_NAME_FIALCHAR"
+    },
+    "10003": {
+        "errorDescription": "角色名太长",
+        "showType": 1,
+        "id": 10003,
+        "serverVar": "ACCOUNT_STATE_NAME_TOO_LONG"
+    },
+    "10006": {
+        "errorDescription": "最多只能创建8个角色",
+        "showType": 1,
+        "id": 10006,
+        "serverVar": "ACCOUNT_STATE_CREATE_FULL"
+    },
+    "10005": {
+        "errorDescription": "该名称已被使用",
+        "showType": 1,
+        "id": 10005,
+        "serverVar": "ACCOUNT_STATE_NAME_EXIST"
+    }
+}

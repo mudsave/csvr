@@ -1,0 +1,32 @@
+<root>
+	<id>1000003</id>
+	<className>PlayerSpellExToPos</className>
+	<generalPerformance>
+		<name>（玩家）次元门</name>
+		<level>1</level>
+		<icon>skillIcon/HengSaoQianJun</icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<targetType>0</targetType>
+		<distance>0</distance>
+		<cooldownID>1000004</cooldownID>
+		<cooldownTime>0</cooldownTime>
+		<mpCost>0</mpCost>
+		<conditions></conditions>
+		<isIntoFightStatus>True</isIntoFightStatus>
+		<isTriggerDo>True</isTriggerDo>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<positionEffect>blackhole</positionEffect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<curveTriggers></curveTriggers>
+	</combatFunction>
+</root>

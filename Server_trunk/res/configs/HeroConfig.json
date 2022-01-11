@@ -1,0 +1,62 @@
+{
+    "5000004": {
+        "profession": 3,
+        "level": 1,
+        "modelID": "fs000",
+        "entityType": 1,
+        "sex": 1,
+        "icon": "headIcon/fs000",
+        "baseSkill": 0,
+        "fightID": 0,
+        "weaponID": "sy002_lod0",
+        "professionName": "法师",
+        "id": 5000004,
+        "place": 3,
+        "describe": "杖藏两仪图，笛吹河汉星。独报万国仇，一战净妖氛。"
+    },
+    "5000003": {
+        "profession": 2,
+        "level": 1,
+        "modelID": "ss020",
+        "entityType": 1,
+        "sex": 1,
+        "icon": "headIcon/jk000",
+        "baseSkill": 0,
+        "fightID": 0,
+        "weaponID": "ss_n03_01_lod0",
+        "professionName": "射手",
+        "id": 5000003,
+        "place": 4,
+        "describe": "挽弓如满月，策马奔如雷。谁家少年子，射得天狼归。"
+    },
+    "5000002": {
+        "profession": 1,
+        "level": 1,
+        "modelID": "jk000",
+        "entityType": 1,
+        "sex": 0,
+        "icon": "headIcon/jk000",
+        "baseSkill": 0,
+        "fightID": 999002001,
+        "weaponID": "zywqsp097a_lod0",
+        "professionName": "剑客",
+        "id": 5000002,
+        "place": 2,
+        "describe": "霜刃三年磨，一朝斩长鲸。若待风云至，化龙上太清。"
+    },
+    "5000001": {
+        "profession": 0,
+        "level": 1,
+        "modelID": "zs150",
+        "entityType": 1,
+        "sex": 0,
+        "icon": "headIcon/zs150",
+        "baseSkill": 0,
+        "fightID": 0,
+        "weaponID": "zs_g01_01_lod0",
+        "professionName": "战士",
+        "id": 5000001,
+        "place": 1,
+        "describe": "回山转海拔五岳，不周倾倒只手撑。"
+    }
+}

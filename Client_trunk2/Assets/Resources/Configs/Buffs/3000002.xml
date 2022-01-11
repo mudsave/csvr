@@ -1,0 +1,40 @@
+<root>
+	<id>3000002</id>
+	<className>BuffShield</className>
+	<generalPerformance>
+		<name>玩家盾牌</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>0</stayTime>
+		<tickTime>0.1</tickTime>
+		<interruptCode>3000002</interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+		<collisionRelation></collisionRelation>
+		<collisionNumber>0</collisionNumber>
+		<collisionEffect></collisionEffect>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+		<shieldBindingObjectPath>[CameraRig]/Controller (left)/LeftController/Weapon/</shieldBindingObjectPath>
+		<shieldEffect>shield2</shieldEffect>
+	</combatPerformance>
+	<combatFunction>
+		<castFailEffect></castFailEffect>
+		<battlecryEffect></battlecryEffect>
+		<attachEffect></attachEffect>
+		<tickEffect></tickEffect>
+		<interruptEffect></interruptEffect>
+		<detachEffect></detachEffect>
+		<shieldEffect></shieldEffect>
+	</combatFunction>
+</root>

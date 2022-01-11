@@ -1,0 +1,28 @@
+﻿#效果ID	效果类型ID	效果描述	参数01	参数02	参数03	参数04	参数05	参数06
+id	className	description	param1	param2	param3	param4	param5	param6
+int	string	string						
+0								
+# EffectDynamicDamage效果		 param1：伤害值 param2：伤害波动率 param3：晶石掉落概率  param4：晶石数量 param5：死亡效果						
+1000000	EffectDynamicDamage	 	50	0.5	0	0	0	
+1000001	EffectDynamicDamage	 	100	0.2	0	0	0	
+1000002	EffectDynamicDamage	 	200	0.5	0	0	0	
+1000003	EffectDynamicDamage	 	500	0.8	0	0	0	
+1000004	EffectDynamicDamage		100000	1	0	0	0	
+1000005	EffectDynamicDamage	 	50	1	0.2	1	0	
+1000006	EffectDynamicDamage	火焰喷射伤害效果	50	1	0	0	1	
+1000007	EffectDynamicDamage	飞剑伤害效果	200	1	0.3	1	2	
+# EffectHitPose效果								
+1001001	EffectHitPose	击中	1					
+1001002	EffectHitPose	击倒	2					
+1001003	EffectHitPose	击飞	3					
+# EffectInterruptBuff效果								
+1002001	EffectInterruptBuff	根据中断码打断buff	3000002					
+# EffectLighting效果								
+1003001	EffectLighting	次元门特效		blackhole		flase	5	true
+2000001	EffectBossDuTan	沙虫boss地面毒液						
+1003002	EffectLighting	怪物远程技能测试	Root/Bip001	gw1236_attack1_huoqiu		flase	0	true
+2000002	EffectOnGround	gw1236_attack2_rongyan_ground	gw1236_attack2_rongyan_ground	2	0.2			
+5000001	EffectDizziness	获得眩晕	true					
+5000002	EffectDizziness	失去眩晕	flase					
+5000003	EffectSuperBody	获得霸体	true					
+5000004	EffectSuperBody	失去霸体	flase					

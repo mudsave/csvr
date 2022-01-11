@@ -1,0 +1,35 @@
+<root>
+	<id>10101112</id>
+	<className>BuffLightning</className>
+	<generalPerformance>
+		<name>闪电链</name>
+		<level>1</level>
+		<icon></icon>
+		<memo></memo>
+		<description></description>
+	</generalPerformance>
+	<generalFunction>
+		<conditions></conditions>
+		<stayTime>2</stayTime>
+		<tickTime>0.1</tickTime>
+		<interruptCode>10101112</interruptCode>
+		<saveType>0</saveType>
+		<syncType>0</syncType>
+	</generalFunction>
+	<combatPerformance>
+		<animation></animation>
+		<bindingObjectPath></bindingObjectPath>
+		<bindEffect>True</bindEffect>
+		<effect></effect>
+		<sound></sound>
+	</combatPerformance>
+	<combatFunction>
+		<times>10</times>
+		<radius>8</radius>
+		<effect>
+			<item>999998</item>
+			<item>123451</item>
+			<item>500301003</item>
+		</effect>
+	</combatFunction>
+</root>

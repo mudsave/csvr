@@ -1,0 +1,41 @@
+{
+    "mout014_01_min": {
+        "path": "AnimalModel/mout014_01/mout014_01_lod0_min",
+        "boxPosition": [],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [],
+        "name": "mout014_01_min",
+        "up": [
+            0.0,
+            1.6,
+            0.0
+        ],
+        "type": 1
+    },
+    "mout014_02_min": {
+        "path": "AnimalModel/mout014_02/mout014_02_lod0_min",
+        "boxPosition": [],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [],
+        "name": "mout014_02_min",
+        "up": [
+            0.0,
+            1.6,
+            0.0
+        ],
+        "type": 1
+    },
+    "mout014_04_min": {
+        "path": "AnimalModel/mout014_04/mout014_04_lod0_min",
+        "boxPosition": [],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [],
+        "name": "mout014_04_min",
+        "up": [
+            0.0,
+            1.6,
+            0.0
+        ],
+        "type": 1
+    }
+}

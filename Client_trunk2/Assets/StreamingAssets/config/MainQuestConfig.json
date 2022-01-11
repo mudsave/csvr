@@ -1,0 +1,26 @@
+{"101000": {
+    "reward": [[
+        "exp",
+        100
+    ]],
+    "givenNpc": 2000001,
+    "goneCondition": {},
+    "meetNpcTalk": "111111111111111008",
+    "autoPath": [],
+    "givenEvent": [],
+    "type": 1,
+    "target": [[
+        "killnpc",
+        [
+            1000001,
+            1
+        ]
+    ]],
+    "givenNpcTalk": "2.22222222222222E19",
+    "condition": {},
+    "resetCondition": {},
+    "name": "领命",
+    "action": [],
+    "id": 101000,
+    "meetNpc": 2000001
+}}

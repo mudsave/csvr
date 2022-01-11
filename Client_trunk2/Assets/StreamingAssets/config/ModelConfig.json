@@ -1,0 +1,3852 @@
+{
+    "fb12_j": {
+        "path": "TalismanModel/fb12_lod0/fb12_j",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb12_lod0/fb12_c_j",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb12_j",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "s025_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s025/s025_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "s025_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "hidefazhen": {
+        "path": "GateModel/hidefazhen/hidefazhen",
+        "boxPosition": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "hidefazhen",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 3
+    },
+    "sp192": {
+        "path": "AvatarModel/sp192/sp192_lod",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp192",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "zywqsp249_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp249_CD/zywqsp249_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp249_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "fb12_e": {
+        "path": "TalismanModel/fb12_lod0/fb12_e",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb12_lod0/fb12_c_e",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb12_e",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "SK_GW0643_dao": {
+        "equipPoint": 1,
+        "path": "WeaponModel/SK_GW0643_dao/SK_GW0643_dao",
+        "boxPosition": [
+            0.0,
+            0.0,
+            -0.06
+        ],
+        "controller": "",
+        "boxSize": [
+            0.01,
+            0.04,
+            0.15
+        ],
+        "offset": [],
+        "name": "SK_GW0643_dao",
+        "up": [],
+        "type": 4,
+        "direction": [
+            -180.0,
+            0.0,
+            0.0
+        ]
+    },
+    "1mp02_040": {
+        "path": "AvatarModel/1mp02_040/1mp02_040_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "1mp02_040",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "fazhen": {
+        "path": "GateModel/fazhen/fazhen",
+        "boxPosition": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "fazhen",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 3
+    },
+    "fs_z18_01_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/fs_z18_01_lod0/fs_z18_01_lod0",
+        "boxPosition": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.1,
+            0.1,
+            1.5
+        ],
+        "offset": [
+            0.0,
+            -0.01,
+            -1.6
+        ],
+        "name": "fs_z18_01_lod0",
+        "up": [],
+        "type": 4,
+        "direction": []
+    },
+    "zywqsp297_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp297_lod0/zywqsp297_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp297_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zywqsp252_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp252_CD/zywqsp252_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp252_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp236": {
+        "path": "AvatarModel/sp236/sp236_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp236",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp237": {
+        "path": "AvatarModel/sp237_CD/sp237_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp237",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp117": {
+        "path": "AvatarModel/sp117/sp117_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp117",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp238": {
+        "path": "AvatarModel/sp238_lod0/sp238_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp238",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp230": {
+        "path": "AvatarModel/sp230_lod0/sp230_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp230",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "trap": {
+        "path": "GateModel/trap/trap",
+        "boxPosition": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "trap",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 3
+    },
+    "sy002_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/sy002_lod0_CD/sy002_lod0",
+        "boxPosition": [
+            -0.33,
+            0.11,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.42,
+            2.93,
+            0.11
+        ],
+        "offset": [
+            0.0,
+            0.21,
+            0.0
+        ],
+        "name": "sy002_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "s009_lod0": {
+        "equipPoint": 3,
+        "path": "WeaponModel/s009/s009_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "s009_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp232": {
+        "path": "AvatarModel/sp232_lod0/sp232_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp232",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "f012a": {
+        "path": "AvatarModel/f012a/f012a_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "f012a",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "s021": {
+        "path": "AvatarModel/s021/s021_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "s021",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "s023": {
+        "path": "AvatarModel/s023/s023_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "s023",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "fb29": {
+        "path": "TalismanModel/fb29_lod0/fb29_e",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb29_lod0/fb29_c",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb29",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "s020": {
+        "path": "AvatarModel/s020/s020_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "s020",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "p010003_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p010003/p010003_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "p010003_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp247": {
+        "path": "AvatarModel/sp247_lod0/sp247_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp247",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp249": {
+        "path": "AvatarModel/sp249_lod0/sp249_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp249",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "fengmingbirth": {
+        "path": "GateModel/fengmingbirth/fengmingbirth",
+        "boxPosition": [
+            0.0,
+            0.0,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "fengmingbirth",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 3
+    },
+    "s014": {
+        "path": "AvatarModel/s014/s014_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "s014",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "s024_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s024/s024_lod0",
+        "boxPosition": [
+            0.0,
+            0.21,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.48,
+            1.1,
+            0.49
+        ],
+        "offset": [
+            0.1,
+            0.35,
+            0.0
+        ],
+        "name": "s024_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp242": {
+        "path": "AvatarModel/sp242_lod0/sp242_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp242",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "ss_n03_01_lod0": {
+        "equipPoint": 4,
+        "path": "WeaponModel/ss_n03_01_d01/ss_n03_01_lod0_test",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "ss_n03_01_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "fb05_max": {
+        "path": "TalismanModel/fb05_lod0/fb05_max",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb05_lod0/fb05_c",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb05_max",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "s038_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s038_CD/s038_lod0",
+        "boxPosition": [
+            0.0,
+            0.72,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.54,
+            2.85,
+            0.59
+        ],
+        "offset": [
+            0.05,
+            0.2,
+            0.0
+        ],
+        "name": "s038_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp244": {
+        "path": "AvatarModel/sp244/sp244_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp244",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp246": {
+        "path": "AvatarModel/sp246/sp246_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp246",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "4mp01_040": {
+        "path": "AvatarModel/4mp01_040_lod0_01/4mp01_040_lod0_01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "4mp01_040",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "p012b_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p012b_CD/p012b_lod0",
+        "boxPosition": [
+            0.0,
+            -0.18,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.37,
+            2.73,
+            0.12
+        ],
+        "offset": [],
+        "name": "p012b_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp095": {
+        "path": "AvatarModel/sp095_lod0/sp095_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp095",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "fs_z09_03_lod0": {
+        "equipPoint": 2,
+        "path": "WeaponModel/fs_z09_03_lod0/fs_z09_03_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [
+            0.0,
+            0.21,
+            0.0
+        ],
+        "name": "fs_z09_03_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "1mp02_060": {
+        "path": "AvatarModel/1mp02_060/1mp02_060",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "1mp02_060",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "transparent": {
+        "path": "ObjectModel/transparent/transparent",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/transparent/transparent_c",
+        "boxSize": [],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "transparent",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "sp258": {
+        "path": "AvatarModel/sp258_lod0/sp258_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp258",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "huo_yan_rong_lu": {
+        "path": "ObjectModel/jiguan/huo_yan_rong_lu",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/jiguan/huo_yan_rong_lu_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "huo_yan_rong_lu",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "zs_j07_01_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zs_j07_01_d01/zs_j07_01_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zs_j07_01_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "fb29_max": {
+        "path": "TalismanModel/fb29_lod0/fb29_max",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb29_lod0/fb29_c",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb29_max",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "o003": {
+        "path": "AvatarModel/o003/o003_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "o003",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp097": {
+        "path": "AvatarModel/sp097_lod0/sp097_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp097",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "1mp01_050": {
+        "path": "AvatarModel/1mp01_050_d01/1mp01_050_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "1mp01_050",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp253": {
+        "path": "AvatarModel/sp253/sp253_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp253",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "s022_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s022/s022_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "s022_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp256": {
+        "path": "AvatarModel/sp256_CD/sp256_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp256",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "p027_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p027_CD/p027_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "p027_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "animal02": {
+        "path": "AnimalModel/animal02/animal02_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "animal02",
+        "up": [
+            0.0,
+            1.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "animal03": {
+        "path": "AnimalModel/animal03/animal03_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "animal03",
+        "up": [
+            0.0,
+            1.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "p011b_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p011b_CD/p011b_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "p011b_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp260": {
+        "path": "AvatarModel/sp260/sp260_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp260",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "animal01": {
+        "path": "AnimalModel/animal01/animal01_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "animal01",
+        "up": [
+            0.0,
+            1.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "zywqsp228_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp228_CD/zywqsp228_lod0",
+        "boxPosition": [
+            -0.04,
+            0.39,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.36,
+            1.39,
+            0.08
+        ],
+        "offset": [
+            0.1,
+            0.1,
+            0.0
+        ],
+        "name": "zywqsp228_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zywqsp297c_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp297c_CD/zywqsp297c_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp297c_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zywqsp222_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp222_CD/zywqsp222_lod0",
+        "boxPosition": [
+            0.0,
+            0.14,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.56,
+            1.14,
+            0.56
+        ],
+        "offset": [
+            0.03,
+            0.2,
+            0.0
+        ],
+        "name": "zywqsp222_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zs_d02_01_d01_pt": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zs_d02_01_lod0/zs_d02_01_d01_pt",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zs_d02_01_d01_pt",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "p005_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p005/p005_lod0",
+        "boxPosition": [
+            -0.11,
+            -0.1,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.51,
+            5.1,
+            0.21
+        ],
+        "offset": [],
+        "name": "p005_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp023": {
+        "path": "AvatarModel/sp023_lod0/sp023_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp023",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp266": {
+        "path": "AvatarModel/sp266/sp266_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp266",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp267": {
+        "path": "AvatarModel/sp267_CD/sp267_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp267",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp147": {
+        "path": "AvatarModel/sp147/sp147_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp147",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "shamojuchong": {
+        "path": "AnimalModel/shamojuchong/shamojuchong@model",
+        "boxPosition": [
+            0.0,
+            1.66,
+            0.0
+        ],
+        "controller": "AnimalModel/shamojuchong/shamojuchong_c",
+        "boxSize": [
+            1.0,
+            3.45,
+            1.0
+        ],
+        "effectBind": {"Model/BP_Buff": "shachen"},
+        "modelScale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "shamojuchong",
+        "up": [
+            0.0,
+            3.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "sp051a": {
+        "path": "AvatarModel/sp051a_d01/sp051a_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp051a",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "mout014_02": {
+        "path": "AnimalModel/mout014_02/mout014_02_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "mout014_02",
+        "up": [
+            0.0,
+            2.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "mout014_01": {
+        "path": "AnimalModel/mout014_01/mout014_01_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "mout014_01",
+        "up": [
+            0.0,
+            2.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "mout014_04": {
+        "path": "AnimalModel/mout014_04/mout014_04_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "mout014_04",
+        "up": [
+            0.0,
+            2.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "4mp02_060": {
+        "path": "AvatarModel/4mp02_060_lod01/4mp02_060_lod01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "4mp02_060",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "huo_shen_zhu": {
+        "path": "ObjectModel/jiguan/huo_shen_zhu",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/jiguan/huo_shen_zhu_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "huo_shen_zhu",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "p001_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/p001/p001_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "p001_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "m003": {
+        "path": "AvatarModel/m003_lod0/m003_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "m003",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp317": {
+        "path": "AvatarModel/sp317_lod0/sp317_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp317",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp318": {
+        "path": "AvatarModel/sp318/sp318_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp318",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp319": {
+        "path": "AvatarModel/sp319/sp319_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp319",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "b002b_lod0": {
+        "equipPoint": 2,
+        "path": "WeaponModel/b002b_CD/b002b_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "b002b_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp272": {
+        "path": "AvatarModel/sp272/sp272_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp272",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "zywqsp258_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp258_CD/zywqsp258_lod0",
+        "boxPosition": [
+            0.02,
+            0.39,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.3,
+            1.4,
+            0.09
+        ],
+        "offset": [
+            0.05,
+            0.05,
+            0.0
+        ],
+        "name": "zywqsp258_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "si_sheng_shou_diao_xiang": {
+        "path": "ObjectModel/jiguan/si_sheng_shou_diao_xiang",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/jiguan/si_sheng_shou_diao_xiang_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "si_sheng_shou_diao_xiang",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "sp153": {
+        "path": "AvatarModel/sp153/sp153_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp153",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp274": {
+        "path": "AvatarModel/sp274/sp274_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp274",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "animal04": {
+        "path": "AnimalModel/animal04/animal04_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AnimalModel/mout014_04/mout014_04_lod0_c",
+        "boxSize": [
+            0.7,
+            2.0
+        ],
+        "name": "animal04",
+        "up": [
+            0.0,
+            1.7,
+            0.5
+        ],
+        "type": 1
+    },
+    "li_yu_diao_xiang": {
+        "path": "ObjectModel/jiguan/li_yu_diao_xiang",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/jiguan/li_yu_diao_xiang_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "li_yu_diao_xiang",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "boss003": {
+        "path": "AvatarModel/boss003/boss003_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "boss003",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp252a": {
+        "path": "AvatarModel/sp252/sp252a_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp252a",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "boss004": {
+        "path": "AvatarModel/boss003/boss004_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "boss004",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp325": {
+        "path": "AvatarModel/sp325/sp325_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp325",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp326": {
+        "path": "AvatarModel/sp326/sp326_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp326",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "boss002": {
+        "path": "AvatarModel/boss002/boss002_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "boss002",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp327": {
+        "path": "AvatarModel/sp327/sp327_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp327",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "zywqsp097a_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp097a_lod0/zywqsp097a_lod0",
+        "boxPosition": [
+            0.0,
+            0.56,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.31,
+            1.61,
+            0.09
+        ],
+        "offset": [],
+        "name": "zywqsp097a_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp328": {
+        "path": "AvatarModel/sp328/sp328_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp328",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "zywqsp226_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp226_CD/zywqsp226_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp226_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp329": {
+        "path": "AvatarModel/sp329/sp329_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp329",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "4mp02_070": {
+        "path": "AvatarModel/4mp02_070_lod0_01/4mp02_070_lod0_01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "4mp02_070",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp209": {
+        "path": "AvatarModel/sp209/sp209",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp209",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "mu005": {
+        "path": "AvatarModel/mu005_lod0/mu005_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "mu005",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "mu001": {
+        "path": "AvatarModel/mu001_lod0_01/mu001_lod0_01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "mu001",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp320": {
+        "path": "AvatarModel/sp320/sp320_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp320",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp321": {
+        "path": "AvatarModel/sp321/sp321_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp321",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "1mp01_020": {
+        "path": "AvatarModel/1mp01_020_d01/1mp01_020_d01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "1mp01_020",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "boss005": {
+        "path": "AvatarModel/boss003/boss005_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "boss005",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp322": {
+        "path": "AvatarModel/sp322/sp322_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.5,
+            0.5,
+            0.5
+        ],
+        "name": "sp322",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp323": {
+        "path": "AvatarModel/sp323/sp323_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp323",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "fs_z06_01_lod0": {
+        "equipPoint": 2,
+        "path": "WeaponModel/fs_z06_01_lod0/fs_z06_01_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [
+            0.0,
+            0.21,
+            0.0
+        ],
+        "name": "fs_z06_01_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "drop_gem": {
+        "path": "ItemModel/drop_gem/drop_gem",
+        "boxPosition": [],
+        "controller": "ItemModel/drop_gem/drop_gem_c",
+        "boxSize": [],
+        "name": "drop_gem",
+        "up": [],
+        "type": 2
+    },
+    "s045_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s045_CD/s045_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "s045_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "s012": {
+        "path": "AvatarModel/s012/s012_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "s012",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "cj020_CD": {
+        "path": "ObjectModel/cj020_CD/cj020_CD",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/cj020_CD/cj020_CD_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "cj020_CD",
+        "up": [
+            0.0,
+            3.0,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "m021": {
+        "path": "AvatarModel/m021/m021_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "m021",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp214": {
+        "path": "AvatarModel/sp214_lod0/sp214_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp214",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp335": {
+        "path": "AvatarModel/sp335/sp335_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp335",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp215": {
+        "path": "AvatarModel/sp215/sp215_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp215",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp336": {
+        "path": "AvatarModel/sp336/sp336_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp336",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp216": {
+        "path": "AvatarModel/sp216_lod01/sp216_lod01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp216",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp337": {
+        "path": "AvatarModel/sp337/sp337_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp337",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "zywqm003_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqm003_CD/zywqm003_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqm003_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zs_g01_01_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zs_g01_01_d01/zs_g01_01_lod0",
+        "boxPosition": [
+            0.0,
+            0.32,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.26,
+            3.14,
+            0.24
+        ],
+        "offset": [
+            0.1,
+            0.2,
+            0.0
+        ],
+        "name": "zs_g01_01_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp338": {
+        "path": "AvatarModel/sp338/sp338_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp338",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp339": {
+        "path": "AvatarModel/sp339/sp339_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp339",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp219": {
+        "path": "AvatarModel/sp219/sp219_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp219",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "m023": {
+        "path": "AvatarModel/m023/m023_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "m023",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "bs001": {
+        "path": "AnimalModel/bs001/bs001_lod0_skin",
+        "boxPosition": [
+            0.0,
+            4.48,
+            0.0
+        ],
+        "controller": "AnimalModel/bs001/bs001_c",
+        "boxSize": [
+            7.0,
+            8.5,
+            9.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            1.0,
+            1.0,
+            1.0
+        ],
+        "name": "bs001",
+        "up": [
+            0.0,
+            8.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "sp297": {
+        "path": "AvatarModel/sp297/sp297_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp297",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp330": {
+        "path": "AvatarModel/sp330/sp330_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp330",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp331": {
+        "path": "AvatarModel/sp331/sp331_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp331",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp332": {
+        "path": "AvatarModel/sp332/sp332_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp332",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "sp333": {
+        "path": "AvatarModel/sp333/sp333_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp333",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp213": {
+        "path": "AvatarModel/sp213/sp213_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp213",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "s014_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s014/s014_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "s014_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "lie_yan_qi_liu": {
+        "path": "ObjectModel/jiguan/lie_yan_qi_liu",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "ObjectModel/jiguan/lie_yan_qi_liu_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "lie_yan_qi_liu",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 1
+    },
+    "sp183": {
+        "path": "AvatarModel/sp183_lod0_01/sp183_lod0_01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp183",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "zywqsp268_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp268_CD/zywqsp268_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp268_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "fb05": {
+        "path": "TalismanModel/fb05_lod0/fb05",
+        "boxPosition": [
+            0.0,
+            0.12,
+            0.0
+        ],
+        "controller": "TalismanModel/fb05_lod0/fb05_c",
+        "boxSize": [
+            0.1,
+            0.29
+        ],
+        "name": "fb05",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "type": 4
+    },
+    "s001b_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/s001b_CD/s001b_lod0",
+        "boxPosition": [
+            0.0,
+            0.54,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.17,
+            1.48,
+            0.17
+        ],
+        "offset": [],
+        "name": "s001b_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp225": {
+        "path": "AvatarModel/sp225_lod0/sp225_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp225",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp226": {
+        "path": "AvatarModel/sp226_lod0/sp226_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp226",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp227": {
+        "path": "AvatarModel/sp227/sp227_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp227",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_none_c_show",
+        "type": 1
+    },
+    "sp228": {
+        "path": "AvatarModel/sp228/sp228_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp228",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "m015": {
+        "path": "AvatarModel/m015_lod0_01/m015_lod0_01",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "m015",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    },
+    "zywqsp230_lod0": {
+        "equipPoint": 1,
+        "path": "WeaponModel/zywqsp230_CD/zywqsp230_lod0",
+        "boxPosition": [
+            0.0,
+            0.06,
+            0.0
+        ],
+        "controller": "",
+        "boxSize": [
+            0.65,
+            1.33,
+            0.1
+        ],
+        "offset": [
+            0.03,
+            -0.14,
+            0.3
+        ],
+        "name": "zywqsp230_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "zywqsp183_lod0": {
+        "equipPoint": 3,
+        "path": "WeaponModel/zywqsp183_lod0/zywqsp183_lod0",
+        "boxPosition": [],
+        "controller": "",
+        "boxSize": [],
+        "offset": [],
+        "name": "zywqsp183_lod0",
+        "up": [],
+        "type": 4,
+        "direction": [
+            0.0,
+            -90.0,
+            -90.0
+        ]
+    },
+    "sp340": {
+        "path": "AvatarModel/sp340/sp340_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_none_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp340",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp220": {
+        "path": "AvatarModel/sp220_lod0/sp220_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp220",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp221": {
+        "path": "AvatarModel/sp221_lod0/sp221_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp221",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp342": {
+        "path": "AvatarModel/sp342/sp342_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp342",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp222": {
+        "path": "AvatarModel/sp222/sp222_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_single_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp222",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_single_c_show",
+        "type": 1
+    },
+    "sp343": {
+        "path": "AvatarModel/sp343/sp343_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/sp343/sp343_lod0_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp343",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/fs000_lod0_c_show",
+        "type": 1
+    },
+    "GW0643": {
+        "path": "AvatarModel/GW0643/SK_GW0643",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_cs_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            10.0,
+            10.0,
+            10.0
+        ],
+        "name": "GW0643",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "",
+        "type": 5
+    },
+    "sp223": {
+        "path": "AvatarModel/sp223_lod0/sp223_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_bow_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp223",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_bow_c_show",
+        "type": 1
+    },
+    "sp344": {
+        "path": "AvatarModel/sp344/sp344_lod0",
+        "boxPosition": [
+            0.0,
+            1.0,
+            0.0
+        ],
+        "controller": "AvatarModel/001/001_spear_c",
+        "boxSize": [
+            0.5,
+            2.0
+        ],
+        "effectBind": {},
+        "modelScale": [
+            0.8,
+            0.8,
+            0.8
+        ],
+        "name": "sp344",
+        "up": [
+            0.0,
+            2.28,
+            0.0
+        ],
+        "showController": "Character/001_spear_c_show",
+        "type": 1
+    }
+}
